@@ -1,0 +1,2040 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "Arcamis",
+        "abbreviation": "ACM",
+        "full": "Arcamis: leggende di Atetherion",
+        "url": "https://quickest-sorrel-9a3.notion.site/Arcamis-2f00274fdc1c801a9b39d8d69800f7a8",
+        "version": "1.0",
+        "authors": [
+          "Zovrel"
+        ],
+        "convertedBy": [
+          "Zovrel"
+        ],
+        "partnered": false,
+        "color": "FF9200",
+        "legal": {
+          "fanContent": true,
+          "commercial": false,
+          "statement": "Unofficial fan-made content for private D&D use. Not affiliated with Riot Games or Wizards of the Coast."
+        }
+      }
+    ],
+    "edition": "one",
+    "dateAdded": 20260604123900,
+    "dateLastModified": 20260730010000
+  },
+  "_test": {
+    "references": [
+      "Arcamis"
+    ]
+  },
+  "race": [
+    {
+      "edition": "one",
+      "name": "Celestiale",
+      "source": "Arcamis",
+      "creatureTypes": [
+        "celestial"
+      ],
+      "size": [
+        "M"
+      ],
+      "speed": 30,
+      "resist": [
+        "radiant"
+      ],
+      "skillProficiencies": [
+        {
+          "history": true,
+          "religion": true
+        }
+      ],
+      "languageProficiencies": [
+        {
+          "common": true,
+          "celestial": true,
+          "anyStandard": 1
+        }
+      ],
+      "traitTags": [
+        "Damage Resistance",
+        "Uncommon Race",
+        "Language Proficiency"
+      ],
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Age",
+          "entries": [
+            "Celestials are much older than a lot of things in the universe maybe older than a few stars."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Darkvision",
+          "entries": [
+            "You have {@sense Darkvision|XPHB} with a range of 60 feet."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Celestial Resistance",
+          "entries": [
+            "You have {@variantrule Resistance|XPHB} to Radiant damage."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alignment",
+          "entries": [
+            "Celestial are generally curious about others but they don't have a standard alignment for all of them."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Sacrifice Healing",
+          "entries": [
+            "As a {@variantrule Bonus Action|XPHB}, you can sacrifice your life to heal others, you take {@damage 1d8}+{@variantrule Proficiency|XPHB|Proficiency Bonus} irreducible Necrotic damage and you Heal a creature within 60ft. equal to the result."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Sacrifice Protection",
+          "entries": [
+            "When a creature that you can see within 60 ft. takes damage, you can use your {@variantrule Reaction|XPHB} to redirect half of the damage before applying resistances or other reductions irreducible Necrotic damage. Once you use this trait, you can't use it again until you finish a {@variantrule Short Rest|XPHB} or {@variantrule Long Rest|XPHB}. "
+          ],
+          "foundrySystem": {
+            "uses": {
+              "recovery": [
+                {
+                  "period": "sr",
+                  "type": "formula",
+                  "formula": "1"
+                }
+              ],
+              "max": "1"
+            }
+          }
+        },
+        {
+          "type": "entries",
+          "name": "Celestial Knowledge",
+          "entries": [
+            "You gain proficiency in the {@skill History} and in the {@skill Religion} skills."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Languages",
+          "entries": [
+            "You can speak, read, and write Common, Celestial, and one other language of your choice."
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "one",
+      "name": "Baccai",
+      "source": "Arcamis",
+      "creatureTypes": [
+        "aberration"
+      ],
+      "size": [
+        "S",
+        "M"
+      ],
+      "speed": 30,
+      "traitTags": [
+        "Skill Proficiency",
+        "Language Proficiency"
+      ],
+      "skillProficiencies": [
+        {
+          "choose": {
+            "from": [
+              "arcana",
+              "history",
+              "religion"
+            ],
+            "count": 1
+          }
+        }
+      ],
+      "languageProficiencies": [
+        {
+          "common": true,
+          "other": 2
+        }
+      ],
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Age",
+          "entries": [
+            "Baccai are creatures modified by a failed ascension live a longer life than regular Humans, around 150 years."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alignment",
+          "entries": [
+            "Baccai are typically chaotic and usually evil."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Knowledge of the old Times",
+          "entries": [
+            "You gain proficiency in the {@skill History}, {@skill Religion} or {@skill Arcana} skills."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Fragile Mind",
+          "entries": [
+            "When you become {@condition Bloodied|XPHB} during a fight make a Wisdom saving throw (CD 10 plus your {@variantrule Proficiency|XPHB|Proficiency Bonus}), on a failed save on your next turn you must use the {@action Attack|XPHB} most wounded creature other than yourself. This Attack is considered a {@variantrule Unarmed Strike|XPHB}, you can use either Dexterity or Strength for this attack. If you hit with them, you can deal slashing damage equal to double your {@variantrule Proficiency|XPHB|Proficiency Bonus} bludgeoning damage, you heal a number of {@variantrule Hit Points|XPHB} equal to the damage dealt."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Languages",
+          "entries": [
+            "You can speak, read, and write Common, Old Shuriman, and Modern Shuriman."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Failed Tentative",
+          "entries": [
+            "When you tried to ascend as a God-Warrior the ascension failed making you an Aberration during the process, choose one subrace option that determines the creature you have become."
+          ]
+        }
+      ],
+      "subraces": [
+        {
+          "name": "Sandmancer",
+          "source": "Arcamis",
+          "entries": [
+            {
+              "type": "inset",
+              "name": "Sandmancy",
+              "entries": [
+                "Your body has undergone a strange mutation. Your skin may shed grains of sand when scratched, appear covered in tiny specks like desert sand, and your wounds may release sand instead of blood. As you reach 5th and 11th level, these traits may become more pronounced, subject to the DM's approval."
+              ]
+            },
+            {
+              "type": "entries",
+              "source": "Arcamis",
+              "name": "Sand Body",
+              "entries": [
+                "Starting at 1st level, you can move through the space of any creature, though you can't willingly end your movement there. Additionally, you have {@variantrule Advantage|XPHB} on ability checks and saving throws made to end or escape the {@condition Grappled|XPHB} condition."
+              ]
+            },
+            {
+              "type": "entries",
+              "source": "Arcamis",
+              "name": "Mobile Sands",
+              "entries": [
+                "Starting at 5th level, as a {@variantrule Bonus Action|XPHB}, you can surround yourself with an aura of shifting sand for 1 minute. The ground within 10 feet of you becomes covered in sand from your body and is {@quickref difficult terrain||3} for your enemies. Once you use this trait, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
+              ]
+            },
+            {
+              "type": "entries",
+              "source": "Arcamis",
+              "name": "Sand Absorption",
+              "entries": [
+                "Starting at 11th level, when you take damage, you can use your {@variantrule Reaction|XPHB} to halve the damage from that single source and immediately move up to 10 feet to an unoccupied space you can see. This movement doesn't provoke {@action Opportunity Attack|XPHB|Opportunity Attacks}. You can use this {@variantrule Reaction|XPHB} a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Beast",
+          "source": "Arcamis",
+          "traitTags": [
+            "Natural Weapon"
+          ],
+          "entries": [
+            {
+              "type": "inset",
+              "name": "Beast",
+              "entries": [
+                "Your body develops aberrant bestial traits. Your face might resemble that of a desert beast, serpent-like scales may grow across your back, your eyes could become reptilian, or other unnatural appendages may emerge from your body. As you reach 5th and 11th level, these traits may become more pronounced, subject to the DM's approval."
+              ]
+            },
+            {
+              "type": "entries",
+              "source": "Arcamis",
+              "name": "Natural Weapon",
+              "entries": [
+                "You gain a natural weapon. When you hit with it, it deals {@damage 1d6} + your Strength modifier. When you create your character, choose whether this natural weapon deals bludgeoning, piercing, or slashing damage, as appropriate to its form."
+              ]
+            },
+            {
+              "type": "entries",
+              "source": "Arcamis",
+              "name": "Bestial Combat",
+              "entries": [
+                "Starting at 5th level, when you take the {@action Attack} action on your turn, you can make one attack with your natural weapon as a {@variantrule Bonus Action|XPHB}. In addition, your natural weapon deals extra damage equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}."
+              ]
+            },
+            {
+              "type": "entries",
+              "source": "Arcamis",
+              "name": "Bestial Instinct",
+              "entries": [
+                "Starting at 11th level, when you become {@condition Bloodied|XPHB} during combat, you can enter a state of bestial instinct for 1 minute. While in this state, you have {@variantrule Advantage|XPHB} on attack rolls you make with your natural weapon.",
+                "This state ends early if you regain enough {@variantrule Hit Points|XPHB} to no longer be {@condition Bloodied|XPHB}.",
+                "Once you use this trait, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Arcanist",
+          "source": "Arcamis",
+          "traitTags": [
+            "Natural Weapon"
+          ],
+          "entries": [
+            {
+              "type": "inset",
+              "name": "Arcana",
+              "entries": [
+                "Your body is infused with arcane energy. Your eyes may emit a faint blue, white, or orange glow. When you suffer slashing wounds, a soft radiance may be visible beneath the torn flesh instead of ordinary tissue. During moments of intense emotion, your hair may float weightlessly or even begin to fall away. As you reach 5th and 11th level, these traits may become more pronounced, subject to your DM's approval."
+              ]
+            },
+            {
+              "type": "entries",
+              "source": "Arcamis",
+              "name": "Arcane Bolt",
+              "entries": [
+                "You can unleash the arcane energy within you as a ranged attack with 60 feet of range. You use your {@variantrule Proficiency|XPHB|Proficiency Bonus} + Intelligence, Wisdom, or Charisma modifier (chosen when you create your character) for the attack roll. If you have the Spellcasting or Pact Magic feature, you can instead use your spellcasting ability modifier. On a hit, the attack deals {@damage 1d6} Force or Radiant damage (chosen when you create your character) plus the chosen ability modifier."
+              ]
+            },
+            {
+              "type": "entries",
+              "source": "Arcamis",
+              "name": "Arcane Surge",
+              "entries": [
+                "Starting at 5th level, when you hit a creature with your Arcane Bolt or with a spell, you can release a burst of residual magical energy. Each other creature within 10 feet of the target takes extra damage equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}. You can use this trait a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+              ]
+            },
+            {
+              "type": "entries",
+              "source": "Arcamis",
+              "name": "Arcane Flight",
+              "entries": [
+                "Starting at 11th level, you can use a Bonus Action to gain a {@variantrule Fly Speed|XPHB|Flying Speed} equal to your walking speed for 1 minute. You can use this trait a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "one",
+      "name": "Vastaya",
+      "source": "Arcamis",
+      "traitTags": [
+        "Magic Resistance",
+        "Skill Proficiency",
+        "Improved Resting",
+        "Language Proficiency",
+        "Darkvision"
+      ],
+      "creatureTypes": [
+        "humanoid"
+      ],
+      "size": [
+        "S",
+        "M"
+      ],
+      "skillProficiencies": [
+        {
+          "survival": true
+        }
+      ],
+      "languageProficiencies": [
+        {
+          "common": true,
+          "sylvan": true,
+          "anyStandard": 1
+        }
+      ],
+      "speed": 30,
+      "darkvision": 60,
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Age",
+          "entries": [
+            "Vastaya can live to 500 years thanks to their spiritual lineage, but there are stories about some very old Vastaya that were deeply connected to the spiritual selves."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Darkvision",
+          "entries": [
+            "You have {@sense Darkvision|XPHB} with a range of 60 feet."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Magic Resistance",
+          "entries": [
+            "You have {@variantrule Advantage|XPHB} on saving throws against spells."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Wildborn",
+          "entries": [
+            "You gain proficiency in the {@skill Survival}. You are capable of a limited communication with animals of sorts, they are capable of comprehending what you say but you aren't capable of understanding them in return. You have {@variantrule Advantage|XPHB} on charisma checks to influence them."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Dreaming Awareness",
+          "entries": [
+            "Your sylvan nature makes you alert while sleeping, you don't have the {@condition Unconscious|XPHB} during a {@variantrule Long Rest|XPHB}."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Languages",
+          "entries": [
+            "You can speak, read, and write Common, Sylvan, and one other language of your choice."
+          ]
+        }
+      ],
+      "subraces": [
+        {
+          "name": "Besheb",
+          "source": "Arcamis",
+          "speed": {
+            "walk": 30,
+            "fly": true
+          },
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Riding the Wind",
+              "entries": [
+                "Because of your wings, you have a {@variantrule Fly Speed|XPHB|Flying Speed} equal to your walking speed. You can't use this {@variantrule Fly Speed|XPHB|Flying Speed} if you're wearing medium or heavy armor."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Flying Combatant",
+              "entries": [
+                "Starting at character level 5 you can fly while wearing medium or heavy armor."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Briny",
+          "source": "Arcamis",
+          "speed": {
+            "walk": 40
+          },
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Agile Body",
+              "entries": [
+                "You gain an extra 10 feet of walking speed, and your jump distance is doubled. Additionally, you can use a {@variantrule Bonus Action|XPHB} to leap up to half of your remaining movement without provoking opportunity attacks."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Evasive Leap",
+              "entries": [
+                "Starting at character level 5 your reflexes allow you to evade danger before it strikes. When a creature makes a melee attack against you, you can use your {@variantrule Reaction|XPHB} to jump to an unoccupied space within half your maximum jump distance. The triggering attack is made with {@variantrule Disadvantage|XPHB}."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Killash",
+          "source": "Arcamis",
+          "traitTags": [
+            "Natural Weapon"
+          ],
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Ambush Predator",
+              "entries": [
+                "You can attempt to Hide even when you are only {@variantrule Lightly Obscured|XPHB}. In addition, you develop precise natural weapons such as fangs, claws, or a tail. You can use these in place of your {@variantrule Unarmed Strike|XPHB}. These natural weapons deal {@damage 1d6} damage and can deal Bludgeoning, Piercing, or Slashing damage, as appropriate to their form."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Silent Hunt",
+              "entries": [
+                "Starting at character level 5 you have {@variantrule Advantage|XPHB} on {@skill Stealth} checks you make to {@action Hide}."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Lhotlan",
+          "source": "Arcamis",
+          "raceName": "Vastaya",
+          "raceSource": "ACM",
+          "traitTags": [
+            "Weapon Proficiency"
+          ],
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Mystic Feather",
+              "entries": [
+                "You can pluck plumes from your body and transform them into {@item Mystic Feathers|Arcamis}. Whenever you take the {@action Attack|XPHB} action or make an {@action Opportunity Attack|XPHB}, you can manifest a Mystic Feather in your free hand and use it for that attack. The feather loses all magical properties immediately after it hits or misses a target.",
+                "The Mystic Feather has the following properties:"
+              ]
+            },
+            {
+              "type": "statblockInline",
+              "dataType": "item",
+              "data": {
+                "name": "Mystic Feather",
+                "source": "Arcamis",
+                "type": "R|XPHB",
+                "rarity": "none",
+                "weaponCategory": "Natural",
+                "dmg1": "1d6",
+                "dmgType": "P",
+                "property": [
+                  "F|XPHB",
+                  "T|XPHB"
+                ],
+                "mastery": [
+                  {
+                    "uid": "Vex|XPHB",
+                    "note": "you can use this property, and it doesn't count against the number of properties you can use with Weapon Mastery"
+                  }
+                ],
+                "range": 30,
+                "weapon": true,
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Healer",
+                    "entries": [
+                      "When you throw the feather, you can choose not to deal damage and instead restore Hit Points to the target equal to the damage you would have dealt."
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "entries",
+              "name": "Deadly Plumes",
+              "entries": [
+                "Starting at character level 5 if you choose to use your feathers to deal damage, they don't count toward the number of uses of this feature."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ottrani",
+          "source": "Arcamis",
+          "speed": {
+            "walk": 30,
+            "climb": true
+          },
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Highland Rescuer",
+              "entries": [
+                "You gain a {@variantrule Climb Speed|XPHB} equal to your walking speed, and you can move across vertical surfaces. Additionally, whenever you roll dice for features or spells that restore {@variantrule Hit Points|XPHB}, you treat any die roll of 1 as a 2."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Vitality of the Peaks",
+              "entries": [
+                "Starting at character level 5 as a {@action Magic|XPHB|Magic Action}, you can touch a creature, causing it to regain {@damage 1d6} + your {@variantrule Proficiency|XPHB|Proficiency Bonus} {@variantrule Hit Points|XPHB}. You can use this feature a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Oovi-Kat",
+          "source": "Arcamis",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Inherent Glamour",
+              "entries": [
+                "As an {@variantrule Action|XPHB}, you can shape-shift to change your appearance and your voice. You determine the specifics of the changes, including your coloration, hair length, and sex. You can also adjust your height and weight and can change your size between Medium and Small. You can make yourself appear as a member of another playable species, though none of your game statistics change. You can't duplicate the appearance of an individual you've never seen, and you must adopt a form that has the same basic arrangement of limbs that you have. This trait doesn't change your clothing and equipment. You stay in the new form until you take an action to revert to your true form."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Glamour of Nature",
+              "entries": [
+                "Starting at character level 5 you can assume the appearance of a creature or plant that you have seen at least once. You can alter your size to match the size of the creature or plant, up to a maximum size of Large. While transformed in this way, you have Advantage on Charisma ({@skill Deception} and {@skill Persuasion}) checks made to pass yourself off as that creature or plant."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shimon",
+          "source": "Arcamis",
+          "traitTags": [
+            "Powerful Build",
+            "Natural Armor"
+          ],
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Robust Anatomy",
+              "entries": [
+                "When you aren't wearing armor, your natural Armor Class becomes 12 + your Constitution modifier. You can still gain the benefits of a shield normally. Additionally, you are considered one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Overgrowth",
+              "entries": [
+                "Starting at character level 5 your {@variantrule Hit Point|XPHB} maximum increases by 5, and it increases by 1 again whenever you gain a level."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Vesani",
+          "source": "Arcamis",
+          "traitTags": [
+            "Skill Proficiency"
+          ],
+          "skillProficiencies": [
+            {
+              "choose": {
+                "from": [
+                  "deception",
+                  "intimidation",
+                  "performance",
+                  "persuasion"
+                ],
+                "count": 1
+              }
+            }
+          ],
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Mystic Charm",
+              "entries": [
+                "Mystical influence flows through your veins. Magic can't put you to sleep. You gain proficiency in one of the following skills: {@skill Deception}, {@skill Intimidation}, {@skill Performance}, or {@skill Persuasion}. Starting at character level 5 you gain proficiency in another skill of your choice from the list above."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "one",
+      "name": "Darkin",
+      "source": "Arcamis",
+      "hasFluff": true,
+      "creatureTypes": [
+        "fiend"
+      ],
+      "size": [
+        "M"
+      ],
+      "speed": 30,
+      "languageProficiencies": [
+        {
+          "common": true,
+          "anyStandard": 2
+        }
+      ],
+      "traitTags": [
+        "Weapon Proficiency",
+        "Armor Proficiency",
+        "Uncommon Race",
+        "Language Proficiency"
+      ],
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Age",
+          "entries": [
+            "Before being sealed by the Aspect of Targon, Darkin lived their lives and are at least 500 years old."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Ascended Resiliance",
+          "entries": [
+            "When you take damage that would reduce you to 0 {@variantrule Hit Points|XPHB}, you can immediately regain one Hit Point. When you use this feature, you cannot use it again until you finish a {@variantrule Long Rest|XPHB}."
+          ],
+          "foundrySystem": {
+            "uses": {
+              "recovery": [
+                {
+                  "period": "sr",
+                  "type": "formula",
+                  "formula": "1"
+                },
+                {
+                  "period": "lr",
+                  "type": "recoverAll"
+                }
+              ],
+              "max": "1"
+            }
+          }
+        },
+        {
+          "type": "entries",
+          "name": "Blood Magic",
+          "entries": [
+            "Darkin mastered the arcane power of blood magic, hemomancy. As a {@variantrule Bonus Action|XPHB} you can use you blood magic to heal yourself for an amount equal to {@damage 1d6} + your Constitution modifier. Once you use this trait, you can't use it again until you finish a {@variantrule Short Rest|XPHB} or {@variantrule Long Rest|XPHB}.",
+            "The quantity of healing received by this feature scales with your levels: {@damage 1d10} when you reach levels 5th level, {@damage 1d12} 10th level and {@damage 2d6} 17th level."
+          ],
+          "foundrySystem": {
+            "uses": {
+              "recovery": [
+                {
+                  "period": "sr",
+                  "type": "formula",
+                  "formula": "1"
+                },
+                {
+                  "period": "lr",
+                  "type": "recoverAll"
+                }
+              ],
+              "max": "1"
+            }
+          }
+        },
+        {
+          "type": "entries",
+          "name": "Sealed Soul",
+          "entries": [
+            "The Darkin were sealed within powerful objects. Choose one of the following item types. You gain proficiency with your chosen item and its Blood Enhancement.",
+            "A Darkin weapon grows in power through battle. Whenever you gain the required level, you can evolve your Darkin item by performing a ritual in a temple of Shurima and spending materials whose value equals the weapon's enhancement bonus (subject to the DM's discretion).",
+            {
+              "type": "table",
+              "caption": "Darkin Weapon Evolution",
+              "colLabels": [
+                "Character Level",
+                "Weapon Bonus"
+              ],
+              "colStyles": [
+                "col-4",
+                "col-2"
+              ],
+              "rows": [
+                [
+                  "7th",
+                  "+1"
+                ],
+                [
+                  "14th",
+                  "+2"
+                ],
+                [
+                  "17th",
+                  "+3"
+                ]
+              ]
+            },
+            "Your Darkin weapon has a number of charges equal to half your {@variantrule Proficiency|XPHB|Proficiency Bonus} (rounded down). You regain all expended charges when you finish a {@variantrule Long Rest|XPHB}. Activating a Blood Enhancement requires a {@variantrule Bonus Action|XPHB} and expends 1 charge.",
+            {
+              "type": "table",
+              "caption": "Darkin Items",
+              "colLabels": [
+                "Type",
+                "Eligible Items",
+                "Blood Enhancement"
+              ],
+              "colStyles": [
+                "col-2",
+                "col-3",
+                "col-7"
+              ],
+              "rows": [
+                [
+                  "{@italic Darkin Scythe}",
+                  "All simple and martial melee weapons.",
+                  "{@bold Laceration.} Spend 1 charge. Your next melee weapon attack gains +1 + your Darkin Weapon bonus to the attack roll. On a hit, up to two other creatures within your reach of the target each take damage equal to half the damage dealt by the attack."
+                ],
+                [
+                  "{@italic Darkin Bow}",
+                  "All ranged weapons except firearms.",
+                  "{@bold Perforation.} Spend 1 charge. Your next ranged weapon attack gains +1 + your Darkin Weapon bonus to the attack roll. The attack pierces its target, and one creature directly behind it in the line of fire takes damage equal to half the damage dealt."
+                ],
+                [
+                  "{@italic Darkin Shield}",
+                  "All armor and shields.",
+                  "{@bold Aegis.} Spend 1 charge. Until the start of your next turn you gain +1 + your Darkin Weapon bonus to AC and regain {@variantrule Hit Points|XPHB} equal to 3 + your Darkin Weapon bonus + your character level. The next time you take damage before this effect ends, you have {@variantrule Resistance|XPHB} to all damage except radiant damage for that instance of damage."
+                ],
+                [
+                  "{@italic Darkin Staff}",
+                  "Arcane and druidic focus worth more than 1gp.",
+                  "{@bold Infestation.} Spend 1 charge. The next spell you cast deals additional necrotic damage equal to twice your Darkin Weapon bonus. Choose one creature damaged by the spell or that fails its saving throw; it is {@condition Restrained|XPHB} until the end of your next turn. If that creature dies while affected, each creature within 10 feet of it (other than you) must make a Dexterity saving throw against your spell save DC or take necrotic damage equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} and become {@condition Blinded|XPHB} until the start of its next turn."
+                ]
+              ]
+            }
+          ],
+          "uses": {
+            "max": "proficiencyBonus/2",
+            "recovery": [
+              "lr"
+            ]
+          }
+        },
+        {
+          "type": "entries",
+          "name": "Languages",
+          "entries": [
+            "You can speak, read, and write Common, Old Shuriman, and one language from the host."
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "one",
+      "name": "Shuriman God-Warrior",
+      "source": "Arcamis",
+      "creatureTypes": [
+        "monstrosity"
+      ],
+      "size": [
+        "M"
+      ],
+      "speed": 30,
+      "skillProficiencies": [
+        {
+          "choose": {
+            "from": [
+              "intimidation",
+              "religion",
+              "survival",
+              "nature"
+            ],
+            "count": 1
+          }
+        }
+      ],
+      "languageProficiencies": [
+        {
+          "common": true,
+          "other": 2
+        }
+      ],
+      "traitTags": [
+        "Skill Proficiency",
+        "Language Proficiency"
+      ],
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Age",
+          "entries": [
+            "The ascension with the Sun Disc gave you a powerful body that can endure for centuries, God-Warriors can live for a very long time."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Ascended Resilience",
+          "entries": [
+            "When you take damage that would reduce you to 0 {@variantrule Hit Points|XPHB}, you can immediately regain one Hit Point. When you use this feature, you cannot use it again until you finish a {@variantrule Long Rest|XPHB}."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Lords of the Desert",
+          "entries": [
+            "When you are in the desert you can't be surprised, you have advantage on Wisdom checks ({@skill Survival}) and intelligence checks ({@skill Nature}) while you are in a desert. You aren't affected by negative effects caused by hot climate.",
+            "You obtain one of the following skill of your choice: {@skill Religion}, {@skill Survival} or {@skill Nature}."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Ascension Form",
+          "entries": [
+            "Your ascension gave you supernatural powers, these powers reflect your soul and body.",
+            {
+              "type": "table",
+              "caption": "",
+              "colStyles": [
+                "col-2",
+                "col-10"
+              ],
+              "rows": [
+                [
+                  "{@italic Fighter-God}",
+                  "{@bold Predator of the Sun.} Once per turn when you hit a creature for the first time you can add {@damage 1d6} necrotic damage to the attack and you gain a number of {@variantrule Temporary Hit Points|XPHB} equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}.<br />{@bold Battle Form.} You can use a {@variantrule Bonus Action|XPHB} to grant you the benefits of {@spell Enlarge/Reduce|XPHB}. You can do this action a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} and you regain all expended uses at the end of a {@variantrule Long Rest|XPHB}."
+                ],
+                [
+                  "{@italic Arcane-God}",
+                  "{@bold Sun Wrath.} You can use the power of the Sun Disc. As a {@variantrule Bonus Action|XPHB} you emit bright light in a 20-foot radius for 1 minute. For the duration or until you become {@condition Unconscious|XPHB} you add {@damage 1d4} radiant damage to your spell damage. Once you use this privilege you can't use it again until a {@variantrule Long Rest|XPHB}.<br />{@bold Imperial Gaze.} You gain proficiency in one skill of your choice from {@skill intimidation} or {@skill persuasion}. As a {@variantrule Bonus Action|XPHB} you can choose a creature within 30-feet that you can see. The creature must succeed a Wisdom Saving Throw DC = 10 + {@variantrule Proficiency|XPHB|Proficiency Bonus} or gains {@variantrule Disadvantage|XPHB} at the first attack made in their next turn. You can use this feature a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} and it recharges when you complete a {@variantrule Long Rest|XPHB}."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Languages",
+          "entries": [
+            "You can speak, read, and write Common, Old Shuriman, and one language from the host."
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "one",
+      "name": "Augmented",
+      "source": "Arcamis",
+      "creatureTypes": [
+        "humanoid"
+      ],
+      "size": [
+        "S",
+        "M"
+      ],
+      "speed": 30,
+      "darkvision": 60,
+      "skillProficiencies": [
+        {
+          "choose": {
+            "from": [
+              "arcana",
+              "athletics",
+              "intimidation",
+              "perception",
+              "medicine",
+              "stealth"
+            ],
+            "count": 2
+          }
+        }
+      ],
+      "traitTags": [
+        "Skill Proficiency",
+        "Language Proficiency"
+      ],
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Darkvision",
+          "entries": [
+            "You have {@sense Darkvision|XPHB} with a range of 60 feet."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Versatile",
+          "entries": [
+            "You gain proficiency in two of the following skills of your choice: {@skill Arcana}, {@skill Athletics}, {@skill Intimidation}, {@skill Perception}, {@skill Medicine} and {@skill Stealth}."
+          ]
+        }
+      ],
+      "subraces": [
+        {
+          "name": "Chemtech",
+          "source": "Arcamis",
+          "traitTags": [
+            "Powerful Build",
+            "Darkvision",
+            "Damage Resistance"
+          ],
+          "resist": [
+            "poison"
+          ],
+          "languageProficiencies": [
+            {
+              "common": true,
+              "thievesCant": true,
+              "anyStandard": 1
+            }
+          ],
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Toxic Form",
+              "entries": [
+                "You gain {@variantrule Advantage|XPHB} on saving throws against the {@condition Poisoned|XPHB} condition and you have {@variantrule Resistance|XPHB} to Poison damage."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Seen Too Much",
+              "entries": [
+                "You gain {@variantrule Advantage|XPHB} on saving throws against the {@condition Frightened|XPHB} condition."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Good Stuff",
+              "entries": [
+                "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift. Once per {@variantrule Long Rest|XPHB}, as a {@variantrule Bonus Action|XPHB}, you can become two sizes larger, up to a maximum of Huge, for 1 minute, only if the surrounding environment allows it at the DM’s discretion. While transformed, you have {@variantrule Advantage|XPHB} on your {@skill Athletics} checks, you are immune to the {@condition Frightened|XPHB} condition, you gain a {@damage 1d4} bonus to attack rolls made with your weapons or {@variantrule Unarmed Strike|XPHB|Unarmed Strikes}, and the first attack you hit with on each turn deals extra damage equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}. When this effect ends, you gain one level of {@condition Exhaustion|XPHB} as the chemical substances leave your body."
+              ],
+              "duration": {
+                "type": "minute",
+                "amount": 1
+              }
+            },
+            {
+              "type": "entries",
+              "name": "Languages",
+              "entries": [
+                "You can speak, read, and write Common, Thieves' Cant, and one other language of your choice."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hextech",
+          "source": "Arcamis",
+          "traitTags": [
+            "Damage Resistance",
+            "Darkvision",
+            "Innate Spellcasting"
+          ],
+          "resist": [
+            {
+              "choose": {
+                "from": [
+                  "fire",
+                  "thunder",
+                  "cold",
+                  "lightning",
+                  "acid"
+                ],
+                "count": 1
+              }
+            }
+          ],
+          "languageProficiencies": [
+            {
+              "common": true,
+              "anyStandard": 2
+            }
+          ],
+          "additionalSpells": [
+            {
+              "name": "Magical Enhancements",
+              "ability": {
+                "choose": [
+                  "int",
+                  "wis",
+                  "cha"
+                ]
+              },
+              "known": {
+                "1": {
+                  "_": [
+                    {
+                      "choose": "level=0|class=Wizard"
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Magical Enhancements",
+              "entries": [
+                "You can learn one {@filter cantrip from the Wizard spell list|spells|level=0|class=Wizard}. Choose Charisma, Wisdom, or Intelligence when you create your character. The chosen ability score is your spellcasting ability for this cantrip."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Fortified Mind",
+              "entries": [
+                "You gain {@variantrule Advantage|XPHB} on saving throws against the {@condition Charmed|XPHB} condition."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Arcane Defenses",
+              "entries": [
+                "You gain {@variantrule Resistance|XPHB} to one of the following damage types of your choice: acid, cold, fire, lightning, or thunder."
+              ]
+            },
+            {
+              "name": "Hextech Overload",
+              "entries": [
+                "Once per {@variantrule Long Rest|XPHB}, as a {@variantrule Bonus Action|XPHB}, you can activate the Hextech engines within you for 1 minute. While active, you gain a 10-foot bonus to your {@variantrule Speed|XPHB}, gain a d4 bonus to attack rolls, and you can move normally through magical and nonmagical difficult terrain."
+              ],
+              "uses": {
+                "value": 1,
+                "max": "1",
+                "per": "lr"
+              },
+              "duration": {
+                "type": "minute",
+                "amount": 1
+              }
+            },
+            {
+              "type": "entries",
+              "name": "Languages",
+              "entries": [
+                "You can speak, read, and write Common, Piltovian, and one other language of your choice."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "one",
+      "name": "Ionian Spirit",
+      "source": "Arcamis",
+      "creatureTypes": [
+        "fey"
+      ],
+      "size": [
+        "M"
+      ],
+      "speed": 30,
+      "darkvision": 60,
+      "skillProficiencies": [
+        {
+          "choose": {
+            "from": [
+              "deception",
+              "performance",
+              "nature"
+            ],
+            "count": 1
+          }
+        }
+      ],
+      "languageProficiencies": [
+        {
+          "common": true,
+          "anyStandard": 2
+        }
+      ],
+      "additionalSpells": [
+        {
+          "name": "Spiritual Legacy",
+          "ability": {
+            "choose": [
+              "int",
+              "wis",
+              "cha"
+            ]
+          },
+          "known": {
+            "1": {
+              "_": [
+                {
+                  "choose": "level=0|class=Druid"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "traitTags": [
+        "Innate Spellcasting",
+        "Skill Proficiency",
+        "Blindsight",
+        "Darkvision",
+        "Language Proficiency"
+      ],
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Spiritic Nature",
+          "entries": [
+            "You gain proficiency in one of the following skills of your choice: {@skill Deception}, {@skill Performance} or {@skill Nature}."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "See Through Veils",
+          "entries": [
+            "You can sense what lies beyond the Material Plane. You can sense if there are creatures that are invisible or ethereal within 10-feet of you, you don't know the exact location of those creatures."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Evanescent Body",
+          "entries": [
+            "Your spiritual nature makes you easier to avoid material threats. As a {@variantrule Bonus Action|XPHB} for a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} you become partially ethereal until the start of your next turn (Moving through creatures' spaces doesn't count as {@variantrule Difficult Terrain|XPHB} for you and {@action Opportunity Attack|XPHB|Opportunity Attacks} against you have {@variantrule Disadvantage|XPHB})."
+          ],
+          "uses": {
+            "max": "proficiencyBonus",
+            "recovery": [
+              "lr"
+            ]
+          }
+        },
+        {
+          "type": "entries",
+          "name": "Spiritual Legacy",
+          "entries": [
+            "Your essence is infused with magic. You learn one {@filter cantrip from the Druid spell list|spells|level=0|class=Druid} of your choice that does not deal damage. Choose Intelligence, Wisdom, or Charisma when you gain this trait. The chosen ability score is your spellcasting ability for this cantrip."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Unstable Balance",
+          "entries": [
+            {
+              "type": "inset",
+              "name": "Becoming a Hag",
+              "entries": [
+                "Ionia is the land of balance, between Harmony and Torment, Life and Death. The Spirits of Ionia are no different. A spirit's nature can be Harmonious or Tormented. Important events, traumas, and their consequences can cause a Harmonious Spirit to become Tormented, or vice versa.<br/><br/>The Ionian Spirit must make a {@bold Wisdom Saving Throw} against a DC equal to 10 + half its {@variantrule Proficiency|XPHB|Proficiency Bonus} (rounded up). The character may choose to fail this {@bold Saving Throw}. On a failure, the Spirit changes its state. A Spirit can change its state only twice per week.<br/><br/>{@bold Harmonious to Tormented.} Events such as allies that the character cares about falling in battle, overwhelming feelings of sorrow, or deep resentment may force the Spirit into a state of Torment.<br/><br/>{@bold Tormented to Harmonious.} Joy, love, victory in battle, or finding peace may restore a Tormented Spirit. After witnessing significant events, the Spirit of Ionia may finally regain its long-sought tranquility."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Harmonious Spirit",
+          "entries": [
+            "{@bold Pacifying Presence.} As a {@variantrule Bonus Action|XPHB}, once per {@variantrule Long Rest|XPHB}, you can create a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} that lasts for 1 minute. At the start of your turn for the duration, you and allied creatures within the emanation gain {@variantrule Temporary Hit Points|XPHB} equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}. This effect ends early if you are {@condition Incapacitated}.",
+            "{@bold Hand of Balance.} When a creature within 20 feet of you makes an attack roll, you can use your {@variantrule Reaction|XPHB} to add or subtract {@damage 1d4} from the result. You can use this feature a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}. "
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Tormented Spirit",
+          "entries": [
+            "{@bold Aggressive Presence.} As a {@variantrule Bonus Action|XPHB}, once per {@variantrule Long Rest|XPHB}, you assume an aggressive form for 1 minute. Once per turn, when you hit a creature for the first time, you can add necrotic or psychic damage equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} to the first damage roll. This effect ends early if you are {@condition Incapacitated|XPHB}.",
+            "{@bold Hunter of the Unnatural.} Your existence is bound to hunting creatures that do not come from the Material Plane. You gain {@sense Blindsight|XPHB} out to a range of 20 feet."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Languages",
+          "entries": [
+            "You can speak, read, and write Common and two other languages of your choice."
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "one",
+      "name": "Yordle",
+      "source": "Arcamis",
+      "creatureTypes": [
+        "fey"
+      ],
+      "size": [
+        "S"
+      ],
+      "speed": 30,
+      "darkvision": 60,
+      "languageProficiencies": [
+        {
+          "common": true,
+          "yordle": true,
+          "anyStandard": 1
+        }
+      ],
+      "traitTags": [
+        "Darkvision",
+        "Language Proficiency"
+      ],
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Bandle Cunning",
+          "entries": [
+            "When you create your character, choose Intelligence, Wisdom, or Charisma. You have {@variantrule Advantage|XPHB} on saving throws using the chosen ability."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Sudden Vanishing",
+          "entries": [
+            "When you take damage, you can use your {@variantrule Reaction|XPHB} to become {@condition Invisible} until the start of your next turn or until you attack, cast a spell, or deal damage. You can use this feature once per {@variantrule Long Rest|XPHB}."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Languages",
+          "entries": [
+            "You can speak, read, and write Common, Yordle, and one other language of your choice."
+          ]
+        }
+      ],
+      "subraces": [
+        {
+          "name": "Amphibian",
+          "source": "Arcamis",
+          "speed": {
+            "walk": 30,
+            "swim": true
+          },
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Water Affinity",
+              "entries": [
+                "Your walking speed is 30 feet, and you have a {@variantrule Swim Speed|XPHB|Swimming Speed} equal to your walking speed."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Help from the Sea",
+              "entries": [
+                "As a {@variantrule Bonus Action|XPHB}, you can summon a sea spirit at a point you can see within 60 feet of you. The spirit briefly emerges in the form of a massive shark, ghostly fish, or another aquatic creature of your choice. Each creature within 5 feet of that point must make a Dexterity saving throw (DC 8 + your {@variantrule Proficiency|XPHB|Proficiency Bonus} + your Intelligence, Wisdom, or Charisma modifier). On a failed save, a creature takes {@damage 2d6} Cold damage and is knocked {@condition Prone|XPHB}. On a successful save, a creature takes half as much damage and isn't knocked {@condition Prone|XPHB}. The damage increases by {@damage 1d6} at character levels 5, 11, and 17.",
+                "You can use this feature a number of times equal to your {@variantrule Proficiency Bonus|XPHB}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Forest",
+          "source": "Arcamis",
+          "skillProficiencies": [
+            {
+              "stealth": true
+            }
+          ],
+          "additionalSpells": [
+            {
+              "ability": {
+                "choose": [
+                  "int",
+                  "wis",
+                  "cha"
+                ]
+              },
+              "innate": {
+                "0": {
+                  "will": [
+                    "{@spell Guidance|XPHB}",
+                    "{@spell Minor Illusion|XPHB}"
+                  ]
+                },
+                "1": {
+                  "rest": {
+                    "1": [
+                      "{@spell Speak with Animals|XPHB}"
+                    ]
+                  }
+                },
+                "3": {
+                  "rest": {
+                    "1": [
+                      "{@spell Pass without Trace|XPHB}"
+                    ]
+                  }
+                }
+              }
+            }
+          ],
+          "traitTags": [
+            "Skill Proficiency",
+            "Innate Spellcasting",
+            "Spellcasting"
+          ],
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Guerrilla Warfare",
+              "entries": [
+                "You gain proficiency in the {@skill Stealth} skill. If you already have proficiency with that skill, your {@variantrule Proficiency|XPHB|Proficiency Bonus} is doubled for any ability check you make that uses it."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Nature's Gift",
+              "entries": [
+                "You know the {@spell Guidance|XPHB} and {@spell Minor Illusion|XPHB} cantrips."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Spirit Magic",
+              "entries": [
+                "Starting at 1st level, you can cast {@spell Speak with Animals|XPHB} once without expending a spell slot. Starting at 3rd level, you can also cast {@spell Pass without Trace|XPHB} once without expending a spell slot. You regain the ability to cast these spells in this way when you finish a {@variantrule Long Rest|XPHB}. You can also cast these spells using any spell slots you have. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this species)."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Tinker",
+          "source": "Arcamis",
+          "traitTags": [
+            "Tool Proficiency"
+          ],
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Technical Mind",
+              "entries": [
+                "You gain proficiency with {@item Tinker's Tools|XPHB}. In addition, you have {@variantrule Advantage|XPHB} on Intelligence ({@skill History}) and Intelligence ({@skill Arcana}) checks related to mechanical devices or magic items."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Unstable Gadgets",
+              "entries": [
+                "During a {@variantrule Short Rest|XPHB} or {@variantrule Long Rest|XPHB}, you can create up to two of the following gadgets. a gadget stops functioning if you create another gadget beyond this limit. A creature can use a {@variantrule Bonus Action|XPHB} to activate a gadget:",
+                {
+                  "type": "statblockInline",
+                  "dataType": "item",
+                  "data": {
+                    "name": "Snap Module",
+                    "source": "Arcamis",
+                    "type": "G",
+                    "rarity": "none",
+                    "entries": [
+                      "When activated, the user gains a +10-foot bonus to their Speed and can take the {@action Disengage|XPHB} action as a {@variantrule Bonus Action|XPHB} until the end of their turn."
+                    ]
+                  }
+                },
+                {
+                  "type": "statblockInline",
+                  "dataType": "item",
+                  "data": {
+                    "name": "Scrap Shield",
+                    "source": "Arcamis",
+                    "type": "G",
+                    "rarity": "none",
+                    "entries": [
+                      "When activated, the user gains {@dice 2d4} + the crafter's {@variantrule Proficiency|XPHB|Proficiency Bonus} temporary {@variantrule Hit Points}."
+                    ]
+                  }
+                },
+                {
+                  "type": "statblockInline",
+                  "dataType": "item",
+                  "data": {
+                    "name": "Explosive Projectile",
+                    "source": "Arcamis",
+                    "type": "G",
+                    "rarity": "none",
+                    "entries": [
+                      "This gadget can be thrown up to 60 feet. It explodes in a 10-foot radius. Each creature in that area must make a Dexterity saving throw, taking {@damage 1d10} + your {@variantrule Proficiency|XPHB|Proficiency Bonus} fire damage on a failed save, or half as much damage on a successful one."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "one",
+      "name": "Voidborn",
+      "source": "Arcamis",
+      "creatureTypes": [
+        "aberration"
+      ],
+      "size": [
+        "M"
+      ],
+      "speed": 30,
+      "darkvision": 60,
+      "languageProficiencies": [
+        {
+          "common": true,
+          "quori": true,
+          "anyStandard": 1
+        }
+      ],
+      "traitTags": [
+        "Darkvision",
+        "Language Proficiency",
+        "Damage Resistance",
+        "Natural Armor"
+      ],
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Darkvision",
+          "entries": [
+            "You have {@sense Darkvision|XPHB} with a range of 60 feet."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Void Resilience",
+          "entries": [
+            "Your body has become an anomaly of matter.. When you aren't wearing armor or wielding a {@item Shield|XPHB}, your base AC is 12 + {@variantrule Proficiency|XPHB|Proficiency Bonus}. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Killer Instinct",
+          "entries": [
+            "As a {@variantrule Bonus Action|XPHB}, you can enter a state of insatiable hunger for 1 minute. While in this state, you gain the following benefits:",
+            {
+              "type": "entries",
+              "name": "Survivial Instinct",
+              "entries": [
+                "If you have a free hand you gain a +2 bonus to your {@variantrule Armor Class|XPHB}"
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Void Hunger",
+              "entries": [
+                "Once per turn, when you hit a creature for the first time, you add your {@variantrule Proficiency|XPHB|Proficiency Bonus} to the damage."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Defensive Adaptation  ",
+              "entries": [
+                "You have {@variantrule Resistance|XPHB} to psychic and poison damage. However, your unusual physiology is highly sensitive to vibrations. You have {@variantrule Vulnerability|XPHB} to thunder damage, and you have {@variantrule Disadvantage|XPHB} on saving throws against effects that produce sound."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Languages",
+          "entries": [
+            "You can speak, read, and write Common, Quori, and one other language of your choice."
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "one",
+      "name": "Ludofatti",
+      "source": "Arcamis",
+      "creatureTypes": [
+        "construct"
+      ],
+      "size": [
+        "S"
+      ],
+      "speed": 30,
+      "darkvision": 60,
+      "skillProficiencies": [
+        {
+          "choose": {
+            "from": [
+              "intimidation",
+              "performance",
+              "persuasion"
+            ],
+            "count": 1
+          }
+        }
+      ],
+      "languageProficiencies": [
+        {
+          "common": true,
+          "anyStandard": 2
+        }
+      ],
+      "traitTags": [
+        "Darkvision",
+        "Language Proficiency",
+        "Improved Resting",
+        "Skill Proficiency"
+      ],
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Darkvision",
+          "entries": [
+            "You have {@sense Darkvision|XPHB} with a range of 60 feet."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Artificial Nature",
+          "entries": [
+            "You don't need to eat, drink, or breathe. You don't need to sleep, and magic can't put you to sleep. You can finish a {@variantrule Long Rest|XPHB} in 4 hours if you spend those hours in an inactive, motionless state. During this time, you appear inert but remain conscious."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Artisan Quality",
+          "entries": [
+            "Your design may be unsettling, intricate, or welcoming. You gain proficiency in one of the following skills of your choice: {@skill Intimidation}, {@skill Performance}, or {@skill Persuasion}."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Languages",
+          "entries": [
+            "You can speak, read, and write Common and two other languages of your choice."
+          ]
+        }
+      ],
+      "subraces": [
+        {
+          "name": "Puppet",
+          "source": "Arcamis",
+          "size": [
+            "S",
+            "M"
+          ],
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Long Reach",
+              "entries": [
+                "Thin strands extend from the joints of your limbs. During your turn, when you make an attack with a melee weapon that lacks the Reach, Two-Handed, and Versatile properties, that weapon has a reach of 10 feet for that attack."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Porcelain",
+          "source": "Arcamis",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Hidden Threat",
+              "entries": [
+                "You are indistinguishable from a porcelain doll until you strike. When you deal damage to a creature with a weapon attack during your first turn in combat, the creature takes extra damage equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}. This additional damage is the same type as the weapon's damage."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Metallic",
+          "source": "Arcamis",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Core Barrier",
+              "entries": [
+                "When a creature you can see within 30 feet of you is hit by an attack, you can use your {@variantrule Reaction|XPHB} to redirect energy from your core toward it. The target gains a bonus to its {@variantrule Armor Class|XPHB} against that attack equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}.",
+                "You can use this {@variantrule Reaction|XPHB} a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Plushie",
+          "source": "Arcamis",
+          "traitTags": [
+            "Damage Resistance"
+          ],
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Soft Padding",
+              "entries": [
+                "Your body is filled with soft cushioning. When you take bludgeoning damage, you can use your {@variantrule Reaction|XPHB} to gain {@variantrule Resistance|XPHB} to the damage that triggered this reaction. In addition, you are pushed 5 feet away from the source of the damage. You can't use this reaction if there is no available space for you to be pushed."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "one",
+      "name": "Capital Demons",
+      "source": "Arcamis",
+      "traitTags": [
+        "Skill Proficiency",
+        "Language Proficiency",
+        "Darkvision",
+        "Skill Bonus Dice"
+      ],
+      "creatureTypes": [
+        "fiend"
+      ],
+      "size": [
+        "M"
+      ],
+      "skillProficiencies": [
+        {
+          "persuasion": true
+        }
+      ],
+      "languageProficiencies": [
+        {
+          "common": true,
+          "infernal": true,
+          "anyStandard": 1
+        }
+      ],
+      "speed": 30,
+      "darkvision": 60,
+      "entries": [
+        {
+          "type": "entries",
+          "entries": [
+            "{@italic Creatures born from the desires and vices of mortals}. Among the demons known to us are Evelynn, Agony's Embrace; Tahm Kench, the River King; Fiddlesticks, the Ancient Fear; and Nocturne, the Eternal Nightmare."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Darkvision",
+          "entries": [
+            "You have {@sense Darkvision|XPHB} with a range of 60 feet."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Demons Everywhere",
+          "entries": [
+            "As a {@variantrule Bonus Action|XPHB}, you can gain a flying or swimming speed equal to your walking speed. To conceal your true nature, you can hide features such as your tail, gills, or wings by using a Bonus Action to assume the appearance of a Humanoid of your choice. You are considered a Shapechanger for the purpose of effects such as {@spell True Seeing|XPHB}."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Child of Temptation",
+          "entries": [
+            "You gain proficiency in the {@skill Persuasion} skill. When you attempt to convince a creature to perform an action that aligns with your vice, you can roll a {@dice 1d4} and add the number rolled to your {@skill Persuasion} check."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Languages",
+          "entries": [
+            "You can speak, read, and write Common, Infernal, and one other language of your choice."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Subspecies",
+          "entries": [
+            "When you choose this species, choose one of the following subspecies. Also choose Intelligence, Wisdom, or Charisma. The chosen ability is your spellcasting ability for spells granted by your subspecies and is used when calculating the save DCs of your subspecies features. At 3rd level, you gain the first trait of your chosen subspecies. At 5th level, you gain the second trait listed for that subspecies."
+          ]
+        }
+      ],
+      "subraces": [
+        {
+          "name": "Sloth",
+          "source": "Arcamis",
+          "traitTags": [
+            "Innate Spellcasting"
+          ],
+          "additionalSpells": [
+            {
+              "ability": "choose",
+              "innate": {
+                "3": {
+                  "rest": {
+                    "1": [
+                      "{@spell Slow|XPHB}"
+                    ]
+                  }
+                }
+              }
+            }
+          ],
+          "entries": [
+            {
+              "type": "entries",
+              "name": "The Art of Doing Nothing",
+              "entries": [
+                "You always have the {@spell Slow|XPHB} prepared and you can cast it once without expending a spell slot, but when you do, it can target only one creature. You can regain this use if you spend a 2nd or higher level Spell Slot or when you finish a {@variantrule Long Rest|XPHB}.",
+                {
+                  "entries": [
+                    "When a creature within 60 feet of you is reduced to 0 {@variantrule Hit Points|XPHB} or dies, not by your actions, you can use your {@variantrule Reaction|XPHB} to regain {@variantrule Hit Points|XPHB} equal to your character level + your chosen ability modifier. You regain all expended uses after a {@variantrule Long Rest|XPHB}."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Suffocating Presence",
+              "entries": [
+                "When a creature within 30 feet of you makes a saving throw against being {@bold Slowed} or has its Speed reduced by one of your effects, you can use your {@variantrule Reaction|XPHB} to impose one of the following effects:",
+                {
+                  "type": "list",
+                  "items": [
+                    "The creature can't take {@variantrule Reaction|XPHB|Reactions} until the start of its next turn.",
+                    "The creature has {@variantrule Disadvantage|XPHB} on its next attack roll.",
+                    "The creature's Speed becomes 0 until the end of its turn."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Avarice",
+          "source": "Arcamis",
+          "skillProficiencies": [
+                {
+                  "investigation": true
+                }
+              ],
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Obsessive Desire",
+              "entries": [
+                {
+                  "entries": [
+                    "You gain proficiency in the {@skill Investigation} skill."
+                  ]
+                },
+                "As a {@action Magic|XPHB|Magic Action}, you choose one creature you can see within 60 feet of you that can see or hear you. The creature must make a Wisdom saving throw (DC 8 + your {@variantrule Proficiency|XPHB|Proficiency Bonus} + your chosen ability modifier, chosen when you create your character). On a failed save, the creature develops an obsessive desire toward one visible object of your choice for 1 minute.",
+                {
+                  "type": "list",
+                  "items": [
+                    "The creature considers that object extremely valuable.",
+                    "The creature has {@variantrule Advantage|XPHB} on attack rolls against creatures possessing that object.",
+                    "If the creature can reach the object using its movement, it must use part of its movement to move closer to it.",
+                    "If the creature is holding the object, it has {@variantrule Advantage|XPHB} on saving throws against being {@bold Disarmed} or {@condition Grappled|XPHB}."
+                  ]
+                },
+                "The creature can repeat the saving throw at the end of each of its turns, ending the effect on a success. You can use this feature a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Soul Collector",
+              "entries": [
+                "When a creature affected by {@bold Obsessive Desire} dies, is reduced to 0 {@variantrule Hit Points|XPHB}, or willingly loses the desired object, you can use your {@variantrule Reaction|XPHB} to gain one of the following benefits:",
+                {
+                  "type": "list",
+                  "items": [
+                    "Gain temporary Hit Points equal to your level.",
+                    "Gain {@variantrule Advantage|XPHB} on your next attack roll or ability check.",
+                    "Become {@condition Invisible|XPHB} to that creature until the end of your next turn."
+                  ]
+                },
+                "You can use {@bold Obsessive Desire} as a {@variantrule Bonus Action|XPHB}."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Gluttony",
+          "source": "Arcamis",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Insatiable Appetite",
+              "entries": [
+                "You can replace one attack on your turn with an attempt to swallow a creature your size or smaller. The creature must make a Dexterity saving throw (DC 8 + twice your {@variantrule Proficiency|XPHB|Proficiency Bonus}). On a failed save, your jaws consume the creature, causing it to become {@condition Grappled|XPHB}, {@condition Blinded|XPHB} and {@condition Restrained|XPHB}. The creature is also considered to have {@variantrule Cover|XPHB|Total Cover}.",
+                "As an action on your turn, you can deal a number of {@damage d6} of bludgeoning damage equal to half your {@variantrule Proficiency|XPHB|Proficiency Bonus} (rounded down) to the swallowed creature and regain {@variantrule Hit Points|XPHB} equal to half the damage dealt. You can regain {@variantrule Hit Points|XPHB} this way a number of times equal to your Constitution modifier.",
+                "You can swallow only one creature at a time, and you can use this feature a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}.",
+                "Whenever you take damage, you must succeed on a Constitution saving throw (DC 10 + half the damage taken) or the effect ends.",
+                "The effect also ends if you take more than 20 damage from a single source or become {@condition Unconscious|XPHB}, {@condition Stunned|XPHB}, or {@condition Incapacitated|XPHB}."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Voracious Adaptation",
+              "entries": [
+                "Your body adapts to consume anything. While a creature is swallowed:",
+                {
+                  "type": "list",
+                  "items": [
+                    "It automatically takes the damage from this feature at the start of your turn.",
+                    "It can't regain Hit Points.",
+                    "You have {@variantrule Resistance|XPHB} to Bludgeoning, Piercing, and Slashing damage."
+                  ]
+                },
+                "In addition, you can swallow creatures one size larger than you.",
+                "If a creature dies while swallowed, you gain temporary Hit Points equal to your character level + your Constitution modifier."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Envy",
+          "source": "Arcamis",
+          "traitTags": [
+            "Innate Spellcasting"
+          ],
+          "additionalSpells": [
+            {
+              "ability": "choose",
+              "innate": {
+                "3": {
+                  "rest": {
+                    "1": [
+                      "{@spell Detect Thoughts|XPHB}"
+                    ]
+                  }
+                }
+              }
+            }
+          ],
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Otherworldly Envy",
+              "entries": [
+                "You always have {@spell Detect Thoughts|XPHB} prepared. You can cast it once without expending a spell slot, and you can regain this use if you spend a 2nd or higher level Spell Slot or when you finish a {@variantrule Long Rest|XPHB}.",
+                {
+                  "entries": [
+                    "While {@spell Detect Thoughts|XPHB} is active, you can expend one of your {@variantrule Hit Point Dice|XPHB|Hit Dice} to deeply probe the target's mind. The creature must succeed on a Charisma saving throw (DC 8 + your {@variantrule Proficiency|XPHB|Proficiency Bonus} + your chosen spellcasting ability modifier) or suffer one of the following effects:",
+                    {
+                      "type": "list",
+                      "items": [
+                        "{@b Resentment}. The first attack you make against the creature deals an extra {@damage 1d6} Psychic damage.",
+                        "{@b Aggression}. The creature has {@variantrule Disadvantage|XPHB} on Wisdom or Charisma ability checks made against you.",
+                        "{@b Competition}. Choose one skill in which the target is proficient. You gain proficiency in that skill for the duration of the spell.",
+                        "{@b Kleptomania}. Choose one object the target possesses. You learn its last location, and until you finish a {@variantrule Long Rest|XPHB}, you have {@variantrule Advantage|XPHB} on ability checks made to steal it.",
+                        "{@b Stalking}. Choose one creature the target considers friendly. You learn its last location, and until you finish a {@variantrule Long Rest|XPHB}, you have {@variantrule Advantage|XPHB} on ability checks made to reach it."
+                      ]
+                    }
+                  ]
+                },
+                "On a successful saving throw, the creature is immune to this feature for 24 hours. You can use this feature a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, regaining all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Identity Theft",
+              "entries": [
+                "When a creature fails the saving throw against your {@b Otherworldly Envy} feature, you can also gain one of the following additional benefits:",
+                {
+                  "type": "list",
+                  "items": [
+                    "You have {@variantrule Advantage|XPHB} on attack rolls against the creature.",
+                    "You copy one of the creature's saving throw proficiencies.",
+                    "You copy one of the creature's special movement speeds (swimming, climbing, or flying) for up to 10 minutes.",
+                    "You copy one of the creature's tool proficiencies."
+                  ]
+                },
+                "You can have only one copied benefit at a time."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Wrath",
+          "source": "Arcamis",
+          "skillProficiencies": [
+            {
+              "intimidation": true
+            }
+          ],
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Induce Rage",
+              "entries": [
+                "You gain proficiency in the {@skill Intimidation} skill.",
+                {
+                  "entries": [
+                    "As a {@action Magic|XPHB|Magic Action}, you can instill blind rage in creatures of your choice within 15 feet of you. Creatures of your choice within range must make a Wisdom saving throw (DC 8 + your {@variantrule Proficiency|XPHB|Proficiency Bonus} + your chosen ability modifier). On a failed save, a creature is {@condition Charmed|XPHB} until the end of its turn. While Charmed by this feature, it must use the weapon in its hand to attack the nearest creature.",
+                    "You can use this feature a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Frenzied Massacre",
+              "entries": [
+                "When a creature fails the saving throw against your {@b Induce Rage} feature, it can immediately use its {@variantrule Reaction|XPHB} to make a weapon attack against the nearest creature. In addition, when a creature within 30 feet of you is hit by a critical hit or is reduced below half its {@variantrule Hit Points|XPHB}, you can choose one creature affected by your {@b Induce Rage} feature. That creature gains {@variantrule Advantage|XPHB} on its next attack roll, but attack rolls against it have {@variantrule Advantage|XPHB} until the start of its next turn."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Lust",
+          "source": "Arcamis",
+          "traitTags": [
+            "Innate Spellcasting"
+          ],
+          "additionalSpells": [
+            {
+              "ability": "choose",
+              "innate": {
+                "1": {
+                  "rest": {
+                    "1": [
+                      "{@spell Charm Person|XPHB}"
+                    ]
+                  }
+                }
+              }
+            }
+          ],
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Lustful Kiss",
+              "entries": [
+                "You always have {@spell Charm Person|XPHB} prepared. You can cast it once at 1st level without expending a spell slot, and you regain this use when you finish a {@variantrule Long Rest|XPHB}. When you cast the spell or while it is active, you can expend up to half your {@variantrule Hit Point Dice|XPHB|Hit Dice} to end the spell early, causing affected creatures to forget they were Charmed by you and marking one creature Charmed by the spell. The mark is invisible, emits an aura of Enchantment, and can only be seen by creatures with {@spell True Seeing|XPHB}. If the marked creature comes into contact with you or a creature you choose within the next 24 hours, it takes a number of {@damage d4} Necrotic damage equal to the {@variantrule Hit Point Dice|XPHB|Hit Dice} spent + your spellcasting ability modifier. If this damage reduces the creature to 0 {@variantrule Hit Points|XPHB}, it becomes stable and {@condition Unconscious|XPHB} for {@damage 1d4} hours. You gain the same number as maximum {@variantrule Hit Points|XPHB} until you finish a {@variantrule Long Rest|XPHB}.",
+                "You can use this feature a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, regaining all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Vital Siphon",
+              "entries": [
+                "As a {@action Magic|XPHB|Magic Action}, choose one creature within 20 feet of you. The creature must make a Constitution saving throw (DC 8 + your {@variantrule Proficiency|XPHB|Proficiency Bonus} + your Charisma modifier). On a failed save, you can expend up to two {@variantrule Hit Point Dice|XPHB|Hit Dice}, roll them, and add your Charisma modifier. The creature takes Necrotic damage equal to the result, and you regain {@variantrule Hit Points|XPHB} equal to the damage dealt. On a successful save, the creature takes half as much damage.",
+                "You can use this feature a number of times equal to your Charisma modifier (minimum of once), regaining all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pride",
+          "source": "Arcamis",
+          "traitTags": [
+            "Innate Spellcasting"
+          ],
+          "additionalSpells": [
+            {
+              "ability": "choose",
+              "innate": {
+                "3": {
+                  "rest": {
+                    "1": [
+                      "{@spell Enhance Ability|XPHB}"
+                    ]
+                  }
+                }
+              }
+            }
+          ],
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Superiority",
+              "entries": [
+                "You always have {@spell Enhance Ability|XPHB} prepared. You can cast it on yourself or a creature within 60 feet without requiring Somatic, Material, and Verbal components. The creature must also succeed on a Wisdom saving throw (DC 8 + {@variantrule Proficiency|XPHB|Proficiency Bonus} + your chosen ability modifier) or become {@condition Charmed|XPHB}, seeing creatures around it as harmless and non-threatening.",
+                "You can cast it once without expending a spell slot and you can regain this use if you spend a 2nd or higher level Spell Slot or when you finish a {@variantrule Long Rest|XPHB}."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Divine Ego",
+              "entries": [
+                "Your presence convinces others of your perfection. While a creature is affected by your {@spell Enhance Ability|XPHB}, it gains temporary Hit Points equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} at the start of its turn and has {@variantrule Advantage|XPHB} on saving throws against being {@condition Frightened|XPHB}. If the creature misses an attack roll or fails an ability check, it takes Psychic damage equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, as its confidence is shaken by failure."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "raceFluff": [
+    {
+      "name": "Darkin",
+      "source": "Arcamis",
+      "entries": [
+        {
+          "type": "section",
+          "name": "Darkin Rules",
+          "entries": [
+            "A Darkin can possess only one host at a time and cannot bond with another creature while its current host lives.",
+            "If a Darkin loses its host, its consciousness remains trapped within its weapon until another creature attempts to wield it.",
+            "If a Darkin loses its host through violent destruction, it cannot bond with a new host for 100 years while its power recovers."
+          ]
+        }
+      ]
+    }
+  ]
+}
