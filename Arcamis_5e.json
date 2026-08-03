@@ -2036,5 +2036,200 @@
         }
       ]
     }
+  ],
+  "subclass": [
+    {
+      "name": "Circle of the Ursids",
+      "shortName": "Ursids",
+      "source": "Arcamis",
+      "className": "Druid",
+      "classSource": "PHB",
+      "additionalSpells": [
+        {
+          "prepared": {
+            "3": [
+              "thunderwave",
+              "fog cloud"
+            ],
+            "5": [
+              "call lightning",
+              "sleet storm"
+            ],
+            "7": [
+              "ice storm",
+              "freedom of movement"
+            ],
+            "9": [
+              "destructive wave",
+              "hold monster"
+            ]
+          }
+        }
+      ],
+      "subclassFeatures": [
+        "Circle of the Ursids|Druid|PHB|Ursids|Arcamis|3",
+        "Lightning Claws|Druid|PHB|Ursids|Arcamis|6",
+        "Skybreaker|Druid|PHB|Ursids|Arcamis|10",
+        "Wrath of the Thousand-Wounded Bear|Druid|PHB|Ursids|Arcamis|14"
+      ]
+    }
+  ],
+  "subclassFeature": [
+    {
+      "name": "Circle of the Ursids",
+      "source": "Arcamis",
+      "className": "Druid",
+      "classSource": "PHB",
+      "subclassShortName": "Ursids",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "entries": [
+        "The Ursids are among the most dominant tribes of the Freljord, devoted to the Bear Spirit known as Volibear. Volibear is fiercely protective of the Freljord and scorns the weakness brought by civilization, yearning for a return to the Old Ways. Those who carry out his will become exceptionally powerful skinchangers, though this transformation also makes them destructive, savage, and fiercely resolute. ",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Circle Spells|Druid|PHB|Ursids|Arcamis|3"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Stormclaw Transformation|Druid|PHB|Ursids|Arcamis|3"
+        }
+      ]
+    },
+    {
+      "name": "Circle Spells",
+      "source": "Arcamis",
+      "className": "Druid",
+      "classSource": "PHB",
+      "subclassShortName": "Ursids",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "When you reach a Druid level specified in the Circle of the Ursids Spells table, you thereafter always have the listed spells prepared.",
+        "In addition, you can cast the spells from this feature while you're in a Wild Shape form.",
+        {
+          "type": "table",
+          "caption": "Circle of the Ursids Spells",
+          "colLabels": [
+            "Druid Level",
+            "Spells"
+          ],
+          "colStyles": [
+            "col-2 text-center",
+            "col-10"
+          ],
+          "rows": [
+            [
+              "3rd",
+              "{@spell thunderwave}, {@spell fog cloud}"
+            ],
+            [
+              "5rd",
+              "{@spell call lightning}, {@spell sleet storm}"
+            ],
+            [
+              "7th",
+              "{@spell ice storm}, {@spell freedom of movement}"
+            ],
+            [
+              "9th",
+              "{@spell hold monster}, {@spell destructive wave}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Stormclaw Transformation",
+      "source": "Arcamis",
+      "className": "Druid",
+      "classSource": "PHB",
+      "subclassShortName": "Ursids",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "You can channel the destructive essence of Volibear. As a {@variantrule Bonus Action|XPHB}, you can expend one use of Wild Shape to assume an ursine hybrid form. This form lasts for 10 minutes, until you end it (no action required), or until you become {@condition Incapacitated|XPHB}. This form counts as a use of Wild Shape.",
+        "While transformed, you gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@bold Winter's Fur.} You gain {@variantrule Temporary Hit Points|XPHB} equal to your Druid level.",
+            "{@bold Stormclaws.} Your {@variantrule Unarmed Strike|XPHB|Unarmed Strikes} deal {@damage 1d6} Slashing damage. You can use your Wisdom modifier instead of Strength for the attack and damage rolls of these attacks.",
+            "{@bold Bear Frenzy.} When you take the {@action Attack|XPHB} action on your turn, you can make one additional attack with your Stormclaws as a {@variantrule Bonus Action|XPHB}. You can use this benefit a number of times equal to your Wisdom modifier (minimum of 1), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}.",
+            "{@bold Thunderous Step.} Your walking speed increases by 10 feet."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lightning Claws",
+      "source": "Arcamis",
+      "className": "Druid",
+      "classSource": "PHB",
+      "subclassShortName": "Ursids",
+      "subclassSource": "Arcamis",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "While you are in your Ancient Gods Transformation or Wild Shape, your weapon attacks and {@variantrule Unarmed Strike|XPHB|Unarmed Strikes} are infused with electrical energy. While in either of these forms, you gain the following benefits:",
+        {
+          "type": "entries",
+          "name": "Conversion",
+          "entries": [
+            "When you hit with an attack, you can choose to deal Lightning damage instead of the attack's normal damage type."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Chain Shock",
+          "entries": [
+            "Once per turn, when you deal damage to a creature with your Stormclaws, you can unleash a bolt of lightning. One other creature of your choice within 10 feet of the target takes {@damage 1d6} Lightning damage."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Skybreaker",
+      "source": "Arcamis",
+      "className": "Druid",
+      "classSource": "PHB",
+      "subclassShortName": "Ursids",
+      "subclassSource": "Arcamis",
+      "level": 10,
+      "header": 2,
+      "entries": [
+        "You gain {@variantrule Resistance|XPHB} to Lightning and Thunder damage.",
+        "And the damage die of your Stormclaws increases to {@damage 1d8}.",
+        "When you cast {@spell Call Lightning|XPHB}, the first bolt of lightning created by the spell deals maximum damage instead of rolling its damage dice. If you are within the area of a spell you cast that deals Lightning damage, you can use your {@variantrule Bonus Action|XPHB} to absorb part of its energy, gaining {@variantrule Temporary Hit Points|XPHB} equal to your Druid level."
+      ]
+    },
+    {
+      "name": "Wrath of the Thousand-Wounded Bear",
+      "source": "Arcamis",
+      "className": "Druid",
+      "classSource": "PHB",
+      "subclassShortName": "Ursids",
+      "subclassSource": "Arcamis",
+      "level": 14,
+      "header": 2,
+      "entries": [
+        "At 14th level, you fully awaken the power of your Stormclaw Transformation, gaining the following benefits.",
+        {
+          "type": "entries",
+          "name": "Unstoppable Storm",
+          "entries": [
+            "Your Chain Shock deals {@damage 2d6} Lightning damage, and it can affect one additional creature within 20 feet of the original target, for a maximum of two creatures."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Demigod's Impact",
+          "entries": [
+            "When you cast {@spell Destructive Wave|XPHB}, the spell save DC increases by 2. One creature of your choice that fails its saving throw is {@condition Stunned|XPHB} until the start of your next turn. Once you use this effect, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
+          ]
+        }
+      ]
+    }
   ]
 }
