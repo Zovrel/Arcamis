@@ -2103,19 +2103,6 @@
       ]
     },
     {
-      "name": "Path of Forst",
-      "source": "Arcamis",
-      "shortName": "Frost",
-      "className": "Barbarian",
-      "classSource": "XPHB",
-      "subclassFeatures": [
-        "Path of Frost|Barbarian|XPHB|Frost|Arcamis|3",
-        "Blessing of True Ice|Barbarian|XPHB|Frost|Arcamis|6",
-        "Shatter|Barbarian|XPHB|Frost|Arcamis|10",
-        "Legacy of the Iceborn|Barbarian|XPHB|Frost|Arcamis|14"
-      ]
-    },
-    {
       "name": "Path of the Abyss",
       "source": "Arcamis",
       "shortName": "Abyss",
@@ -2126,6 +2113,20 @@
         "Phantom Dive|Barbarian|XPHB|Abyss|Arcamis|6",
         "Abyssal Gifts|Barbarian|XPHB|Abyss|Arcamis|10",
         "Abyssal Charge|Barbarian|XPHB|Abyss|Arcamis|14"
+      ]
+    },
+    {
+      "name": "Path of the Demon",
+      "source": "Arcamis",
+      "shortName": "Demon",
+      "className": "Barbarian",
+      "classSource": "XPHB",
+      "subclassFeatures": [
+        "Path of the Demon|Barbarian|XPHB|Demon|Arcamis|3",
+        "Endless Hunger|Barbarian|XPHB|Demon|Arcamis|6",
+        "Demon in Me|Barbarian|XPHB|Demon|Arcamis|6",
+        "Growing Darkness|Barbarian|XPHB|Demon|Arcamis|10",
+        "Demonic Fury|Barbarian|XPHB|Demon|Arcamis|14"
       ]
     },
     {
@@ -2539,6 +2540,89 @@
       "header": 2,
       "entries": [
         "When you use your Phantom Dive feature, you can unleash a shockwave at the point where you arrive. Each creature within 10 feet of that point must make a Strength saving throw against a DC equal to 8 + your Proficiency Bonus + your Strength modifier. On a failed save, a creature takes {@damage 4d10} Force damage and has the {@condition Prone|XPHB} condition. On a successful save, it takes half as much damage. If you use Phantom Dive to appear in a space containing water, the radius of the explosion increases to 20 feet."
+      ]
+    },
+    {
+      "name": "Path of the Demon",
+      "source": "Arcamis",
+      "className": "Barbarian",
+      "classSource": "XPHB",
+      "subclassShortName": "Demon",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "entries": [
+        "You were possessed by the spirit of a demon, which bound its soul to yours to empower your fury. This path offers a chance for vengeance: perhaps a demon possessed someone you knew, or you encountered it while exploring an abandoned dungeon, where you touched a cursed object that the demon had sworn to protect even after death.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Shadow Within|Barbarian|XPHB|Demon|Arcamis|3"
+        }
+      ]
+    },
+    {
+      "name": "Shadow Within",
+      "source": "Arcamis",
+      "className": "Barbarian",
+      "classSource": "XPHB",
+      "subclassShortName": "Demon",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "Your Rage is no longer fueled solely by your own anger, but by the spirit of the demon that possesses you. While you are raging, you can’t be {@condition Charmed|XPHB} or {@condition Frightened|XPHB}. If you are already affected by either condition when you enter your Rage, the effect is suspended for the duration of your Rage. Additionally, you have {@variantrule Resistance|XPHB} to Fire and Necrotic damage."
+      ]
+    },
+    {
+      "name": "Endless Hunger",
+      "source": "Arcamis",
+      "className": "Barbarian",
+      "classSource": "XPHB",
+      "subclassShortName": "Demon",
+      "subclassSource": "Arcamis",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "The demon's spirit infuses your weapon with its essence. When you enter your Rage, When you enter your Rage, you can summon the weapon to your hand. and empower it with a sinister glow. The weapon sheds {@variantrule Dim Light|XPHB} in a 10-foot radius. While the weapon is empowered, it gains the Thrown property with a normal range of 20 feet and a long range of 60 feet. As a {@variantrule Bonus Action|XPHB}, you can summon the weapon back to your hand."
+      ]
+    },
+    {
+      "name": "Demon in Me",
+      "source": "Arcamis",
+      "className": "Barbarian",
+      "classSource": "XPHB",
+      "subclassShortName": "Demon",
+      "subclassSource": "Arcamis",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "Once per turn, you can add a number of {@damage d6s} equal to half your {@variantrule Proficiency|XPHB|Proficiency Bonus} (rounded down) to the damage roll of a weapon attack. You can use this feature a number of times equal to your Constitution modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}. At 14th level, the damage die of this feature increases to a {@damage d8}."
+      ]
+    },
+    {
+      "name": "Growing Darkness",
+      "source": "Arcamis",
+      "className": "Barbarian",
+      "classSource": "XPHB",
+      "subclassShortName": "Demon",
+      "subclassSource": "Arcamis",
+      "level": 10,
+      "header": 2,
+      "entries": [
+        "The influence of the demon grows stronger within your mortal form. You gain the following benefits.",
+        "You can see through magical darkness and ignore the effects of magical silence.",
+        "{@bold Infernal Scream.} When you enter your Rage, each creature within 20 feet of you must make a Wisdom saving throw against a DC equal to 8 + your {@variantrule Proficiency|XPHB|Proficiency Bonus} + your Constitution modifier On a failed save, a creature has the {@condition Frightened|XPHB} condition for 10 minutes. A creature can repeat the saving throw at the end of each of its turns, ending the effect on a success. This feature ignores any {@variantrule Resistance|XPHB} or {@variantrule Immunity|XPHB} to the {@condition Frightened|XPHB} condition."
+      ]
+    },
+    {
+      "name": "Demonic Fury",
+      "source": "Arcamis",
+      "className": "Barbarian",
+      "classSource": "XPHB",
+      "subclassShortName": "Demon",
+      "subclassSource": "Arcamis",
+      "level": 14,
+      "header": 2,
+      "entries": [
+        "When you enter your Rage, a pair of wings made of blood and flames emerge from your back. You gain a {@variantrule Fly Speed|XPHB} equal to your Speed. Additionally, you are immune to the {@condition Poisoned|XPHB} and {@condition Blinded|XPHB} conditions. Finally, at the end of your turn, if you have hit a creature with an attack during that turn, you regain a number of {@variantrule Hit Points|XPHB} equal to the additional damage dealt by your Demon in Me feature."
       ]
     },
     {
