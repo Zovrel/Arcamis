@@ -1974,7 +1974,7 @@
               "name": "Vital Siphon",
               "entries": [
                 "As a {@action Magic|XPHB|Magic Action}, choose one creature within 20 feet of you. The creature must make a Constitution saving throw (DC 8 + your {@variantrule Proficiency|XPHB|Proficiency Bonus} + your Charisma modifier). On a failed save, you can expend up to two {@variantrule Hit Point Dice|XPHB|Hit Dice}, roll them, and add your Charisma modifier. The creature takes Necrotic damage equal to the result, and you regain {@variantrule Hit Points|XPHB} equal to the damage dealt. On a successful save, the creature takes half as much damage.",
-                "You can use this feature a number of times equal to your Charisma modifier (minimum of once), regaining all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+                "You can use this feature a number of times equal to your Charisma modifier (minimum of 1), regaining all expended uses when you finish a {@variantrule Long Rest|XPHB}."
               ]
             }
           ]
@@ -2090,15 +2090,54 @@
       ]
     },
     {
+      "name": "Path of Forst",
+      "source": "Arcamis",
+      "shortName": "Frost",
+      "className": "Barbarian",
+      "classSource": "XPHB",
+      "subclassFeatures": [
+        "Path of Frost|Barbarian|XPHB|Frost|Arcamis|3",
+        "Blessing of True Ice|Barbarian|XPHB|Frost|Arcamis|6",
+        "Shatter|Barbarian|XPHB|Frost|Arcamis|10",
+        "Legacy of the Iceborn|Barbarian|XPHB|Frost|Arcamis|14"
+      ]
+    },
+    {
+      "name": "Path of Forst",
+      "source": "Arcamis",
+      "shortName": "Frost",
+      "className": "Barbarian",
+      "classSource": "XPHB",
+      "subclassFeatures": [
+        "Path of Frost|Barbarian|XPHB|Frost|Arcamis|3",
+        "Blessing of True Ice|Barbarian|XPHB|Frost|Arcamis|6",
+        "Shatter|Barbarian|XPHB|Frost|Arcamis|10",
+        "Legacy of the Iceborn|Barbarian|XPHB|Frost|Arcamis|14"
+      ]
+    },
+    {
+      "name": "Path of the Abyss",
+      "source": "Arcamis",
+      "shortName": "Abyss",
+      "className": "Barbarian",
+      "classSource": "XPHB",
+      "subclassFeatures": [
+        "Path of the Abyss|Barbarian|XPHB|Abyss|Arcamis|3",
+        "Phantom Dive|Barbarian|XPHB|Abyss|Arcamis|6",
+        "Abyssal Gifts|Barbarian|XPHB|Abyss|Arcamis|10",
+        "Abyssal Charge|Barbarian|XPHB|Abyss|Arcamis|14"
+      ]
+    },
+    {
       "name": "Circle of the Ursids",
       "shortName": "Ursids",
       "source": "Arcamis",
       "className": "Druid",
-      "classSource": "PHB",
+      "classSource": "XPHB",
       "subclassSpells": [
         "Thunderwave|XPHB",
         "Fog Cloud|XPHB",
-        "Call Lightning|Arcamis",
+        "Call Lightning|XPHB",
         "Sleet Storm|XPHB",
         "Ice Storm|XPHB",
         "Freedom of Movement|XPHB",
@@ -2146,7 +2185,7 @@
       "level": 3,
       "entries": [
         "{@i Master Forcefields as a Tool for Protection}",
-        "Though often toxic, unstable, and explosive, chemtech combines machinery and chemical compounds to enhance its users beyond the limits of ordinary mortals. Skilled Chemtechnicians can harness chemical energy to create remarkable—and deadly—devices, even augmenting their own bodies to survive hostile environments or overcome physical limitations.",
+        "Though often toxic, unstable, and explosive, chemtech combines machinery and chemical compounds to enhance its users beyond the limits of ordinary mortals. Skilled Chemtechnicians can harness chemical energy to create remarkable and deadly devices, even augmenting their own bodies to survive hostile environments or overcome physical limitations.",
         {
           "type": "refSubclassFeature",
           "subclassFeature": "Chemtechnician Spells|Artificer|EFA|Chemtechnician|Arcamis|3"
@@ -2214,17 +2253,17 @@
       "entries": [
         "At 3rd level, you learn how to create a small alchemical drone powered by Shimmer-infused compounds. The drone floats around you, analyzing and modifying chemical substances to enhance your spells. Whenever you finish a {@variantrule Long Rest|XPHB}, you create a {@creature Shimmer Drone|Arcamis}, and you can have only one drone at a time.",
         {
-          "type":"entries",
-          "name":"Remote Casting",
-          "entries":[
-          "You can cast spells as though you were in the drone's space, but you must use your own senses."
+          "type": "entries",
+          "name": "Remote Casting",
+          "entries": [
+            "You can cast spells as though you were in the drone's space, but you must use your own senses."
           ]
         },
         {
-          "type":"entries",
-          "name":"Drone in Combat",
-          "entries":[
-          "In combat, the drone shares your turn and acts immediately after you. It can move up to 60 feet on your turn without requiring an action. The only action it can take on its turn is {@action Dodge|XPHB}. If the drone moves more than 60 feet away from you, or if you become {@condition Incapacitated|XPHB}, it enters standby mode, unless stated otherwise by another feature. While in standby mode, the drone is inactive and cannot take actions, move, or respond to commands. You can restore the drone by using the {@action Utilize|XPHB} action."
+          "type": "entries",
+          "name": "Drone in Combat",
+          "entries": [
+            "In combat, the drone shares your turn and acts immediately after you. It can move up to 60 feet on your turn without requiring an action. The only action it can take on its turn is {@action Dodge|XPHB}. If the drone moves more than 60 feet away from you, or if you become {@condition Incapacitated|XPHB}, it enters standby mode, unless stated otherwise by another feature. While in standby mode, the drone is inactive and cannot take actions, move, or respond to commands. You can restore the drone by using the {@action Utilize|XPHB} action."
           ]
         }
       ]
@@ -2242,17 +2281,17 @@
         "You learn the {@spell Poison Spray|XPHB} cantrip. If you already know this cantrip, you can learn one other {@filter cantrip from the Artificer spell list|spells|level=0|class=Artificer} instead. Additionally, when you cast {@spell Poison Spray|XPHB}, you can cast it as a {@action Bonus Action|XPHB} instead of an {@action Action|XPHB}.",
         "Additionally you gain the following features.",
         {
-          "type":"entries",
-          "name":"Chemical Reserve",
-          "entries":[
+          "type": "entries",
+          "name": "Chemical Reserve",
+          "entries": [
             "Your drone adds your Intelligence modifier to the effects of its Chemical Diffuser and Chemical Synthesis traits."
           ]
         },
         {
-          "type":"entries",
-          "name":"Shimmer Infusion",
-          "entries":[
-            "As a {@variantrule Bonus Action|XPHB}, you can administer Shimmer to a creature through your drone. The creature must be within 10 feet of the drone. Until the end of the creature's next turn, it its Speed increases by 10 feet, has {@variantrule Advantage|XPHB} on saving throws against the {@condition Frightened|XPHB} condition, and its weapon and unarmed strikes deal an extra {@damage 1d4} damage. At the end of its turn, the creature must make a Constitution saving throw (DC 10). On a failed save, it has the {@condition Poisoned|XPHB} condition until the end of its next turn. You can use this feature a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+          "type": "entries",
+          "name": "Shimmer Infusion",
+          "entries": [
+            "As a {@variantrule Bonus Action|XPHB}, you can administer Shimmer to a creature through your drone. The creature must be within 10 feet of the drone. Until the end of the creature's next turn, it its Speed increases by 10 feet, has {@variantrule Advantage|XPHB} on saving throws against the {@condition Frightened|XPHB} condition, and its weapon and unarmed strikes deal an extra {@damage 1d4} damage. At the end of its turn, the creature must make a Constitution saving throw (DC 10). On a failed save, it has the {@condition Poisoned|XPHB} condition until the end of its next turn. You can use this feature a number of times equal to your Intelligence modifier (minimum of 1). You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
           ]
         }
       ]
@@ -2281,6 +2320,225 @@
       "header": 2,
       "entries": [
         "As an {@action Magic|XPHB|Magic Action}, you release a wave of Shimmer in a 30-foot line that is 15 feet wide, originating from yourself or your drone. Each creature in the area must make a Constitution saving throw against your Artificer spell save DC. On a failed save, creatures are affected by your Shimmer Infusion feature as if you had used it on them and must immediately use their {@variantrule Reaction|XPHB} to make an attack against the nearest creature they can reach. These creatures act as if they were taking their turns for the purpose of this attack, using their abilities to the best of their ability. You can use this feature once per {@variantrule Long Rest|XPHB}. You can use it again before finishing a {@variantrule Long Rest|XPHB} by expending a spell slot of 4th level or higher."
+      ]
+    },
+    {
+      "name": "Path of Frost",
+      "source": "Arcamis",
+      "className": "Barbarian",
+      "classSource": "XPHB",
+      "subclassShortName": "Frost",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "entries": [
+        "Possessing a rare magical lineage passed down through generations of Freljordian barbarians, the Iceborn are naturally resistant to the cold and can wield True Ice and Black Ice without suffering pain or death. Though their origins trace back to a forgotten and ancient era, the Iceborn of today harness their inherited power to become unrivaled leaders and warriors of the Freljord.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Ice Veins|Barbarian|XPHB|Frost|Arcamis|3"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Iceborn Fury|Barbarian|XPHB|Frost|Arcamis|3"
+        }
+      ]
+    },
+    {
+      "name": "Ice Veins",
+      "source": "Arcamis",
+      "className": "Barbarian",
+      "classSource": "XPHB",
+      "subclassShortName": "Frost",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "You can wield and wear weapons and armor made with {@b True Ice} or {@b Dark Ice} without side effects.",
+        "You gain {@variantrule Resistance|XPHB} to Cold damage.",
+        "You can move through {@variantrule Difficult Terrain|XPHB} caused by snow or ice without spending extra movement and you don't have side effects while being in {@hazard Extreme Cold|XDMG}."
+      ]
+    },
+    {
+      "name": "Iceborn Fury",
+      "source": "Arcamis",
+      "className": "Barbarian",
+      "classSource": "XPHB",
+      "subclassShortName": "Frost",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "While you are raging, the first time you hit a creature with a weapon attack on each of your turns, that creature's Speed is reduced by 15 feet until the end of its turn."
+      ]
+    },
+    {
+      "name": "Blessing of True Ice",
+      "source": "Arcamis",
+      "className": "Barbarian",
+      "classSource": "XPHB",
+      "subclassShortName": "Frost",
+      "subclassSource": "Arcamis",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "When you finish a {@variantrule Long Rest|XPHB}, choose one of the following objects to imbue with {@b True Ice}: a weapon you are wielding or a garment you are wearing. The chosen object gains the corresponding benefit until you finish your next {@variantrule Long Rest|XPHB}.",
+        {
+          "type": "entries",
+          "name": "Weapon",
+          "entries": [
+            "When you deal damage with an attack using this weapon, you can change its damage type to Cold. Once on each of your turns, when you hit a creature with this weapon, you can use your {@action Bonus Action|XPHB} to freeze not only its flesh but also its soul. The target takes {@damage 1d10} Cold damage and can't regain {@variantrule Hit Points} until the end of your next turn."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Garment",
+          "entries": [
+            "You have Advantage on saving throws against the {@condition Grappled|XPHB} and {@condition Paralyzed|XPHB} conditions, as well as against effects that reduce your Speed. In addition, whenever a creature within 5 feet of you hits you with an attack, that creature takes Cold damage equal to your Constitution modifier."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shatter",
+      "source": "Arcamis",
+      "className": "Barbarian",
+      "classSource": "XPHB",
+      "subclassShortName": "Frost",
+      "subclassSource": "Arcamis",
+      "level": 10,
+      "header": 2,
+      "entries": [
+        "Your attack rolls with melee weapons and Unarmed Strikes against a creature whose Speed has been reduced by your Frostborn Rage feature can score a {@variantrule Critical Hit|XPHB} on a roll of 19 or 20 on the {@damage d20}. This expanded critical hit range can't be increased by any other feature or effect."
+      ]
+    },
+    {
+      "name": "Legacy of the Iceborn",
+      "source": "Arcamis",
+      "className": "Barbarian",
+      "classSource": "XPHB",
+      "subclassShortName": "Frost",
+      "subclassSource": "Arcamis",
+      "level": 14,
+      "header": 2,
+      "entries": [
+        "When you enter your {@condition Rage|XPHB}, you gain a number of {@variantrule Temporary Hit Points|XPHB} equal to your Barbarian level plus your Constitution modifier. You can use this feature again by expending one use of your Rage. While you are {@condition Bloodied}, You can attack three times instead of once whenever you take the {@action Attack|XPHB} action on your turn."
+      ]
+    },
+    {
+      "name": "Path of the Abyss",
+      "source": "Arcamis",
+      "className": "Barbarian",
+      "classSource": "XPHB",
+      "subclassShortName": "Abyss",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "entries": [
+        "Encounters with the horrors of the abyssal depths can shatter the minds of the weak, but some transform that trauma into a weapon, forged in the lightless depths where the sun never reaches. The barbarian who follows this path has survived an encounter with the deep and emerged with extraordinary abilities.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Gift of the Drowned|Barbarian|XPHB|Abyss|Arcamis|3"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Tentacle of Terror|Barbarian|XPHB|Abyss|Arcamis|3"
+        }
+      ]
+    },
+    {
+      "name": "Gift of the Drowned",
+      "source": "Arcamis",
+      "className": "Barbarian",
+      "classSource": "XPHB",
+      "subclassShortName": "Abyss",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "At 3rd level, you gain a {@variantrule Swim Speed|XPHB} equal to your walking Speed and can breathe underwater. You also gain {@variantrule Resistance|XPHB} to Cold damage. If you already have a {@variantrule Swim Speed|XPHB}, your {@variantrule Swim Speed|XPHB} increases by 10 feet instead."
+      ]
+    },
+    {
+      "name": "Tentacle of Terror",
+      "source": "Arcamis",
+      "className": "Barbarian",
+      "classSource": "XPHB",
+      "subclassShortName": "Abyss",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "When you enter your Rage, you manifest an unnatural appendage that lasts for the duration of your Rage.",
+        {
+          "type": "entries",
+          "name": "Abyssal Lash",
+          "entries": [
+            "As a {@action Bonus Action|XPHB} on your subsequent turns, you can make a melee attack with the appendage against one creature within 15 feet of it. On a hit, the target takes bludgeoning damage equal to {@damage 1d8} + your Strength modifier."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Grasp of the Currents",
+          "entries": [
+            "If the Abyssal Lash hits, the target suffers one of the following effects of your choice:",
+            {
+              "type": "list",
+              "items": [
+                "{@bold Drag.} The target is pulled up to 10 feet in a straight line toward the appendage.",
+                "{@bold Anchor.} The target's Speed is reduced by half until the start of your next turn."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Phantom Dive",
+      "source": "Arcamis",
+      "className": "Barbarian",
+      "classSource": "XPHB",
+      "subclassShortName": "Abyss",
+      "subclassSource": "Arcamis",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "While you are raging, you can use a {@variantrule Bonus Action|XPHB} to teleport to an unoccupied space near a wounded creature within 30 feet of your original position. You then have {@variantrule Advantage|XPHB} on attack rolls against that creature until the end of your next turn or until you make an attack against it.",
+        "You can use this feature a number of times equal to your Wisdom modifier (minimum of 1). You can use this feature again by expending one use of your Rage. You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+      ]
+    },
+    {
+      "name": "Abyssal Gifts",
+      "source": "Arcamis",
+      "className": "Barbarian",
+      "classSource": "XPHB",
+      "subclassShortName": "Abyss",
+      "subclassSource": "Arcamis",
+      "level": 10,
+      "header": 2,
+      "entries": [
+        "When you finish a {@variantrule Long Rest|XPHB}, choose one of the following benefits. You gain the chosen benefit until you finish your next {@variantrule Long Rest|XPHB}.",
+        {
+          "type": "list",
+          "items": [
+            "{@bold Abyssal Sight.} You gain {@sense Darkvision|XPHB} out to 90 feet. If you already have {@sense Darkvision|XPHB}, its range increases by 60 feet instead. Once per {@variantrule Long Rest|XPHB}, when you enter your Rage, you gain the benefits of the {@spell True Seeing|XPHB} spell until your Rage ends.",
+            "{@bold Abyssal Arms.} When you use your Tentacle of Terror feature, you manifest one additional natural appendage. You can target two different creatures with your Abyssal Lash.",
+            "{@bold Heart of the Ocean.} When you enter your Rage, and as a {@variantrule Bonus Action|XPHB} while your Rage is active, you can gain {@variantrule Temporary Hit Points|XPHB} equal to {@dice 1d12} + your Barbarian level. You can use this {@variantrule Bonus Action|XPHB} a number of times equal to your Constitution modifier (minimum of 1) per {@variantrule Long Rest|XPHB}.",
+            "{@bold Resolve of the Depths.} You are immune to the {@condition Charmed|XPHB} and {@condition Frightened|XPHB} conditions. You also have {@variantrule Resistance|XPHB} to Psychic damage.",
+            "{@bold Armor of the Deep.} Your {@variantrule Armor Class|XPHB} increases by 1. While you are raging, when a creature hits you with a melee attack, it takes Cold damage equal to your Wisdom modifier (minimum of 1)."
+          ]
+        },
+        "At 14th level, you can choose two of these benefits whenever you finish a {@variantrule Long Rest|XPHB}."
+      ]
+    },
+    {
+      "name": "Abyssal Charge",
+      "source": "Arcamis",
+      "className": "Barbarian",
+      "classSource": "XPHB",
+      "subclassShortName": "Abyss",
+      "subclassSource": "Arcamis",
+      "level": 14,
+      "header": 2,
+      "entries": [
+        "When you use your Phantom Dive feature, you can unleash a shockwave at the point where you arrive. Each creature within 10 feet of that point must make a Strength saving throw against a DC equal to 8 + your Proficiency Bonus + your Strength modifier. On a failed save, a creature takes {@damage 4d10} Force damage and has the {@condition Prone|XPHB} condition. On a successful save, it takes half as much damage. If you use Phantom Dive to appear in a space containing water, the radius of the explosion increases to 20 feet."
       ]
     },
     {
@@ -2458,7 +2716,7 @@
         }
       ],
       "hp": {
-        "special": "five times your Ranger level (the Drone has a number of Hit Dice [d8s] equal to your Artificer level)"
+        "special": "five times your Artificer level (the Drone has a number of Hit Dice [d8s] equal to your Artificer level)"
       },
       "speed": {
         "fly": 30
@@ -2484,14 +2742,14 @@
           ]
         },
         {
-          "name":"Chemical Diffuser",
-          "entries":[
+          "name": "Chemical Diffuser",
+          "entries": [
             "When you cast a 1st-level spell or higher that restores {@variantrule Hit Points|XPHB} to a creature, the drone can release the excess chemical compounds toward one creature of your choice within 30 feet of it. The target must make a Dexterity saving throw against your Artificer spell save DC. On a failed save, it takes {@damage 1d4} acid or poison damage plus the level of the spell slot used."
           ]
         },
         {
-          "name":"Chemical Synthesis",
-          "entries":[
+          "name": "Chemical Synthesis",
+          "entries": [
             "When you cast a 1st-level spell or higher, the drone can spread a refined compound to a creature of your choice within 30 feet of it. That creature gains {@variantrule Temporary Hit Points|XPHB} equal to {@damage 1d4} per level of the spell slot used."
           ]
         }
