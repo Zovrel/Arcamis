@@ -2130,6 +2130,18 @@
       ]
     },
     {
+      "name": "College of Tides",
+      "source": "Arcamis",
+      "shortName": "Tides",
+      "className": "Bard",
+      "classSource": "XPHB",
+      "subclassFeatures": [
+        "College of Tides|Bard|XPHB|Tides|Arcamis|3",
+        "Crew Member|Bard|XPHB|Tides|Arcamis|6",
+        "Broadside|Bard|XPHB|Tides|Arcamis|14"
+      ]
+    },
+    {
       "name": "Circle of the Ursids",
       "shortName": "Ursids",
       "source": "Arcamis",
@@ -2623,6 +2635,79 @@
       "header": 2,
       "entries": [
         "When you enter your Rage, a pair of wings made of blood and flames emerge from your back. You gain a {@variantrule Fly Speed|XPHB} equal to your Speed. Additionally, you are immune to the {@condition Poisoned|XPHB} and {@condition Blinded|XPHB} conditions. Finally, at the end of your turn, if you have hit a creature with an attack during that turn, you regain a number of {@variantrule Hit Points|XPHB} equal to the additional damage dealt by your Demon in Me feature."
+      ]
+    },
+    {
+      "name": "College of Tides",
+      "source": "Arcamis",
+      "className": "Bard",
+      "classSource": "XPHB",
+      "subclassShortName": "Tides",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "entries": [
+        "The waters of Aetherion are filled with pirates, storms, and sea monsters. Because of this, crews often seek out a Buhru priest, a mad captain, or a one-armed veteran to ensure a safe voyage. Those who have studied the sea, whether through formal training or firsthand experience, are invaluable when navigating such dangers.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Boarding|Bard|XPHB|Tides|Arcamis|3"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Sea Shanties|Bard|XPHB|Tides|Arcamis|3"
+        }
+      ]
+    },
+    {
+      "name": "Boarding",
+      "source": "Arcamis",
+      "className": "Bard",
+      "classSource": "XPHB",
+      "subclassShortName": "Tides",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "When you grant a creature a Bardic Inspiration die, that creature's Speed increases by 10 feet until the start of your next turn. If the creature expends that die on an attack roll and the attack hits, the creature can immediately move up to 5 feet. This movement does not provoke {@action Opportunity Attack|XPHB|Opportunity Attacks}."
+      ]
+    },
+    {
+      "name": "Sea Shanties",
+      "source": "Arcamis",
+      "className": "Bard",
+      "classSource": "XPHB",
+      "subclassShortName": "Tides",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "You have learned the sea shanties passed down among the sailors of Aetherion, using their rhythms to inspire courage and coordination among your allies. As a {@action Bonus Action|XPHB}, you can expend one use of your Bardic Inspiration to give a Bardic Inspiration die to a number of creatures of your choice that you can see within 60 feet of yourself, up to a number of creatures equal to your Charisma modifier (minimum of 1). A creature must be able to hear you to receive this die. You can have a number of Bardic Inspiration dice granted by this feature at the same time equal to your Charisma modifier (minimum of 1). If you grant a Bardic Inspiration die to a creature while you already have the maximum number of dice granted by this feature, the oldest Bardic Inspiration die granted by this feature disappears."
+      ]
+    },
+    {
+      "name": "Crew Member",
+      "source": "Arcamis",
+      "className": "Bard",
+      "classSource": "XPHB",
+      "subclassShortName": "Tides",
+      "subclassSource": "Arcamis",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "You gain proficiency with Water Vehicles and Navigator's Tools. If you already have proficiency with either, you gain Expertise instead. You also learn one of the following languages: Aquan or Buhru.",
+        "{@bold Crew's Mockery.} You learn the {@spell Vicious Mockery|XPHB} cantrip. If you already know this cantrip, you learn another {@filter cantrip from the Bard spell list|spells|level=0|class=Bard}. When a creature within 60 feet of you misses you or one of your allies with an attack roll, you can cast {@spell Vicious Mockery|XPHB} as a {@action Reaction|XPHB} targeting that creature. When you cast the spell in this way, you can add your Bardic Inspiration die to the spell's damage roll if the ally targeted by the attack has one of your Bardic Inspiration dice. The Bardic Inspiration die is then expended."
+      ]
+    },
+    {
+      "name": "Broadside",
+      "source": "Arcamis",
+      "className": "Bard",
+      "classSource": "XPHB",
+      "subclassShortName": "Tides",
+      "subclassSource": "Arcamis",
+      "level": 14,
+      "header": 2,
+      "entries": [
+        "When you hit a creature with an attack roll, you can take a {@action Bonus Action|XPHB} to coordinate a devastating volley. Each allied creature within 60 feet of you that has one of your Bardic Inspiration dice can use its {@action Reaction|XPHB} to make one weapon attack or one spell attack against the same target. These attacks are resolved in initiative order, starting with the highest initiative. Each ally that makes an attack in this way expends its Bardic Inspiration die. For each of these attacks that hits after the first, the total damage dealt by this feature increases by an additional {@damage 1d8}. Roll all additional damage dice together and apply the total to the last attack that hits as part of the Broadside. Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
       ]
     },
     {
