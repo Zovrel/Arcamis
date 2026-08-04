@@ -6,7 +6,7 @@
         "abbreviation": "ACM",
         "full": "Arcamis: leggende di Atetherion",
         "url": "https://quickest-sorrel-9a3.notion.site/Arcamis-2f00274fdc1c801a9b39d8d69800f7a8",
-        "version": "1.0",
+        "version": "1.0.1",
         "authors": [
           "Zovrel"
         ],
@@ -2861,7 +2861,7 @@
           "type": "entries",
           "name": "Demigod's Impact",
           "entries": [
-            "Palle When you cast {@spell Destructive Wave|XPHB}, the spell save DC increases by 2. One creature of your choice that fails its saving throw is {@condition Stunned|XPHB} until the start of your next turn. Once you use this effect, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
+            "When you cast {@spell Destructive Wave|XPHB}, the spell save DC increases by 2. One creature of your choice that fails its saving throw is {@condition Stunned|XPHB} until the start of your next turn. Once you use this effect, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
           ]
         }
       ]
