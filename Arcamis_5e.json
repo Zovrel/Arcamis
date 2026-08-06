@@ -6,7 +6,7 @@
         "abbreviation": "ACM",
         "full": "Arcamis: leggende di Atetherion",
         "url": "https://quickest-sorrel-9a3.notion.site/Arcamis-2f00274fdc1c801a9b39d8d69800f7a8",
-        "version": "1.0.2",
+        "version": "0.0.1",
         "authors": [
           "Zovrel"
         ],
@@ -24,7 +24,7 @@
     ],
     "edition": "one",
     "dateAdded": 20260604123900,
-    "dateLastModified": 20260804203300
+    "dateLastModified": 20260807000000
   },
   "_test": {
     "references": [
@@ -527,7 +527,7 @@
                     "type": "entries",
                     "name": "Healer",
                     "entries": [
-                      "When you throw the feather, you can choose not to deal damage and instead restore Hit Points to the target equal to the damage you would have dealt."
+                      "When you throw the feather, you can choose not to deal damage and instead restore {@variantrule Hit Points|XPHB} to the target equal to the damage you would have dealt."
                     ]
                   }
                 ]
@@ -1802,7 +1802,7 @@
                 {
                   "type": "list",
                   "items": [
-                    "Gain temporary Hit Points equal to your level.",
+                    "Gain {@variantrule Temporary Hit Points|XPHB} equal to your level.",
                     "Gain {@variantrule Advantage|XPHB} on your next attack roll or ability check.",
                     "Become {@condition Invisible|XPHB} to that creature until the end of your next turn."
                   ]
@@ -1841,7 +1841,7 @@
                   ]
                 },
                 "In addition, you can swallow creatures one size larger than you.",
-                "If a creature dies while swallowed, you gain temporary Hit Points equal to your character level + your Constitution modifier."
+                "If a creature dies while swallowed, you gain {@variantrule Temporary Hit Points|XPHB} equal to your character level + your Constitution modifier."
               ]
             }
           ]
@@ -2012,7 +2012,7 @@
               "type": "entries",
               "name": "Divine Ego",
               "entries": [
-                "Your presence convinces others of your perfection. While a creature is affected by your {@spell Enhance Ability|XPHB}, it gains temporary Hit Points equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} at the start of its turn and has {@variantrule Advantage|XPHB} on saving throws against being {@condition Frightened|XPHB}. If the creature misses an attack roll or fails an ability check, it takes Psychic damage equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, as its confidence is shaken by failure."
+                "Your presence convinces others of your perfection. While a creature is affected by your {@spell Enhance Ability|XPHB}, it gains {@variantrule Temporary Hit Points|XPHB} equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} at the start of its turn and has {@variantrule Advantage|XPHB} on saving throws against being {@condition Frightened|XPHB}. If the creature misses an attack roll or fails an ability check, it takes Psychic damage equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, as its confidence is shaken by failure."
               ]
             }
           ]
@@ -2139,6 +2139,131 @@
         "College of Tides|Bard|XPHB|Tides|Arcamis|3",
         "Crew Member|Bard|XPHB|Tides|Arcamis|6",
         "Broadside|Bard|XPHB|Tides|Arcamis|14"
+      ]
+    },
+    {
+      "name": "College of Temptation",
+      "source": "Arcamis",
+      "shortName": "Temptation",
+      "className": "Bard",
+      "classSource": "XPHB",
+      "subclassSpells": [
+        "Charm Person|XPHB",
+        "Charm Monster|XPHB"
+      ],
+      "additionalSpells": [
+        {
+          "prepared": {
+            "3": [
+              "charm person"
+            ],
+            "7": [
+              "charm monster"
+            ]
+          }
+        }
+      ],
+      "subclassFeatures": [
+        "College of Temptation|Bard|XPHB|Temptation|Arcamis|3",
+        "Cruel Affection|Bard|XPHB|Temptation|Arcamis|6",
+        "Sweet Revenge|Bard|XPHB|Temptation|Arcamis|6",
+        "Perfect Seduction|Bard|XPHB|Temptation|Arcamis|14"
+      ]
+    },
+    {
+      "name": "Spirits Domain",
+      "source": "Arcamis",
+      "shortName": "Spirits",
+      "className": "Cleric",
+      "classSource": "XPHB",
+      "subclassSpells": [
+        "Zone of Truth|XPHB",
+        "Fog Cloud|XPHB",
+        "Bane|XPHB",
+        "Bless|XPHB",
+        "Hunger of Hadar|XPHB",
+        "Tidal Wave|XGE",
+        "Evard's Black Tentacles|XPHB",
+        "Guardian of Faith|XPHB",
+        "Maelstrom|XGE",
+        "Cone of Cold|XPHB"
+      ],
+      "additionalSpells": [
+        {
+          "prepared": {
+            "3": [
+              "zone of truth",
+              "fog cloud",
+              "bane",
+              "bless"
+            ],
+            "5": [
+              "hunger of hadar",
+              "tidal wave|XGE"
+            ],
+            "7": [
+              "evard's black tentacles",
+              "guardian of faith"
+            ],
+            "9": [
+              "maelstrom|XGE",
+              "cone of cold"
+            ]
+          }
+        }
+      ],
+      "subclassFeatures": [
+        "Spirits Domain|Cleric|XPHB|Spirits|Arcamis|3",
+        "Free the Soul|Cleric|XPHB|Spirits|Arcamis|6",
+        "Trial of the Spirit|Cleric|XPHB|Spirits|Arcamis|17"
+      ]
+    },
+    {
+      "name": "Frost Domain",
+      "source": "Arcamis",
+      "shortName": "Frost",
+      "className": "Cleric",
+      "classSource": "XPHB",
+      "subclassSpells": [
+        "Ice Knife|XPHB",
+        "Ray of Enfeeblement|XPHB",
+        "Frost Fingers|IDRotF",
+        "Blur|XPHB",
+        "Sleet Storm|XPHB",
+        "Wall of Water|XGE",
+        "Ice Storm|XPHB",
+        "Otiluke’s Resilient Sphere|XPHB",
+        "Hold Monster|XPHB",
+        "Cone of Cold|XPHB"
+      ],
+      "additionalSpells": [
+        {
+          "prepared": {
+            "3": [
+              "ice knife",
+              "ray of enfeeblement",
+              "frost fingers|IDRotF",
+              "blur"
+            ],
+            "5": [
+              "sleet storm",
+              "wall of water|XGE"
+            ],
+            "7": [
+              "ice storm",
+              "otiluke’s resilient sphere"
+            ],
+            "9": [
+              "hold monster",
+              "cone of cold"
+            ]
+          }
+        }
+      ],
+      "subclassFeatures": [
+        "Frost Domain|Cleric|XPHB|Frost|Arcamis|3",
+        "Frozen Touch|Cleric|XPHB|Frost|Arcamis|6",
+        "Winter Avatar|Cleric|XPHB|Frost|Arcamis|17"
       ]
     },
     {
@@ -2708,6 +2833,368 @@
       "header": 2,
       "entries": [
         "When you hit a creature with an attack roll, you can take a {@action Bonus Action|XPHB} to coordinate a devastating volley. Each allied creature within 60 feet of you that has one of your Bardic Inspiration dice can use its {@action Reaction|XPHB} to make one weapon attack or one spell attack against the same target. These attacks are resolved in initiative order, starting with the highest initiative. Each ally that makes an attack in this way expends its Bardic Inspiration die. For each of these attacks that hits after the first, the total damage dealt by this feature increases by an additional {@damage 1d8}. Roll all additional damage dice together and apply the total to the last attack that hits as part of the Broadside. Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
+      ]
+    },
+    {
+      "name": "College of Temptation",
+      "source": "Arcamis",
+      "className": "Bard",
+      "classSource": "XPHB",
+      "subclassShortName": "Temptation",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "entries": [
+        "Temptation is the song of vice and wickedness, and the Bards of the College of Temptation wield its melody to indulge their darkest desires. Born of seduction, the Bards of this college are masters of enchantment and deception, manipulating others like puppets in a cruel and twisted game.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Beguiling Presence|Bard|XPHB|Temptation|Arcamis|3"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Succubus's Kiss|Bard|XPHB|Temptation|Arcamis|3"
+        }
+      ]
+    },
+    {
+      "name": "Beguiling Presence",
+      "source": "Arcamis",
+      "className": "Bard",
+      "classSource": "XPHB",
+      "subclassShortName": "Temptation",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "You always have {@spell Charm Person|XPHB} prepared. It doesn't count against the number of spells you have prepared. Starting at 7th level, you also always have {@spell Charm Monster|XPHB} prepared, and it doesn't count against the number of spells you have prepared. In addition, your enchantment magic is infused with corruptive allure. While a creature is {@condition Charmed|XPHB} by you, it gains the following effects:",
+        {
+          "type": "list",
+          "items": [
+            "It can't willingly use its movement to end its turn farther away from you than it started, provided it can see or hear you.",
+            "It has {@variantrule Disadvantage|XPHB} on Wisdom (Perception) checks while it can see or hear you.",
+            "Once on each of your turns, when you deal damage to it, it takes extra Psychic damage equal to the die of your Bardic Inspiration."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Succubus's Kiss",
+      "source": "Arcamis",
+      "className": "Bard",
+      "classSource": "XPHB",
+      "subclassShortName": "Temptation",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "You can expend one use of your Bardic Inspiration to cast {@spell Charm Person|XPHB} as a {@variantrule Bonus Action|XPHB}. When you cast the spell this way, it gains the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "The target doesn't have {@variantrule Advantage|XPHB} on its saving throw for being in combat with you.",
+            "You can ignore either the spell's Verbal or Somatic component (but not both). The remaining component must take the form of a flirtatious gesture or affectionate words, such as a blown kiss or whispered compliment.",
+            "If the target fails its saving throw by 5 or more, it doesn't realize it was charmed by the spell when the spell ends."
+          ]
+        },
+        "Starting at 7th level, you can use this feature to cast {@spell Charm Monster|XPHB} instead of {@spell Charm Person|XPHB}."
+      ]
+    },
+    {
+      "name": "Cruel Affection",
+      "source": "Arcamis",
+      "className": "Bard",
+      "classSource": "XPHB",
+      "subclassShortName": "Temptation",
+      "subclassSource": "Arcamis",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "Your charm is not broken easily, even when your victims realize your true nature. When you deal damage to a creature {@condition Charmed|XPHB} by you, and that damage would normally end the {@condition Charmed|XPHB} condition or the effect causing it, the creature must repeat its saving throw with {@variantrule Advantage|XPHB}. On a failed save, the {@condition Charmed|XPHB} condition remains in effect. In addition, you have {@variantrule Advantage|XPHB} on attack rolls against creatures {@condition Charmed|XPHB} by you."
+      ]
+    },
+    {
+      "name": "Sweet Revenge",
+      "source": "Arcamis",
+      "className": "Bard",
+      "classSource": "XPHB",
+      "subclassShortName": "Temptation",
+      "subclassSource": "Arcamis",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "You draw power from those who fall under your influence. When a creature {@condition Charmed|XPHB} by you is reduced to 0 {@variantrule Hit Points|XPHB} or dies, you gain {@variantrule Temporary Hit Points|XPHB} equal to half your Bard level (rounded down) + your Charisma modifier."
+      ]
+    },
+    {
+      "name": "Perfect Seduction",
+      "source": "Arcamis",
+      "className": "Bard",
+      "classSource": "XPHB",
+      "subclassShortName": "Temptation",
+      "subclassSource": "Arcamis",
+      "level": 14,
+      "header": 2,
+      "entries": [
+        "Starting at 14th level, your allure and cruelty rival those of a true succubus. When you cast {@spell Charm Person|XPHB} using your Succubus's Kiss feature, the spell is cast as though using a 3rd-level spell slot, without expending a spell slot of that level. In addition, when a creature repeats its saving throw against your Cruel Devotion feature after taking damage from you, it doesn't make that saving throw with {@variantrule Advantage|XPHB}.",
+        "Finally, creatures can't gain {@variantrule Advantage|XPHB} on saving throws against spells granted by this subclass."
+      ]
+    },
+    {
+      "name": "Spirits Domain",
+      "source": "Arcamis",
+      "className": "Cleric",
+      "classSource": "XPHB",
+      "subclassShortName": "Spirits",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "entries": [
+        "It is the will of the Great Kraken and Goddess of Motion, Nagakabouros, that her people endlessly pursue their desires. To her, the greatest sin is stagnation. For this reason, she grants her most devoted followers the honor of speaking in her name and the divine power to test the strength of the spirit. Spirits that remain in motion are spared; those that stagnate receive no mercy. ",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Spirits Domain Spells|Cleric|XPHB|Spirits|Arcamis|3"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Spiritual Rend|Cleric|XPHB|Spirits|Arcamis|3"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Slam|Cleric|XPHB|Spirits|Arcamis|3"
+        }
+      ]
+    },
+    {
+      "name": "Spirits Domain Spells",
+      "source": "Arcamis",
+      "className": "Cleric",
+      "classSource": "XPHB",
+      "subclassShortName": "Spirits",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "When you reach a Cleric level specified in the Spirits Domain Spells table, you thereafter always have the listed spells prepared.",
+        "In addition, you can cast the spells from this feature while you're in a Wild Shape form.",
+        {
+          "type": "table",
+          "caption": "Spirits Domain Spells",
+          "colLabels": [
+            "Cleric Level",
+            "Spells"
+          ],
+          "colStyles": [
+            "col-2 text-center",
+            "col-10"
+          ],
+          "rows": [
+            [
+              "3rd",
+              "{@spell Zone of Truth|XPHB}, {@spell Fog Cloud|XPHB}, {@spell Bane|XPHB}, {@spell Bless|XPHB}"
+            ],
+            [
+              "5th",
+              "{@spell Hunger of Hadar|XPHB}, {@spell Tidal Wave|XGE}"
+            ],
+            [
+              "7th",
+              "{@spell Evard's Black Tentacles|XPHB}, {@spell Guardian of Faith|XPHB}"
+            ],
+            [
+              "9th",
+              "{@spell Maelstrom|XGE}, {@spell Cone of Cold|XPHB}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Spiritual Rend",
+      "source": "Arcamis",
+      "className": "Cleric",
+      "classSource": "XPHB",
+      "subclassShortName": "Spirits",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "As a {@variantrule Bonus Action|XPHB}, you can expend one use of your Channel Divinity to tear a fragment of spirit from a creature you can see within 30 feet of yourself.",
+        "The fragment appears in an unoccupied space you can see within 30 feet of the creature and lasts for 1 minute. The effect ends early if you dismiss it (no action required) or if the creature is reduced to 0 {@variantrule Hit Points|XPHB}.",
+        "The spirit can be targeted and uses the same statistics as the creature, with the following exceptions:",
+        {
+          "type": "list",
+          "items": [
+            "The spirit can't be moved or destroyed.",
+            "This feature can't be used on Undead or Constructs."
+          ]
+        },
+        "When you attack the spirit, half the damage dealt to it is instead dealt to the original creature.",
+        "Whenever the spirit takes damage, the creature must make a Wisdom saving throw against your spell save DC. On a successful save, the effect ends immediately. The creature has {@variantrule Disadvantage|XPHB} on this saving throw if it is more than 15 feet away from its spirit.",
+        "When this effect ends for any reason, the creature's Speed is reduced by 10 feet."
+      ]
+    },
+    {
+      "name": "Slam",
+      "source": "Arcamis",
+      "className": "Cleric",
+      "classSource": "XPHB",
+      "subclassShortName": "Spirits",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "As an {@action Attack|XPHB|Attack Action}, you raise your {@item Holy Symbol|XPHB}, causing an illusory tentacle to emerge from it, which you slam into the ground.",
+        "Each creature in a 15-foot line must make a Dexterity saving throw against your cleric spell save DC. On a failed save, a creature takes {@damage 1d6} + your Wisdom modifier bludgeoning damage. On a successful save, a creature takes half as much damage.",
+        "You can use this feature a number of times equal to your Wisdom modifier (minimum of 1)."
+      ]
+    },
+    {
+      "name": "Free the Soul",
+      "source": "Arcamis",
+      "className": "Cleric",
+      "classSource": "XPHB",
+      "subclassShortName": "Spirits",
+      "subclassSource": "Arcamis",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "As a {@action Magic|XPHB|Magic Action}, you raise your {@item Holy Symbol|XPHB} to free the spirits of nearby allies, granting up to six creatures of your choice within 60 feet of yourself the effects of {@spell Freedom of Movement|XPHB} until the end of your next turn.",
+        "You can use this feature a number of times equal to your Wisdom modifier (minimum of 1), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}.",
+        "In addition, when you use Spiritual Rend, two illusory tentacles appear around the spirit fragment. At the end of your turn, these tentacles attack the spirit fragment, dealing {@damage 1d10} Force damage. This damage ignores the damage reduction from Spiritual Rend.",
+        "Whenever a creature hits you with an attack, you must succeed on a Constitution saving throw with a DC equal to 10 + half the damage taken (rounded down), or one of the tentacles disappears."
+      ]
+    },
+    {
+      "name": "Trial of the Spirit",
+      "source": "Arcamis",
+      "className": "Cleric",
+      "classSource": "XPHB",
+      "subclassShortName": "Spirits",
+      "subclassSource": "Arcamis",
+      "level": 17,
+      "header": 2,
+      "entries": [
+        "As a {@action Magic|XPHB|Magic Action}, you raise your {@item Holy Symbol|XPHB} toward the sky.",
+        "Each hostile creature of your choice within 60 feet of yourself sees a fragment of its spirit torn from its body, as if you had used your Spiritual Rend feature.",
+        "In addition, the damage dealt by the tentacles from your Free the Soul feature increases to {@damage 1d12} Force damage."
+      ]
+    },
+    {
+      "name": "Frost Domain",
+      "source": "Arcamis",
+      "className": "Cleric",
+      "classSource": "XPHB",
+      "subclassShortName": "Frost",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "entries": [
+        "Clerics of the Frost believe that ice represents balance: a force that halts chaos and grants the world the time it needs to heal. They revere the cold because it preserves life rather than consuming it, slowing that which burns too quickly. They preserve existence not to prevent its end, but to ensure that every death is followed by rebirth, like the eternal cycle of Anivia.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Frost Domain Spells|Cleric|XPHB|Frost|Arcamis|3"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Relentless Winter|Cleric|XPHB|Frost|Arcamis|3"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Polar Soul|Cleric|XPHB|Frost|Arcamis|3"
+        }
+      ]
+    },
+    {
+      "name": "Frost Domain Spells",
+      "source": "Arcamis",
+      "className": "Cleric",
+      "classSource": "XPHB",
+      "subclassShortName": "Frost",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "When you reach a Cleric level specified in the Frost Domain Spells table, you thereafter always have the listed spells prepared.",
+        "In addition, you can cast the spells from this feature while you're in a Wild Shape form.",
+        {
+          "type": "table",
+          "caption": "Frost Domain Spells",
+          "colLabels": [
+            "Cleric Level",
+            "Spells"
+          ],
+          "colStyles": [
+            "col-2 text-center",
+            "col-10"
+          ],
+          "rows": [
+            [
+              "3rd",
+              "{@spell Ice Knife|XPHB}, {@spell Ray of Enfeeblement|XPHB}, {@spell Frost Fingers|IDRotF}, {@spell Blur|XPHB},"
+            ],
+            [
+              "5th",
+              "{@spell Sleet Storm|XPHB}, {@spell Wall of Water|XGE}"
+            ],
+            [
+              "7th",
+              "{@spell Ice Storm|XPHB}, {@spell Otiluke’s Resilient Sphere|XPHB}"
+            ],
+            [
+              "9th",
+              "{@spell Hold Monster|XGE}, {@spell Cone of Cold|XPHB}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Polar Soul",
+      "source": "Arcamis",
+      "className": "Cleric",
+      "classSource": "XPHB",
+      "subclassShortName": "Frost",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "When a creature you can see within 30 feet of yourself is targeted by an attack, you can use your {@variantrule Reaction|XPHB} to create a wall of ice to protect it. The protected creature gains a bonus to its {@variantrule Armor Class|XPHB|AC} equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} until the end of your next turn. You must use this feature before knowing whether the attack roll hits or misses. You can use this feature a number of times equal to your Wisdom modifier (minimum of 1)."
+      ]
+    },
+    {
+      "name": "Relentless Winter",
+      "source": "Arcamis",
+      "className": "Cleric",
+      "classSource": "XPHB",
+      "subclassShortName": "Frost",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "You can use your Channel Divinity to unleash an aura of supernatural frost. As a {@action Magic|XPHB|Magic Action}, you present your {@item Holy Symbol|XPHB}. Each hostile creature within 15 feet of yourself must make a Constitution saving throw against your cleric spell save DC. On a failed save, a creature is {@condition Restrained|XPHB} for 1 minute as ice freezes around its lower limbs. The creature can repeat the saving throw at the end of each of its turns, ending the effect on a success. On a successful save, a creature's Speed is halved while it remains in the area. At the end of each of your turns, creatures affected by the frost take {@damage 1d4} + your Wisdom modifier cold damage."
+      ]
+    },
+    {
+      "name": "Frozen Touch",
+      "source": "Arcamis",
+      "className": "Cleric",
+      "classSource": "XPHB",
+      "subclassShortName": "Frost",
+      "subclassSource": "Arcamis",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "When a creature within 30 feet of yourself that you can see hits you with an attack, you can use your {@variantrule Reaction|XPHB} to force it to make a Constitution saving throw. On a failed save, the creature takes {@damage 2d8} cold damage, and its Speed is reduced by 10 feet until the end of its next turn. On a successful save, the creature takes half as much damage only. You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}. You regain all expended uses of Polar Soul when you finish a {@variantrule Short Rest|XPHB}."
+      ]
+    },
+    {
+      "name": "Winter Avatar",
+      "source": "Arcamis",
+      "className": "Cleric",
+      "classSource": "XPHB",
+      "subclassShortName": "Frost",
+      "subclassSource": "Arcamis",
+      "level": 17,
+      "header": 2,
+      "entries": [
+        "When you use your Channel Divinity, you can transform into the Avatar of Winter for 1 minute. While in this form, you have {@variantrule Resistance|XPHB} to Bludgeoning, Piercing, and Slashing damage, and you have {@variantrule Immunity|XPHB} to Cold damage. Hostile creatures within 10 feet of yourself have {@variantrule Disadvantage|XPHB} on attack rolls against creatures other than you. Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
       ]
     },
     {
