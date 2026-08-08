@@ -24,7 +24,7 @@
     ],
     "edition": "one",
     "dateAdded": 20260604123900,
-    "dateLastModified": 20260808171200
+    "dateLastModified": 20260808191200
   },
   "_test": {
     "references": [
@@ -2045,39 +2045,39 @@
       "className": "Artificer",
       "classSource": "EFA",
       "subclassSpells": [
-        "Shield|XPHB",
-        "Tenser's Floating Disk|XPHB",
-        "Regenerating Ward|Arcamis",
-        "Silence|XPHB",
-        "Leomund's Tiny Hut|XPHB",
-        "Magic Circle|XPHB",
-        "Death Ward|XPHB",
-        "Otiluke's Resilient Sphere|XPHB",
-        "Antilife Shell|XPHB",
-        "Wall of Force|XPHB"
+        "Heroism|XPHB",
+        "Ray of Sickness|XPHB",
+        "Melf's Acid Arrow|XPHB",
+        "Wither and Bloom|SCC",
+        "Stinking Cloud|XPHB",
+        "Tidal Wave|XGE",
+        "Confusion|XPHB",
+        "Blight|XPHB",
+        "Cloudkill|XPHB",
+        "Contagion|XPHB"
       ],
       "additionalSpells": [
         {
           "prepared": {
             "3": [
-              "Shield|XPHB",
-              "Tenser's Floating Disk|XPHB"
+              "Heroism|XPHB",
+              "Ray of Sickness|XPHB"
             ],
             "5": [
-              "Regenerating Ward|Arcamis",
-              "Silence|XPHB"
+              "Melf's Acid Arrow|XPHB",
+              "Wither and Bloom|SCC"
             ],
             "9": [
-              "Leomund's Tiny Hut|XPHB",
-              "Magic Circle|XPHB"
+              "Stinking Cloud|XPHB",
+              "Tidal Wave|XGE"
             ],
             "13": [
-              "Death Ward|XPHB",
-              "Otiluke's Resilient Sphere|XPHB"
+              "Confusion|XPHB",
+              "Blight|XPHB"
             ],
             "17": [
-              "Antilife Shell|XPHB",
-              "Wall of Force|XPHB"
+              "Cloudkill|XPHB",
+              "Contagion|XPHB"
             ]
           }
         }
@@ -2267,34 +2267,6 @@
       ]
     },
     {
-      "name": "Dauntless Vanguard",
-      "source": "Arcamis",
-      "shortName": "Vanguard",
-      "className": "Fighter",
-      "classSource": "XPHB",
-      "subclassFeatures": [
-        "Dauntless Vanguard|Fighter|XPHB|Vanguard|Arcamis|3",
-        "Spellbreaker|Fighter|XPHB|Vanguard|Arcamis|7",
-        "Perseverance|Fighter|XPHB|Vanguard|Arcamis|10",
-        "Crescent Guard|Fighter|XPHB|Vanguard|Arcamis|15",
-        "JUSTICE!|Fighter|XPHB|Vanguard|Arcamis|18"
-      ]
-    },
-    {
-      "name": "Outlaw",
-      "source": "Arcamis",
-      "shortName": "Outlaw",
-      "className": "Fighter",
-      "classSource": "XPHB",
-      "subclassFeatures": [
-        "Outlaw|Fighter|XPHB|Outlaw|Arcamis|3",
-        "Hit-and-Run|Fighter|XPHB|Outlaw|Arcamis|7",
-        "Frightening Weaponry|Fighter|XPHB|Outlaw|Arcamis|10",
-        "Right Tool for the Job|Fighter|XPHB|Outlaw|Arcamis|15",
-        "Make Them Explode|Fighter|XPHB|Outlaw|Arcamis|18"
-      ]
-    },
-    {
       "name": "Circle of the Ursids",
       "shortName": "Ursids",
       "source": "Arcamis",
@@ -2337,6 +2309,266 @@
         "Lightning Claws|Druid|XPHB|Ursids|Arcamis|6",
         "Skybreaker|Druid|XPHB|Ursids|Arcamis|10",
         "Wrath of the Thousand-Wounded Bear|Druid|XPHB|Ursids|Arcamis|14"
+      ]
+    },
+    {
+      "name": "Dauntless Vanguard",
+      "source": "Arcamis",
+      "shortName": "Vanguard",
+      "className": "Fighter",
+      "classSource": "XPHB",
+      "subclassFeatures": [
+        "Dauntless Vanguard|Fighter|XPHB|Vanguard|Arcamis|3",
+        "Spellbreaker|Fighter|XPHB|Vanguard|Arcamis|7",
+        "Perseverance|Fighter|XPHB|Vanguard|Arcamis|10",
+        "Crescent Guard|Fighter|XPHB|Vanguard|Arcamis|15",
+        "JUSTICE!|Fighter|XPHB|Vanguard|Arcamis|18"
+      ]
+    },
+    {
+      "name": "Outlaw",
+      "source": "Arcamis",
+      "shortName": "Outlaw",
+      "className": "Fighter",
+      "classSource": "XPHB",
+      "subclassFeatures": [
+        "Outlaw|Fighter|XPHB|Outlaw|Arcamis|3",
+        "Hit-and-Run|Fighter|XPHB|Outlaw|Arcamis|7",
+        "Frightening Weaponry|Fighter|XPHB|Outlaw|Arcamis|10",
+        "Right Tool for the Job|Fighter|XPHB|Outlaw|Arcamis|15",
+        "Make Them Explode|Fighter|XPHB|Outlaw|Arcamis|18"
+      ]
+    },
+    {
+      "name": "Lucky Card",
+      "source": "Arcamis",
+      "shortName": "Lucky Card",
+      "className": "Rogue",
+      "classSource": "XPHB",
+      "subclassFeatures": [
+        "Lucky Card|Rogue|XPHB|Lucky Card|Arcamis|3",
+        "Stacked Deck|Rogue|XPHB|Lucky Card|Arcamis|9",
+        "Magic Trick|Rogue|XPHB|Lucky Card|Arcamis|9",
+        "Topdeck|Rogue|XPHB|Lucky Card|Arcamis|13",
+        "Winning Hand|Rogue|XPHB|Lucky Card|Arcamis|17"
+      ]
+    },
+    {
+      "name": "Lunari Cultist",
+      "source": "Arcamis",
+      "shortName": "Lunari",
+      "className": "Rogue",
+      "classSource": "XPHB",
+      "subclassFeatures": [
+        "Lunari Cultist|Rogue|XPHB|Lunari|Arcamis|3",
+        "Lunar Assault|Rogue|XPHB|Lunari|Arcamis|9",
+        "More Sparkles!|Rogue|XPHB|Lunari|Arcamis|13",
+        "Moonlit Strikes|Rogue|XPHB|Lunari|Arcamis|17"
+      ]
+    },
+    {
+      "name": "Way of Kinkou",
+      "source": "Arcamis",
+      "shortName": "Kinkou",
+      "className": "Monk",
+      "classSource": "XPHB",
+      "subclassFeatures": [
+        "Way of Kinkou|Monk|XPHB|Kinkou|Arcamis|3",
+        "Spirit-Matter Step|Monk|XPHB|Kinkou|Arcamis|6",
+        "Inner Balance|Monk|XPHB|Kinkou|Arcamis|6",
+        "Judgment of Balance|Monk|XPHB|Kinkou|Arcamis|11",
+        "Twilight Form|Monk|XPHB|Kinkou|Arcamis|17"
+      ]
+    },
+    {
+      "name": "Oath of the Solari",
+      "source": "Arcamis",
+      "shortName": "Solari",
+      "className": "Paladin",
+      "classSource": "XPHB",
+      "subclassSpells": [
+        "Searing Smite|XPHB",
+        "Sanctuary|XPHB",
+        "Shining Smite|XPHB",
+        "Flaming Sphere|XPHB",
+        "Fireball|XPHB",
+        "Daylight|XPHB",
+        "Guardian of Faith|XPHB",
+        "Staggering Smite|XPHB",
+        "Dawn|XGE",
+        "Flame Strike|XPHB"
+      ],
+      "additionalSpells": [
+        {
+          "prepared": {
+            "3": [
+              "Searing Smite|XPHB",
+              "Sanctuary|XPHB"
+            ],
+            "5": [
+              "Shining Smite|XPHB",
+              "Flaming Sphere|XPHB"
+            ],
+            "9": [
+              "Fireball|XPHB",
+              "Daylight|XPHB"
+            ],
+            "13": [
+              "Guardian of Faith|XPHB",
+              "Staggering Smite|XPHB"
+            ],
+            "17": [
+              "Dawn|XGE",
+              "Flame Strike|XPHB"
+            ]
+          }
+        }
+      ],
+      "subclassFeatures": [
+        "Oath of the Solari|Paladin|XPHB|Solari|Arcamis|3",
+        "Illumination|Paladin|XPHB|Solari|Arcamis|7",
+        "Flaming Trail|Paladin|XPHB|Solari|Arcamis|15",
+        "I AM THE SUN|Paladin|XPHB|Solari|Arcamis|20"
+      ]
+    },
+    {
+      "name": "Sentinel",
+      "source": "Arcamis",
+      "shortName": "Sentinel",
+      "className": "Ranger",
+      "classSource": "XPHB",
+      "subclassSpells": [
+        "Faerie Fire|XPHB",
+        "See Invisibility|XPHB",
+        "Dispel Magic|XPHB",
+        "Death Ward|XPHB",
+        "Dispel Evil and Good|XPHB"
+      ],
+      "additionalSpells": [
+        {
+          "prepared": {
+            "3": [
+              "Faerie Fire|XPHB"
+            ],
+            "5": [
+              "See Invisibility|XPHB"
+            ],
+            "9": [
+              "Dispel Magic|XPHB"
+            ],
+            "13": [
+              "Death Ward|XPHB"
+            ],
+            "17": [
+              "Dispel Evil and Good|XPHB"
+            ]
+          }
+        }
+      ],
+      "subclassFeatures": [
+        "Sentinel|Ranger|XPHB|Sentinel|Arcamis|3",
+        "Shelter Step|Ranger|XPHB|Sentinel|Arcamis|7",
+        "Purifying Barrage|Ranger|XPHB|Sentinel|Arcamis|11",
+        "Dawn Defender|Ranger|XPHB|Sentinel|Arcamis|15"
+      ]
+    },
+    {
+      "name": "Bandle Sorcery",
+      "source": "Arcamis",
+      "shortName": "Bandle",
+      "className": "Sorcerer",
+      "classSource": "XPHB",
+      "subclassSpells": [
+        "Color Spray|XPHB",
+        "Druidcraft|XPHB",
+        "Enlarge/Reduce|XPHB",
+        "Chaos Bolt|XGE",
+        "Slow|XPHB",
+        "Plant Growth|XPHB",
+        "Polymorph|XPHB",
+        "Confusion|XPHB",
+        "Mislead|XPHB",
+        "Animate Objects|XPHB"
+      ],
+      "additionalSpells": [
+        {
+          "prepared": {
+            "3": [
+              "Color Spray|XPHB",
+              "Druidcraft|XPHB",
+              "Enlarge/Reduce|XPHB",
+              "Chaos Bolt|XGE"
+            ],
+            "5": [
+              "Slow|XPHB",
+              "Plant Growth|XPHB"
+            ],
+            "7": [
+              "Polymorph|XPHB",
+              "Confusion|XPHB"
+            ],
+            "9": [
+              "Mislead|XPHB",
+              "Animate Objects|XPHB"
+            ]
+          }
+        }
+      ],
+      "subclassFeatures": [
+        "Bandle Sorcery|Sorcerer|XPHB|Bandle|Arcamis|3",
+        "Mischievous Magic|Sorcerer|XPHB|Bandle|Arcamis|6",
+        "Hidden Paths|Sorcerer|XPHB|Bandle|Arcamis|6",
+        "Wild Growth|Sorcerer|XPHB|Bandle|Arcamis|14",
+        "Magical Journey|Sorcerer|XPHB|Bandle|Arcamis|18"
+      ]
+    },
+    {
+      "name": "Mist Patron",
+      "source": "Arcamis",
+      "shortName": "Mist",
+      "className": "Warlock",
+      "classSource": "XPHB",
+      "subclassSpells": [
+        "Arms of Hadar|XPHB",
+        "False Life|XPHB",
+        "Darkness|XPHB",
+        "Shadow Blade|XGE",
+        "Gaseous Form|XPHB",
+        "Summon Shadowspawn|TCE",
+        "Shadow of Moil|XGE",
+        "Sickening Radiance|XGE",
+        "Cloudkill|XPHB",
+        "Enervation|XGE"
+      ],
+      "additionalSpells": [
+        {
+          "prepared": {
+            "3": [
+              "Arms of Hadar|XPHB",
+              "False Life|XPHB",
+              "Darkness|XPHB",
+              "Shadow Blade|XGE"
+            ],
+            "5": [
+              "Gaseous Form|XPHB",
+              "Summon Shadowspawn|TCE"
+            ],
+            "7": [
+              "Shadow of Moil|XGE",
+              "Sickening Radiance|XGE"
+            ],
+            "9": [
+              "Cloudkill|XPHB",
+              "Enervation|XGE"
+            ]
+          }
+        }
+      ],
+      "subclassFeatures": [
+        "Mist Patron|Warlock|XPHB|Mist|Arcamis|3",
+        "Mist's Grasp|Warlock|XPHB|Mist|Arcamis|6",
+        "Mist Wraiths|Warlock|XPHB|Mist|Arcamis|10",
+        "Dread|Warlock|XPHB|Mist|Arcamis|14"
       ]
     }
   ],
@@ -3226,6 +3458,162 @@
       ]
     },
     {
+      "name": "Circle of the Ursids",
+      "source": "Arcamis",
+      "className": "Druid",
+      "classSource": "XPHB",
+      "subclassShortName": "Ursids",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "entries": [
+        "The Ursids are among the most dominant tribes of the Freljord, devoted to the Bear Spirit known as Volibear. Volibear is fiercely protective of the Freljord and scorns the weakness brought by civilization, yearning for a return to the Old Ways. Those who carry out his will become exceptionally powerful skinchangers, though this transformation also makes them destructive, savage, and fiercely resolute. ",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Circle Spells|Druid|XPHB|Ursids|Arcamis|3"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Stormclaw Transformation|Druid|XPHB|Ursids|Arcamis|3"
+        }
+      ]
+    },
+    {
+      "name": "Circle Spells",
+      "source": "Arcamis",
+      "className": "Druid",
+      "classSource": "XPHB",
+      "subclassShortName": "Ursids",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "When you reach a Druid level specified in the Circle of the Ursids Spells table, you thereafter always have the listed spells prepared.",
+        "In addition, you can cast the spells from this feature while you're in a Wild Shape form.",
+        {
+          "type": "table",
+          "caption": "Circle of the Ursids Spells",
+          "colLabels": [
+            "Druid Level",
+            "Spells"
+          ],
+          "colStyles": [
+            "col-2 text-center",
+            "col-10"
+          ],
+          "rows": [
+            [
+              "3rd",
+              "{@spell thunderwave}, {@spell fog cloud}"
+            ],
+            [
+              "5rd",
+              "{@spell call lightning}, {@spell sleet storm}"
+            ],
+            [
+              "7th",
+              "{@spell ice storm}, {@spell freedom of movement}"
+            ],
+            [
+              "9th",
+              "{@spell hold monster}, {@spell destructive wave}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Stormclaw Transformation",
+      "source": "Arcamis",
+      "className": "Druid",
+      "classSource": "XPHB",
+      "subclassShortName": "Ursids",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "You can channel the destructive essence of Volibear. As a {@variantrule Bonus Action|XPHB}, you can expend one use of Wild Shape to assume an ursine hybrid form. This form lasts for 10 minutes, until you end it (no action required), or until you become {@condition Incapacitated|XPHB}. This form counts as a use of Wild Shape.",
+        "While transformed, you gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@bold Winter's Fur.} You gain {@variantrule Temporary Hit Points|XPHB} equal to your Druid level.",
+            "{@bold Stormclaws.} Your {@variantrule Unarmed Strike|XPHB|Unarmed Strikes} deal {@damage 1d6} Slashing damage. You can use your Wisdom modifier instead of Strength for the attack and damage rolls of these attacks.",
+            "{@bold Bear Frenzy.} When you take the {@action Attack|XPHB} action on your turn, you can make one additional attack with your Stormclaws as a {@variantrule Bonus Action|XPHB}. You can use this benefit a number of times equal to your Wisdom modifier (minimum of 1), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}.",
+            "{@bold Thunderous Step.} Your walking speed increases by 10 feet."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lightning Claws",
+      "source": "Arcamis",
+      "className": "Druid",
+      "classSource": "XPHB",
+      "subclassShortName": "Ursids",
+      "subclassSource": "Arcamis",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "While you are in your Ancient Gods Transformation or Wild Shape, your weapon attacks and {@variantrule Unarmed Strike|XPHB|Unarmed Strikes} are infused with electrical energy. While in either of these forms, you gain the following benefits:",
+        {
+          "type": "entries",
+          "name": "Conversion",
+          "entries": [
+            "When you hit with an attack, you can choose to deal Lightning damage instead of the attack's normal damage type."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Chain Shock",
+          "entries": [
+            "Once per turn, when you deal damage to a creature with your Stormclaws, you can unleash a bolt of lightning. One other creature of your choice within 10 feet of the target takes {@damage 1d6} Lightning damage."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Skybreaker",
+      "source": "Arcamis",
+      "className": "Druid",
+      "classSource": "XPHB",
+      "subclassShortName": "Ursids",
+      "subclassSource": "Arcamis",
+      "level": 10,
+      "header": 2,
+      "entries": [
+        "You gain {@variantrule Resistance|XPHB} to Lightning and Thunder damage.",
+        "And the damage die of your Stormclaws increases to {@damage 1d8}.",
+        "When you cast {@spell Call Lightning|XPHB}, the first bolt of lightning created by the spell deals maximum damage instead of rolling its damage dice. If you are within the area of a spell you cast that deals Lightning damage, you can use your {@variantrule Bonus Action|XPHB} to absorb part of its energy, gaining {@variantrule Temporary Hit Points|XPHB} equal to your Druid level."
+      ]
+    },
+    {
+      "name": "Wrath of the Thousand-Wounded Bear",
+      "source": "Arcamis",
+      "className": "Druid",
+      "classSource": "XPHB",
+      "subclassShortName": "Ursids",
+      "subclassSource": "Arcamis",
+      "level": 14,
+      "header": 2,
+      "entries": [
+        "At 14th level, you fully awaken the power of your Stormclaw Transformation, gaining the following benefits.",
+        {
+          "type": "entries",
+          "name": "Unstoppable Storm",
+          "entries": [
+            "Your Chain Shock deals {@damage 2d6} Lightning damage, and it can affect one additional creature within 20 feet of the original target, for a maximum of two creatures."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Demigod's Impact",
+          "entries": [
+            "When you cast {@spell Destructive Wave|XPHB}, the spell save DC increases by 2. One creature of your choice that fails its saving throw is {@condition Stunned|XPHB} until the start of your next turn. Once you use this effect, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
+          ]
+        }
+      ]
+    },
+    {
       "name": "Dauntless Vanguard",
       "source": "Arcamis",
       "className": "Fighter",
@@ -3405,7 +3793,7 @@
       "header": 2,
       "entries": [
         "You gain proficiency in one of the following skills of your choice: {@skill Acrobatics} or {@skill Sleight of Hand}.",
-        "Once per turn, when you take the Attack action using a weapon granted by your Firearm Specialist feature, you can forgo adding your ability modifier to the damage roll to make a retreating maneuver, moving up to half your Speed without provoking Opportunity Attacks."
+        "Once per turn, when you take the Attack action using a weapon granted by your Firearm Specialist feature, you can forgo adding your ability modifier to the damage roll to make a retreating maneuver, moving up to half your Speed without provoking {@variantrule Opportunity Attacks|XPHB}."
       ]
     },
     {
@@ -3449,42 +3837,249 @@
       ]
     },
     {
-      "name": "Circle of the Ursids",
+      "name": "Lucky Card",
       "source": "Arcamis",
-      "className": "Druid",
+      "className": "Rogue",
       "classSource": "XPHB",
-      "subclassShortName": "Ursids",
+      "subclassShortName": "Lucky Card",
       "subclassSource": "Arcamis",
       "level": 3,
       "entries": [
-        "The Ursids are among the most dominant tribes of the Freljord, devoted to the Bear Spirit known as Volibear. Volibear is fiercely protective of the Freljord and scorns the weakness brought by civilization, yearning for a return to the Old Ways. Those who carry out his will become exceptionally powerful skinchangers, though this transformation also makes them destructive, savage, and fiercely resolute. ",
+        "Some rogues prefer to hone their skills and precision, while others perfect a sharp tongue... but you? You always have an ace up your sleeve. Rogues of the Lucky Card archetype thrive on the chaos of high-stakes gambles and the thrill of the unpredictable. Armed with cunning, tricks, and no small amount of luck, these gamblers live and die by their own rules, never simply accepting the hand fate has dealt them.",
         {
           "type": "refSubclassFeature",
-          "subclassFeature": "Circle Spells|Druid|XPHB|Ursids|Arcamis|3"
+          "subclassFeature": "Lucky Draw|Rogue|XPHB|Lucky Card|Arcamis|3"
         },
         {
           "type": "refSubclassFeature",
-          "subclassFeature": "Stormclaw Transformation|Druid|XPHB|Ursids|Arcamis|3"
+          "subclassFeature": "Sharp Dealer|Rogue|XPHB|Lucky Card|Arcamis|3"
         }
       ]
     },
     {
-      "name": "Circle Spells",
+      "name": "Lucky Draw",
       "source": "Arcamis",
-      "className": "Druid",
+      "className": "Rogue",
       "classSource": "XPHB",
-      "subclassShortName": "Ursids",
+      "subclassShortName": "Lucky Card",
       "subclassSource": "Arcamis",
       "level": 3,
       "header": 1,
       "entries": [
-        "When you reach a Druid level specified in the Circle of the Ursids Spells table, you thereafter always have the listed spells prepared.",
-        "In addition, you can cast the spells from this feature while you're in a Wild Shape form.",
+        "When you choose this archetype at 3rd level, you learn the {@spell Guidance|XPHB} cantrip. It requires no Verbal components.",
+        "Starting at 9th level, when you cast the cantrip on yourself, its range becomes 30 feet, and you can cast it as a {@variantrule Bonus Action|XPHB}."
+      ]
+    },
+    {
+      "name": "Sharp Dealer",
+      "source": "Arcamis",
+      "className": "Rogue",
+      "classSource": "XPHB",
+      "subclassShortName": "Lucky Card",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "You gain proficiency with {@item Playing Cards|XPHB} and a deck of enchanted cards, which you can use as a weapon. When you use it as a weapon the deck has the following statistics.",
+        {
+          "type": "statblockInline",
+          "dataType": "item",
+          "data": {
+            "name": "Card Deck",
+            "source": "Arcamis",
+            "type": "R|XPHB",
+            "rarity": "none",
+            "weaponCategory": "Simple",
+            "dmg1": "2d4",
+            "dmgType": "O",
+            "property": [
+              "F|XPHB",
+              "T|XPHB",
+              "L|XPHB"
+            ],
+            "mastery": [
+              "Nick|XPHB"
+            ],
+            "range": "45/60",
+            "weapon": true
+          }
+        },
+        "When you apply your Sneak Attack, roll its damage dice normally. The numbers rolled on the Card Deck's two damage dice determine which of the following effects you gain:",
+        {
+          "type": "list",
+          "name": "Card Effects",
+          "items": [
+            "1 — Spades. The target takes extra damage equal to half the damage dealt by your Sneak Attack (rounded down).",
+            "2 — Diamonds. The target's Speed is halved, and it can't make more than one attack on its next turn.",
+            "3 — Hearts. You gain {@variantrule Temporary Hit Points|XPHB} equal to half the damage dealt by your Sneak Attack.",
+            "4 — Clubs. Starting at 5th level, you can apply a Cunning Strike option without expending a Sneak Attack die."
+          ]
+        },
+        "If both dice show the same result, you choose which of the two corresponding effects to apply. You can use this effect a number of times equal to your Charisma modifier (minimum of 1). You regain one expended use when you finish a {@variantrule Short Rest|XPHB}, and all expended uses when you finish a {@variantrule Long Rest|XPHB}.",
+        "Finally, you can create an illusory deck of cards with no monetary value as a {@variantrule Bonus Action|XPHB}. The deck disappears if you remain more than 1 mile from it for 1 hour."
+      ]
+    },
+    {
+      "name": "Stacked Deck",
+      "source": "Arcamis",
+      "className": "Rogue",
+      "classSource": "XPHB",
+      "subclassShortName": "Lucky Card",
+      "subclassSource": "Arcamis",
+      "level": 9,
+      "header": 2,
+      "entries": [
+        "You always seem to know when it's time to fold. When the odds turn against you, you vanish in a flash. As a {@variantrule Bonus Action|XPHB}, you can teleport to an unoccupied space you can see within 120 feet of yourself. Once you use this feature, you can't use it again until you finish a {@variantrule Short Rest|XPHB}."
+      ]
+    },
+    {
+      "name": "Magic Trick",
+      "source": "Arcamis",
+      "className": "Rogue",
+      "classSource": "XPHB",
+      "subclassShortName": "Lucky Card",
+      "subclassSource": "Arcamis",
+      "level": 9,
+      "header": 2,
+      "entries": [
+        "Your mastery of cards has led you to develop innovative and occasionally controversial ways to escape sticky situations. You can cast {@spell Spray of Cards|BMT} without a spell slot a number of times equal to your Charisma modifier (minimum of 1). You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}. Charisma is your spellcasting ability for this feature."
+      ]
+    },
+    {
+      "name": "Topdeck",
+      "source": "Arcamis",
+      "className": "Rogue",
+      "classSource": "XPHB",
+      "subclassShortName": "Lucky Card",
+      "subclassSource": "Arcamis",
+      "level": 13,
+      "header": 2,
+      "entries": [
+        "Your mastery of the gaming table sharpens your speed and cunning in combat. You have {@variantrule Advantage|XPHB} on {@variantrule Initiative|XPHB} rolls. In addition, after rolling Initiative but before the first turn of combat, you can choose to swap your place in the Initiative order with that creature."
+      ]
+    },
+    {
+      "name": "Winning Hand",
+      "source": "Arcamis",
+      "className": "Rogue",
+      "classSource": "XPHB",
+      "subclassShortName": "Lucky Card",
+      "subclassSource": "Arcamis",
+      "level": 17,
+      "header": 2,
+      "entries": [
+        "As an {@action Magic|XPHB|Magic Action}, you can throw a card at each creature of your choice within 90 feet of yourself. Each enemy creature in that area must make a Dexterity saving throw against a DC equal to 8 + your Proficiency Bonus + your Charisma modifier. On a failed save, a creature takes damage equal to the number rolled for your Sneak Attack. On a successful save, it takes half as much damage. In addition, you can rearrange the Initiative order of all creatures hit by the cards.",
+        "You can use this feature three times, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+      ]
+    },
+    {
+      "name": "Lunari Cultist",
+      "source": "Arcamis",
+      "className": "Rogue",
+      "classSource": "XPHB",
+      "subclassShortName": "Lunari",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "entries": [
+        "Some rogues prefer to hone their skills and precision, while others perfect a sharp tongue... but you? You always have an ace up your sleeve. Rogues of the Lunari Cultist archetype thrive on the chaos of high-stakes gambles and the thrill of the unpredictable. Armed with cunning, tricks, and no small amount of luck, these gamblers live and die by their own rules, never simply accepting the hand fate has dealt them.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Moonlit Armament|Rogue|XPHB|Lunari|Arcamis|3"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Moonlit Veil|Rogue|XPHB|Lunari|Arcamis|3"
+        }
+      ]
+    },
+    {
+      "name": "Moonlit Armament",
+      "source": "Arcamis",
+      "className": "Rogue",
+      "classSource": "XPHB",
+      "subclassShortName": "Lunari",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "Your bond with the moon allows you to draw upon a portion of its power. You can form a mystical bond with up to two Simple or Martial weapons. To form a bond, you must spend a {@variantrule Short Rest|XPHB} meditating on one or more weapons while touching them. If the {@variantrule Short Rest|XPHB} is interrupted or you are already bonded to two weapons, the attempt fails. Once bonded to a weapon, you can summon it to your hand or dismiss it as a {@action Magic|XPHB} Action, causing it to appear or vanish in a flash of pale moonlight. You can also summon or dismiss a bonded weapon as part of the {@action Attack|XPHB} action, or dismiss it immediately after dealing damage, requiring no action. A bonded weapon must be within 5 feet of you to be dismissed. The bond ends when you use a {@action Magic|XPHB} Action to end it or when you die. If you die, any bonded weapon that was dismissed appears in an unoccupied space within 5 feet of you.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Lunar Blessings|Rogue|XPHB|Lunari|Arcamis|3"
+        }
+      ]
+    },
+    {
+      "name": "Lunar Blessings",
+      "source": "Arcamis",
+      "className": "Rogue",
+      "classSource": "XPHB",
+      "subclassShortName": "Lunari",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "At the start of Initiative, you can assign a different Lunar Blessing to each of your bonded weapons. A weapon can have only one blessing at a time, and the same blessing can't be assigned to more than one weapon.",
+        "When you expend a blessing, you can assign a new blessing to that weapon from among those you haven't yet used. Once you have expended all five blessings, all five become available again.",
+        "If you are wielding two bonded weapons, each weapon must have a different blessing.",
+        {
+          "type": "list",
+          "items": [
+            "{@b Calibrum.} When you miss with an attack using this weapon, you can expend its blessing to reroll the attack roll. You must use the new roll.",
+            "{@b Severum.} When you deal Sneak Attack damage with this weapon, you can expend its blessing to regain {@variantrule Hit Points|XPHB} equal to half the Sneak Attack damage dealt, rounded down.",
+            "{@b Infernum.} When you deal Sneak Attack damage with this weapon, you can expend its blessing to deal Fire damage to each other creature of your choice within 10 feet of the target. The damage equals half the Sneak Attack damage dealt, rounded down.",
+            "{@b Gravitum.} When you hit a creature with this weapon, you can expend its blessing to reduce its Speed to 0 and prevent it from taking {@variantrule Reactions|XPHB} until the start of your next turn.",
+            "{@b Crescendum.} When you deal damage with this weapon, you can create an ethereal chakram that orbits you for 1 minute. You can have up to two chakrams at a time. When you deal damage with this weapon while you have one or more chakrams, you can expend its blessing to launch any number of those chakrams at the creature you damaged. Each chakram is destroyed on impact and deals {@damage 1d6} Radiant damage."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Moonlit Veil",
+      "source": "Arcamis",
+      "className": "Rogue",
+      "classSource": "XPHB",
+      "subclassShortName": "Lunari",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "You have {@variantrule Advantage|XPHB} on Dexterity ({@skill Stealth}) checks while you are in moonlight."
+      ]
+    },
+    {
+      "name": "Lunar Assault",
+      "source": "Arcamis",
+      "className": "Rogue",
+      "classSource": "XPHB",
+      "subclassShortName": "Lunari",
+      "subclassSource": "Arcamis",
+      "level": 9,
+      "header": 2,
+      "entries": [
+        "You have {@variantrule Advantage|XPHB} on attack rolls against creatures illuminated by moonlight. When you deal damage to a creature with an attack, you can bathe it in pale moonlight until the end of your next turn.",
+        "When you deal damage to a creature bathed in moonlight, you can empower the attack with lunar light, dealing an extra {@damage 1d6} Radiant damage and immediately moving up to 15 feet. This movement doesn't provoke {@variantrule Opportunity Attacks|XPHB} and doesn't count against your Speed for the turn.",
+        "You can deal this extra damage a number of times equal to your Wisdom modifier (minimum of 1). You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+      ]
+    },
+    {
+      "name": "More Sparkles!",
+      "source": "Arcamis",
+      "className": "Rogue",
+      "classSource": "XPHB",
+      "subclassShortName": "Lunari",
+      "subclassSource": "Arcamis",
+      "level": 13,
+      "header": 2,
+      "entries": [
+        "You gain a Spell Table containing eight spells chosen from the list below. When you gain this feature, choose eight spells from the list to add to your Spell Table. When an enemy creature within 30 feet of you dies, it leaves behind a Magic Shard. You can use your {@variantrule Reaction|XPHB} or {@variantrule Bonus Action|XPHB} to collect the shard.",
+        "When you collect a shard, roll {@dice 1d8}. The result determines which spell from your Spell Table you gain. You retain the spell for 8 hours or until you cast it. You can't collect another Magic Shard while you have a spell gained from this feature. Once you cast the spell, you lose it.",
+        "The saving throw DC for spells gained from this feature equals 8 + your Proficiency Bonus + your Wisdom modifier. Whenever you finish a {@variantrule Long Rest|XPHB}, you can replace one spell on your Spell Table with another spell from the list below. You can't have more than two spells of the same level on your Spell Table. When you reach 17th level, you can add 5th-level spells to your Spell Table.",
         {
           "type": "table",
-          "caption": "Circle of the Ursids Spells",
+          "caption": "Spell Table",
           "colLabels": [
-            "Druid Level",
+            "Spell Level",
             "Spells"
           ],
           "colStyles": [
@@ -3493,115 +4088,879 @@
           ],
           "rows": [
             [
+              "1st",
+              "{@spell False Life|XPHB}, {@spell Spellfire Flare|FRHoF}, {@spell Divine Favor|XPHB}, {@spell Faerie Fire|XPHB}, {@spell Cloak of Shadow|BoET}, {@spell Ensnaring Strike|XPHB}"
+            ],
+            [
+              "2nd",
+              "{@spell Invisibility|XPHB}, {@spell Silence|XPHB}, {@spell Blur|XPHB}, {@spell Misty Step|XPHB}, {@spell Ambush Prey|HWCS}, {@spell Mirror Image|XPHB}"
+            ],
+            [
               "3rd",
-              "{@spell thunderwave}, {@spell fog cloud}"
+              "{@spell Fear|XPHB}, {@spell Crusader's Mantle|XPHB}, {@spell Shadow Portal|BoET}, {@spell Major Image|XPHB}, {@spell Hypnotic Pattern|XPHB}, {@spell Nondetection|XPHB}"
             ],
             [
-              "5rd",
-              "{@spell call lightning}, {@spell sleet storm}"
+              "4th",
+              "{@spell Confusion|XPHB}, {@spell Dimension Door|XPHB}, {@spell Hallucinatory Terrain|XPHB}, {@spell Greater Invisibility|XPHB}, {@spell Phantasmal Killer|XPHB}, {@spell Stellar Bodies|HWCS}"
             ],
             [
-              "7th",
-              "{@spell ice storm}, {@spell freedom of movement}"
-            ],
-            [
-              "9th",
-              "{@spell hold monster}, {@spell destructive wave}"
+              "5th",
+              "{@spell Alustriel's Mooncloak|FRHoF}, {@spell Commune|XPHB}, {@spell Conjure Volley|XPHB}, {@spell Dispel Evil and Good|XPHB}, {@spell Mislead|XPHB}, {@spell Far Step|XGE}"
             ]
           ]
         }
       ]
     },
     {
-      "name": "Stormclaw Transformation",
+      "name": "Moonlit Strikes",
       "source": "Arcamis",
-      "className": "Druid",
+      "className": "Rogue",
       "classSource": "XPHB",
-      "subclassShortName": "Ursids",
+      "subclassShortName": "Lunari",
+      "subclassSource": "Arcamis",
+      "level": 17,
+      "header": 2,
+      "entries": [
+        "When you make an attack roll against a creature illuminated by moonlight, the attack scores a Critical Hit on a roll of 19 or 20 on the {@dice d20}."
+      ]
+    },
+    {
+      "name": "Way of Kinkou",
+      "source": "Arcamis",
+      "className": "Monk",
+      "classSource": "XPHB",
+      "subclassShortName": "Kinkou",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "entries": [
+        "The Kinkou Order is an ancient Ionian organization dedicated to preserving the balance between the physical world and the spirit realm. The Kinkou hone both body and spirit, using each to strengthen the other.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Twilight Sight|Monk|XPHB|Kinkou|Arcamis|3"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Disrupting Strikes|Monk|XPHB|Kinkou|Arcamis|3"
+        }
+      ]
+    },
+    {
+      "name": "Twilight Sight",
+      "source": "Arcamis",
+      "className": "Monk",
+      "classSource": "XPHB",
+      "subclassShortName": "Kinkou",
       "subclassSource": "Arcamis",
       "level": 3,
       "header": 1,
       "entries": [
-        "You can channel the destructive essence of Volibear. As a {@variantrule Bonus Action|XPHB}, you can expend one use of Wild Shape to assume an ursine hybrid form. This form lasts for 10 minutes, until you end it (no action required), or until you become {@condition Incapacitated|XPHB}. This form counts as a use of Wild Shape.",
-        "While transformed, you gain the following benefits:",
+        "Your perception transcends the physical world, allowing you to sense disturbances in the balance. As a {@variantrule Bonus Action|XPHB}, you can enter a heightened state of awareness for 1 minute. During this time:",
         {
           "type": "list",
           "items": [
-            "{@bold Winter's Fur.} You gain {@variantrule Temporary Hit Points|XPHB} equal to your Druid level.",
-            "{@bold Stormclaws.} Your {@variantrule Unarmed Strike|XPHB|Unarmed Strikes} deal {@damage 1d6} Slashing damage. You can use your Wisdom modifier instead of Strength for the attack and damage rolls of these attacks.",
-            "{@bold Bear Frenzy.} When you take the {@action Attack|XPHB} action on your turn, you can make one additional attack with your Stormclaws as a {@variantrule Bonus Action|XPHB}. You can use this benefit a number of times equal to your Wisdom modifier (minimum of 1), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}.",
-            "{@bold Thunderous Step.} Your walking speed increases by 10 feet."
+            "You know when an {@condition invisible|XPHB} creature is within 10 feet of you, though you don't know its exact location.",
+            "You know whether a creature within 30 feet of you is affected by a spell.",
+            "You know whether a creature within 30 feet of you is possessed or influenced by an extraplanar force."
+          ]
+        },
+        "You can use this feature a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}. You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+      ]
+    },
+    {
+      "name": "Disrupting Strikes",
+      "source": "Arcamis",
+      "className": "Monk",
+      "classSource": "XPHB",
+      "subclassShortName": "Kinkou",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "Your strikes disrupt the inner harmony of your foes. Once per turn, when you hit a creature with an {@variantrule Unarmed Strike|XPHB}, you can impose one of the following effects on it until the start of your next turn:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Physical Disruption.} The creature takes a −2 penalty to its {@variantrule Armor Class|XPHB}.",
+            "{@b Mental Disruption.} The creature has {@variantrule Disadvantage|XPHB} on the next saving throw it makes."
           ]
         }
       ]
     },
     {
-      "name": "Lightning Claws",
+      "name": "Spirit-Matter Step",
       "source": "Arcamis",
-      "className": "Druid",
+      "className": "Monk",
       "classSource": "XPHB",
-      "subclassShortName": "Ursids",
+      "subclassShortName": "Kinkou",
       "subclassSource": "Arcamis",
       "level": 6,
       "header": 2,
       "entries": [
-        "While you are in your Ancient Gods Transformation or Wild Shape, your weapon attacks and {@variantrule Unarmed Strike|XPHB|Unarmed Strikes} are infused with electrical energy. While in either of these forms, you gain the following benefits:",
+        "You have learned to move between the Material Plane and the Spirit Realm. When you use Step of the Wind, you gain the following benefits until the end of the turn:",
         {
-          "type": "entries",
-          "name": "Conversion",
-          "entries": [
-            "When you hit with an attack, you can choose to deal Lightning damage instead of the attack's normal damage type."
-          ]
-        },
-        {
-          "type": "entries",
-          "name": "Chain Shock",
-          "entries": [
-            "Once per turn, when you deal damage to a creature with your Stormclaws, you can unleash a bolt of lightning. One other creature of your choice within 10 feet of the target takes {@damage 1d6} Lightning damage."
+          "type": "list",
+          "items": [
+            "You can move through the space of other creatures and objects of your size or larger without treating those spaces as {@variantrule Difficult Terrain|XPHB}.",
+            "Your movement doesn't provoke {@variantrule Opportunity Attacks|XPHB}.",
+            "The first attack that hits during this turn deals extra Radiant or Necrotic damage (your choice) equal to one roll of your Martial Arts die."
           ]
         }
       ]
     },
     {
-      "name": "Skybreaker",
+      "name": "Inner Balance",
       "source": "Arcamis",
-      "className": "Druid",
+      "className": "Monk",
       "classSource": "XPHB",
-      "subclassShortName": "Ursids",
+      "subclassShortName": "Kinkou",
       "subclassSource": "Arcamis",
-      "level": 10,
+      "level": 6,
       "header": 2,
       "entries": [
-        "You gain {@variantrule Resistance|XPHB} to Lightning and Thunder damage.",
-        "And the damage die of your Stormclaws increases to {@damage 1d8}.",
-        "When you cast {@spell Call Lightning|XPHB}, the first bolt of lightning created by the spell deals maximum damage instead of rolling its damage dice. If you are within the area of a spell you cast that deals Lightning damage, you can use your {@variantrule Bonus Action|XPHB} to absorb part of its energy, gaining {@variantrule Temporary Hit Points|XPHB} equal to your Druid level."
+        "When your body falters, your spirit grows stronger. At the start of your turn, if you have {@variantrule Hit Points|XPHB} equal to or less than half your {@variantrule Hit Points|XPHB} maximum, you gain one of the following benefits until the start of your next turn:",
+        {
+          "type": "list",
+          "items": [
+            "You gain a +2 bonus to Armor Class.",
+            "You have {@variantrule Advantage|XPHB} on saving throws against spells that impose conditions or force you to move or attack."
+          ]
+        }
       ]
     },
     {
-      "name": "Wrath of the Thousand-Wounded Bear",
+      "name": "Judgment of Balance",
       "source": "Arcamis",
-      "className": "Druid",
+      "className": "Monk",
       "classSource": "XPHB",
-      "subclassShortName": "Ursids",
+      "subclassShortName": "Kinkou",
+      "subclassSource": "Arcamis",
+      "level": 11,
+      "header": 2,
+      "entries": [
+        "You can punish those who disrupt the harmony. When you hit a creature affected by one of your Disrupting Strikes, you can spend 1 Focus Point to impose one of the following effects:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Spiritual Silence.} The creature can't cast spells with Verbal components until the start of your next turn.",
+            "{@b Flow Lock.} The creature's Speed becomes 0 until the start of your next turn.",
+            "{@b Restored Order.} The creature takes extra damage equal to two rolls of your Martial Arts die and can't take {@variantrule Reactions|XPHB} until the start of your next turn."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Twilight Form",
+      "source": "Arcamis",
+      "className": "Monk",
+      "classSource": "XPHB",
+      "subclassShortName": "Kinkou",
+      "subclassSource": "Arcamis",
+      "level": 17,
+      "header": 2,
+      "entries": [
+        "You embody the perfect balance between light and shadow. As a {@variantrule Bonus Action|XPHB}, you can spend 4 Focus Points to assume this form for 1 minute. During this time, you gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "At the end of each of your turns, you gain {@variantrule Temporary Hit Points|XPHB} equal to 10 times the number of Focus Points you spent to activate this feature. The Temporary Hit Points you gain from this feature accumulate with those gained from this feature on previous turns.",
+            "When you hit with an {@variantrule Unarmed Strike|XPHB}, you automatically apply both effects of Disrupting Strikes.",
+            "You can use the additional benefits of Step of the Wind without spending Focus Points."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Oath of the Solari",
+      "source": "Arcamis",
+      "className": "Paladin",
+      "classSource": "XPHB",
+      "subclassShortName": "Solari",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "entries": [
+        "Devoted to the worship of the sun, the Solari are the elite warriors of the Rakkor people. They draw celestial power directly from within themselves, wielding it to protect Targon, annihilate their enemies, and destroy every source of false light.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Oath of Solari Spells|Paladin|XPHB|Solari|Arcamis|3"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Solar Barrier|Paladin|XPHB|Solari|Arcamis|3"
+        }
+      ]
+    },
+    {
+      "name": "Oath of Solari Spells",
+      "source": "Arcamis",
+      "className": "Paladin",
+      "classSource": "XPHB",
+      "subclassShortName": "Solari",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "entries": [
+        "When you reach a Paladin level specified in the Oath of Solari Spells table, you thereafter always have the listed spells prepared.",
+        {
+          "caption": "Oath of Solari Spells",
+          "type": "table",
+          "colLabels": [
+            "Paladin Level",
+            "Spells"
+          ],
+          "colStyles": [
+            "col-3 text-center",
+            "col-9"
+          ],
+          "rows": [
+            [
+              3,
+              "{@spell Searing Smite|XPHB}, {@spell Sanctuary|XPHB}"
+            ],
+            [
+              5,
+              "{@spell Shining Smite|XPHB}, {@spell Flaming Sphere|XPHB}"
+            ],
+            [
+              9,
+              "{@spell Fireball|XPHB}, {@spell Daylight|XPHB}"
+            ],
+            [
+              13,
+              "{@spell Guardian of Faith|XPHB}, {@spell Staggering Smite|XPHB}"
+            ],
+            [
+              17,
+              "{@spell Dawn|XGE}, {@spell Flame Strike|XPHB}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Solar Barrier",
+      "source": "Arcamis",
+      "className": "Paladin",
+      "classSource": "XPHB",
+      "subclassShortName": "Solari",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "When you take damage, you can use your {@variantrule Reaction|XPHB} to expend a use of Channel Divinity and gain {@variantrule Resistance|XPHB} to all damage types until the end of your next turn. When this effect ends, radiant light erupts from you. Each creature of your choice within a 10-foot Emanation originating from you takes {@damage 1d8} + your Charisma modifier Radiant damage."
+      ]
+    },
+    {
+      "name": "Illumination",
+      "source": "Arcamis",
+      "className": "Paladin",
+      "classSource": "XPHB",
+      "subclassShortName": "Solari",
+      "subclassSource": "Arcamis",
+      "level": 7,
+      "header": 2,
+      "entries": [
+        "After you deal Radiant damage to a creature using a Channel Divinity option or a Paladin spell, you can mark that creature with unstable light until the start of your next turn. If a creature other than you deals damage to the marked creature, the mark detonates. The marked creature takes an extra {@damage 1d12} Radiant damage, and the mark ends. A creature can have only one Light Mark at a time."
+      ]
+    },
+    {
+      "name": "Flaming Trail",
+      "source": "Arcamis",
+      "className": "Paladin",
+      "classSource": "XPHB",
+      "subclassShortName": "Solari",
+      "subclassSource": "Arcamis",
+      "level": 15,
+      "header": 2,
+      "entries": [
+        "Once per turn, when you take the {@action Attack|XPHB} action, you can replace one of your attacks with a ranged attack against a creature you can see within 30 feet, using the same melee weapon you are wielding.",
+        {
+          "type": "list",
+          "items": [
+            "{@b Miss.} The weapon disappears and reappears in your hand.",
+            "{@b Hit.} The attack deals damage normally, and you teleport to the nearest unoccupied space to the target with the weapon in hand."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "I AM THE SUN",
+      "source": "Arcamis",
+      "className": "Paladin",
+      "classSource": "XPHB",
+      "subclassShortName": "Solari",
+      "subclassSource": "Arcamis",
+      "level": 20,
+      "header": 2,
+      "entries": [
+        "You can infuse yourself with divine light. As a {@variantrule Bonus Action|XPHB}, you gain the following benefits for 1 minute. You can end this effect at any time (no action required). Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}.",
+        "You can also regain one expended use of this feature by expending a 5th-level spell slot (no action required).",
+        {
+          "type": "entries",
+          "name": "Solar Aura",
+          "entries": [
+            "A brilliant aura of light erupts from your chest, extending to the radius of your Aura. Each creature of your choice in the aura must make a Constitution saving throw.",
+            {
+              "type": "list",
+              "items": [
+                "{@b Failure.} The creature takes {@damage 6d8} Radiant damage.",
+                "{@b Success.} The creature takes half as much damage."
+              ]
+            },
+            "Undead and Oozes have {@variantrule Disadvantage|XPHB} on this saving throw."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Stunning Radiance",
+          "entries": [
+            "When you deal Radiant damage to a creature with a spell or a feature of this class, you can force it to make a Constitution saving throw against your Paladin spell save DC. On a failed save, the creature has the {@condition Stunned|XPHB} condition until the end of its next turn."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sentinel",
+      "source": "Arcamis",
+      "className": "Ranger",
+      "classSource": "XPHB",
+      "subclassShortName": "Sentinel",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "entries": [
+        "The Sentinels are hunters who wield an ancient magic, infusing it into their weapons to fight and vanquish evil.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Sentinel Spells|Ranger|XPHB|Sentinel|Arcamis|3"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Chosen Weapon|Ranger|XPHB|Sentinel|Arcamis|3"
+        }
+      ]
+    },
+    {
+      "name": "Sentinel Spells",
+      "source": "Arcamis",
+      "className": "Ranger",
+      "classSource": "XPHB",
+      "subclassShortName": "Sentinel",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "entries": [
+        "When you reach a Ranger level specified in the Sentinel Spells table, you thereafter always have the listed spells prepared.",
+        {
+          "caption": "Sentinel Spells",
+          "type": "table",
+          "colLabels": [
+            "Ranger Level",
+            "Spells"
+          ],
+          "colStyles": [
+            "col-3 text-center",
+            "col-9"
+          ],
+          "rows": [
+            [
+              3,
+              "{@spell Faerie Fire|XPHB}"
+            ],
+            [
+              5,
+              "{@spell See Invisibility|XPHB}"
+            ],
+            [
+              9,
+              "{@spell Dispel Magic|XPHB}"
+            ],
+            [
+              13,
+              "{@spell Death Ward|XPHB}"
+            ],
+            [
+              17,
+              "{@spell Dispel Evil and Good|XPHB}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chosen Weapon",
+      "source": "Arcamis",
+      "className": "Ranger",
+      "classSource": "XPHB",
+      "subclassShortName": "Sentinel",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "You can imbue your weapons with the essence of your Sentinel Oath. Once per turn, when you hit a creature with a weapon attack, you can deal an extra 1d6 damage of your chosen type. This extra damage increases to 2d6 at 11th level.",
+        "When you gain this feature, choose one of the following damage types:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Radiant.} You hunt the Mist.",
+            "{@b Necrotic.} You hunt Celestials.",
+            "{@b Psychic.} You hunt mages.",
+            "{@b Thunder.} You hunt the Void."
+          ]
+        },
+        "Your choice determines the damage type of the extra damage and can't be changed unless a feature allows you to change it."
+      ]
+    },
+    {
+      "name": "Spark Mark",
+      "source": "Arcamis",
+      "className": "Ranger",
+      "classSource": "XPHB",
+      "subclassShortName": "Sentinel",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "As a {@variantrule Bonus Action|XPHB}, you can mark one creature you can see within 60 feet of yourself for 1 minute. The mark ends early if you are {@condition Incapacitated|XPHB}. For the duration, the marked creature sheds {@variantrule Dim Light|XPHB} in a 10-foot radius and doesn't benefit from the {@condition Invisible|XPHB} condition. The first time on each of your allies' turns that an ally hits the marked creature with an attack, the attack deals extra damage equal to your Wisdom modifier. This extra damage is the same type as the extra damage dealt by your Chosen Weapon feature. You can use this feature a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}. You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+      ]
+    },
+    {
+      "name": "Shelter Step",
+      "source": "Arcamis",
+      "className": "Ranger",
+      "classSource": "XPHB",
+      "subclassShortName": "Sentinel",
+      "subclassSource": "Arcamis",
+      "level": 7,
+      "header": 2,
+      "entries": [
+        "When you take damage, you can take a {@variantrule Reaction|XPHB} to teleport up to 30 feet to an unoccupied space you can see. If you end the teleport within 5 feet of an ally, you and that ally gain {@variantrule Temporary Hit Points|XPHB} equal to your Ranger level. You can use this feature a number of times equal to your Wisdom modifier (minimum of 1), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+      ]
+    },
+    {
+      "name": "Purifying Barrage",
+      "source": "Arcamis",
+      "className": "Ranger",
+      "classSource": "XPHB",
+      "subclassShortName": "Sentinel",
+      "subclassSource": "Arcamis",
+      "level": 11,
+      "header": 2,
+      "entries": [
+        "As a {@action Magic|XPHB|Magic Action}, you can channel your inner strength and project a beam in a 60-foot-long, 5-foot-wide Line. Each creature in the Line must make a Dexterity saving throw against your Ranger spell save DC. On a failed save, a creature takes {@damage 4d8} damage of the type determined by your Chosen Weapon feature and suffers an additional effect based on that damage type:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Radiant.} The creature has the {@condition Blinded|XPHB} condition until the end of its next turn.",
+            "{@b Necrotic.} The creature can't regain {@variantrule Hit Points|XPHB} until the start of your next turn.",
+            "{@b Psychic.} The creature can't cast spells until the start of your next turn.",
+            "{@b Thunder.} The creature has the {@condition Stunned|XPHB} condition until the start of your next turn."
+          ]
+        },
+        "On a successful save, the creature takes half as much damage only. Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
+      ]
+    },
+    {
+      "name": "Dawn Defender",
+      "source": "Arcamis",
+      "className": "Ranger",
+      "classSource": "XPHB",
+      "subclassShortName": "Sentinel",
+      "subclassSource": "Arcamis",
+      "level": 15,
+      "header": 2,
+      "entries": [
+        "You gain {@variantrule Resistance|XPHB} to the damage type associated with your Chosen Weapon feature.",
+        "In addition, you can expend two uses of Favored Enemy to activate this feature. For the next 10 minutes, you and each ally within 60 feet of you when you activate it gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "You have Advantage on saving throws against the {@condition Charmed|XPHB} and {@condition Frightened|XPHB} conditions.",
+            "At the start of each of your turns, you and each ally affected by this feature gain {@variantrule Temporary Hit Points|XPHB} equal to twice your Wisdom modifier."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bandle Sorcery",
+      "source": "Arcamis",
+      "className": "Sorcerer",
+      "classSource": "XPHB",
+      "subclassShortName": "Bandle",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "entries": [
+        "Occasionally, a yordle leaves the Fey realm of Bandle City to venture into Aetherion, or a mortal stumbles upon it and returns from their magical journey forever changed.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Bandle Spells|Sorcerer|XPHB|Bandle|Arcamis|3"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Timeless|Sorcerer|XPHB|Bandle|Arcamis|3"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Whimsy|Sorcerer|XPHB|Bandle|Arcamis|3"
+        }
+      ]
+    },
+    {
+      "name": "Bandle Spells",
+      "source": "Arcamis",
+      "className": "Sorcerer",
+      "classSource": "XPHB",
+      "subclassShortName": "Bandle",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "entries": [
+        "When you reach a Sorcerer level specified in the Bandle Spells table, you thereafter always have the listed spells prepared.",
+        {
+          "caption": "Bandle Spells",
+          "type": "table",
+          "colLabels": [
+            "Sorcerer Level",
+            "Spells"
+          ],
+          "colStyles": [
+            "col-3 text-center",
+            "col-9"
+          ],
+          "rows": [
+            [
+              3,
+              "{@spell Color Spray|XPHB}, {@spell Druidcraft|XPHB}, {@spell Enlarge/Reduce|XPHB}, {@spell Chaos Bolt|XGE}"
+            ],
+            [
+              5,
+              "{@spell Slow|XPHB}, {@spell Plant Growth|XPHB}"
+            ],
+            [
+              7,
+              "{@spell Polymorph|XPHB}, {@spell Confusion|XPHB}"
+            ],
+            [
+              9,
+              "{@spell Mislead|XPHB}, {@spell Animate Objects|XPHB}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Timeless",
+      "source": "Arcamis",
+      "className": "Sorcerer",
+      "classSource": "XPHB",
+      "subclassShortName": "Bandle",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "entries": [
+        "Exposure to Bandle City has altered your body, causing you to age much more slowly. For every 3 years that pass, your body ages only 1 year."
+      ]
+    },
+    {
+      "name": "Whimsy",
+      "source": "Arcamis",
+      "className": "Sorcerer",
+      "classSource": "XPHB",
+      "subclassShortName": "Bandle",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "When you cast a spell using a spell slot that targets one or more creatures, you can choose one of those creatures and roll {@dice 1d6} on either the Beneficial Whimsy or Detrimental Whimsy table.",
+        {
+          "caption": "Beneficial Whimsy",
+          "type": "table",
+          "colLabels": [
+            "Roll",
+            "Effect"
+          ],
+          "colStyles": [
+            "col-2 text-center",
+            "col-10"
+          ],
+          "rows": [
+            [
+              "1",
+              "The creature regains {@variantrule Hit Points|XPHB} equal to your Charisma modifier. Any Hit Points restored beyond its maximum become {@variantrule Temporary Hit Points|XPHB}."
+            ],
+            [
+              "2",
+              "The creature gains a {@dice 1d4} bonus to attack rolls, saving throws, and ability checks until the end of its next turn."
+            ],
+            [
+              "3",
+              "The creature teleports up to 10 feet to an unoccupied space you can see."
+            ],
+            [
+              "4",
+              "The next {@dice d20} Test the creature makes before the end of its next turn that has a roll of 1–9 becomes a 10."
+            ],
+            [
+              "5",
+              "The next attack roll made against the creature before the end of your next turn has {@variantrule Disadvantage|XPHB}."
+            ],
+            [
+              "6",
+              "Choose another beneficial effect from this table."
+            ]
+          ]
+        },
+        {
+          "caption": "Detrimental Whimsy",
+          "type": "table",
+          "colLabels": [
+            "Roll",
+            "Effect"
+          ],
+          "colStyles": [
+            "col-2 text-center",
+            "col-10"
+          ],
+          "rows": [
+            [
+              "1",
+              "The creature takes damage equal to your Charisma modifier."
+            ],
+            [
+              "2",
+              "The creature subtracts {@dice 1d4} from attack rolls, saving throws, and ability checks until the end of its next turn."
+            ],
+            [
+              "3",
+              "You teleport the creature up to 10 feet to an unoccupied space you can see."
+            ],
+            [
+              "4",
+              "The creature's Speed is halved until the end of its next turn."
+            ],
+            [
+              "5",
+              "The next attack roll made against the creature before the end of your next turn has {@variantrule Advantage|XPHB}."
+            ],
+            [
+              "6",
+              "Choose another detrimental effect from this table."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mischievous Magic",
+      "source": "Arcamis",
+      "className": "Sorcerer",
+      "classSource": "XPHB",
+      "subclassShortName": "Bandle",
+      "subclassSource": "Arcamis",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "When you spend a Sorcery Point on a spell that triggers your Whimsy feature, you can choose one additional effect from either the Beneficial Whimsy or Detrimental Whimsy table."
+      ]
+    },
+    {
+      "name": "Hidden Paths",
+      "source": "Arcamis",
+      "className": "Sorcerer",
+      "classSource": "XPHB",
+      "subclassShortName": "Bandle",
+      "subclassSource": "Arcamis",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "You can perform a ritual to create a one-use portal to Bandle City. The ritual requires 4 hours of work each day for 7 consecutive days. If you miss a day, you must start the ritual over."
+      ]
+    },
+    {
+      "name": "Wild Growth",
+      "source": "Arcamis",
+      "className": "Sorcerer",
+      "classSource": "XPHB",
+      "subclassShortName": "Bandle",
       "subclassSource": "Arcamis",
       "level": 14,
       "header": 2,
       "entries": [
-        "At 14th level, you fully awaken the power of your Stormclaw Transformation, gaining the following benefits.",
+        "As a {@action Magic|XPHB} action, you can cause one ally you can see within 60 feet of yourself to become enlarged for 1 minute, or until you use this feature again.",
+        "You can also use this feature as a {@variantrule Reaction|XPHB} when a creature is hit by an attack or fails a saving throw.",
+        "The target's size becomes Large if it is smaller than Large. If it is already Large, its size doesn't change.",
+        "Each creature within 5 feet of the target must succeed on a Strength saving throw against your spell save DC or be pushed up to 10 feet away from the target and have the {@condition Prone|XPHB} condition.",
+        "When you use this feature, you can also apply one Positive or Negative effect from your Whimsy table.",
         {
-          "type": "entries",
-          "name": "Unstoppable Storm",
+          "type": "inset",
+          "name": "While Enlarged",
           "entries": [
-            "Your Chain Shock deals {@damage 2d6} Lightning damage, and it can affect one additional creature within 20 feet of the original target, for a maximum of two creatures."
+            "The target's current and maximum {@variantrule Hit Points|XPHB} each increase by an amount equal to your Sorcerer level + your Charisma modifier for the duration.",
+            "The target has {@variantrule Advantage|XPHB} on Strength and Constitution ability checks and saving throws.",
+            "The target's weapon attacks and Unarmed Strikes deal an extra {@damage 1d6} damage."
           ]
         },
+        "Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}, unless you expend 4 Sorcery Points (no action required) to regain its use."
+      ]
+    },
+    {
+      "name": "Magical Journey",
+      "source": "Arcamis",
+      "className": "Sorcerer",
+      "classSource": "XPHB",
+      "subclassShortName": "Bandle",
+      "subclassSource": "Arcamis",
+      "level": 18,
+      "header": 2,
+      "entries": [
+        "As a {@action Magic|XPHB} action, you can create a temporary portal to Bandle City and call upon its inhabitants for aid. The portal functions like the {@spell Gate|XPHB} spell, with the following modifications:",
         {
-          "type": "entries",
-          "name": "Demigod's Impact",
-          "entries": [
-            "When you cast {@spell Destructive Wave|XPHB}, the spell save DC increases by 2. One creature of your choice that fails its saving throw is {@condition Stunned|XPHB} until the start of your next turn. Once you use this effect, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
+          "type": "list",
+          "items": [
+            "You don't expend a spell slot to create the portal.",
+            "The portal doesn't require any spell components.",
+            "The portal is one-way, allowing creatures to travel only from Bandle City to the space where you created the portal.",
+            "When you create the portal and at the start of each of your turns while you maintain Concentration on the portal, you can cast {@spell Summon Fey|XPHB} without expending a spell slot or requiring Concentration. The spell's casting time is a {@variantrule Bonus Action|XPHB} for you, and the summoned Fey appears in an unoccupied space within 5 feet of the portal.",
+            "When the portal closes, all Fey summoned by this feature disappear."
+          ]
+        },
+        "Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
+      ]
+    },
+    {
+      "name": "Mist Patron",
+      "source": "Arcamis",
+      "className": "Warlock",
+      "classSource": "XPHB",
+      "subclassShortName": "Mist",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "entries": [
+        "You are somehow bound to the Shadow Isles and the Black Mist that surrounds them. Whether through misfortune, a dark pact, or a conscious choice, you wield the power of the Black Mist. Your patron is likely the Ruined King, a notorious wraith of the Mist, or perhaps the Mist itself.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Mist Spells|Warlock|XPHB|Mist|Arcamis|3"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Dark Mist Curse|Warlock|XPHB|Mist|Arcamis|3"
+        }
+      ]
+    },
+    {
+      "name": "Mist Spells",
+      "source": "Arcamis",
+      "className": "Warlock",
+      "classSource": "XPHB",
+      "subclassShortName": "Mist",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "entries": [
+        "When you reach a Warlock level specified in the Mist Spells table, you thereafter always have the listed spells prepared.",
+        {
+          "caption": "Mist Spells",
+          "type": "table",
+          "colLabels": [
+            "Warlock Level",
+            "Spells"
+          ],
+          "colStyles": [
+            "col-3 text-center",
+            "col-9"
+          ],
+          "rows": [
+            [
+              3,
+              "{@spell Arms of Hadar|XPHB}, {@spell False Life|XPHB}, {@spell Darkness|XPHB}, {@spell Shadow Blade|XGE}"
+            ],
+            [
+              5,
+              "{@spell Gaseous Form|XPHB}, {@spell Summon Shadowspawn|TCE}"
+            ],
+            [
+              7,
+              "{@spell Shadow of Moil|XGE}, {@spell Sickening Radiance|XGE}"
+            ],
+            [
+              9,
+              "{@spell Cloudkill|XPHB}, {@spell Enervation|XGE}"
+            ]
           ]
         }
+      ]
+    },
+    {
+      "name": "Dark Mist Curse",
+      "source": "Arcamis",
+      "className": "Warlock",
+      "classSource": "XPHB",
+      "subclassShortName": "Mist",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "As a {@variantrule Bonus Action|XPHB}, you can manifest a sphere of Black Mist around yourself with a radius of 90 feet. The mist lasts for 1 minute, until you use this feature again, or until you dismiss it (no action required).",
+        {
+          "type": "inset",
+          "name": "Benefits of the Black Mist",
+          "entries": [
+            "A creature in the mist is Cursed.",
+            {
+              "type": "list",
+              "items": [
+                "When you deal damage to a Cursed creature with a spell or weapon attack, you deal an extra {@damage 1d6} Necrotic damage to it.",
+                "When you use this feature, you can designate any number of creatures that are unaffected by the mist.",
+                "When a Cursed creature within the mist is reduced to 0 {@variantrule Hit Points|XPHB}, you can choose another Cursed creature within the mist. That creature takes an extra {@damage 1d6} Necrotic damage.",
+                "On each of your turns after the turn you activate this feature, you can move the mist up to 10 feet as a {@variantrule Bonus Action|XPHB}."
+              ]
+            }
+          ]
+        },
+        "Once you use this feature, you can't use it again until you finish a {@variantrule Short Rest|XPHB}, or until you expend a Pact Magic spell slot to regain its use."
+      ]
+    },
+    {
+      "name": "Mist's Grasp",
+      "source": "Arcamis",
+      "className": "Warlock",
+      "classSource": "XPHB",
+      "subclassShortName": "Mist",
+      "subclassSource": "Arcamis",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "While you are inside the Black Mist, you can take a {@action Magic|XPHB} action to attempt to bind Cursed creatures within the mist. Each Cursed creature in the mist must make a Strength saving throw against your Warlock spell save DC.",
+        {
+          "type": "list",
+          "items": [
+            "{@b Failure.} The creature has the {@condition Restrained|XPHB} condition. At the end of each of its turns, it can take an action to repeat the saving throw, ending the condition on itself on a success.",
+            "{@b Success.} The creature's Speed is reduced by 10 feet until the start of your next turn."
+          ]
+        },
+        "In addition, when you cast a Necromancy spell that deals damage to a Cursed creature, the spell deals an extra {@damage 1d6} Necrotic damage."
+      ]
+    },
+    {
+      "name": "Mist Wraiths",
+      "source": "Arcamis",
+      "className": "Warlock",
+      "classSource": "XPHB",
+      "subclassShortName": "Mist",
+      "subclassSource": "Arcamis",
+      "level": 10,
+      "header": 2,
+      "entries": [
+        "You learn the {@spell Danse Macabre|XGE} spell. It counts as a Warlock spell for you, but it doesn't count against the number of spells you know.",
+        "You can also cast the spell once without expending a spell slot. You regain the ability to do so when you finish a {@variantrule Long Rest|XPHB}.",
+        "In addition, you don't need corpses to cast the spell. Instead of corpses, you create ephemeral Ghouls formed from corporeal mist. These Ghouls use the Zombie stat block."
+      ]
+    },
+    {
+      "name": "Dread",
+      "source": "Arcamis",
+      "className": "Warlock",
+      "classSource": "XPHB",
+      "subclassShortName": "Mist",
+      "subclassSource": "Arcamis",
+      "level": 14,
+      "header": 2,
+      "entries": [
+        "While you are within your Dark Mist, your Speed increases by 10 feet, and your movement doesn't provoke {@variantrule Opportunity Attacks|XPHB}.",
+        "In addition, when a creature enters the mist for the first time on a turn or starts its turn there, you can grant that creature {@variantrule Temporary Hit Points|XPHB} equal to your Proficiency Bonus + your Charisma modifier."
       ]
     }
   ],
