@@ -24,7 +24,7 @@
     ],
     "edition": "one",
     "dateAdded": 20260604123900,
-    "dateLastModified": 20260807000000
+    "dateLastModified": 20260808171200
   },
   "_test": {
     "references": [
@@ -2267,6 +2267,34 @@
       ]
     },
     {
+      "name": "Dauntless Vanguard",
+      "source": "Arcamis",
+      "shortName": "Vanguard",
+      "className": "Fighter",
+      "classSource": "XPHB",
+      "subclassFeatures": [
+        "Dauntless Vanguard|Fighter|XPHB|Vanguard|Arcamis|3",
+        "Spellbreaker|Fighter|XPHB|Vanguard|Arcamis|7",
+        "Perseverance|Fighter|XPHB|Vanguard|Arcamis|10",
+        "Crescent Guard|Fighter|XPHB|Vanguard|Arcamis|15",
+        "JUSTICE!|Fighter|XPHB|Vanguard|Arcamis|18"
+      ]
+    },
+    {
+      "name": "Outlaw",
+      "source": "Arcamis",
+      "shortName": "Outlaw",
+      "className": "Fighter",
+      "classSource": "XPHB",
+      "subclassFeatures": [
+        "Outlaw|Fighter|XPHB|Outlaw|Arcamis|3",
+        "Hit-and-Run|Fighter|XPHB|Outlaw|Arcamis|7",
+        "Frightening Weaponry|Fighter|XPHB|Outlaw|Arcamis|10",
+        "Right Tool for the Job|Fighter|XPHB|Outlaw|Arcamis|15",
+        "Make Them Explode|Fighter|XPHB|Outlaw|Arcamis|18"
+      ]
+    },
+    {
       "name": "Circle of the Ursids",
       "shortName": "Ursids",
       "source": "Arcamis",
@@ -3198,6 +3226,229 @@
       ]
     },
     {
+      "name": "Dauntless Vanguard",
+      "source": "Arcamis",
+      "className": "Fighter",
+      "classSource": "XPHB",
+      "subclassShortName": "Vanguard",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "entries": [
+        "Peerless warriors and enemies of the supernatural, the Dauntless Vanguards stand on the front lines against magical horrors. Though trained primarily to face rogue mages and demons, Demacian steel cuts through anyone all the same.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Piercing Line|Fighter|XPHB|Vanguard|Arcamis|3"
+        }
+      ]
+    },
+    {
+      "name": "Piercing Line",
+      "source": "Arcamis",
+      "className": "Fighter",
+      "classSource": "XPHB",
+      "subclassShortName": "Vanguard",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "{@b Courage.} You are undaunted by the enemies before you. You have {@variantrule Advantage|XPHB} on saving throws against the {@condition Frightened|XPHB} condition.",
+        "{@b Counterattack.} When you are hit by a melee attack, you can use your {@variantrule Reaction|XPHB} to attempt a counterattack. To do so, make an attack roll and compare the result to the attack roll that hit you. If your attack roll meets or exceeds the creature's attack roll, the attack misses instead. You take no damage and suffer none of the attack's effects, and you can deal damage as normal with your weapon."
+      ]
+    },
+    {
+      "name": "Spellbreaker",
+      "source": "Arcamis",
+      "className": "Fighter",
+      "classSource": "XPHB",
+      "subclassShortName": "Vanguard",
+      "subclassSource": "Arcamis",
+      "level": 7,
+      "header": 2,
+      "entries": [
+        "When you hit a creature with a melee attack, you can expend one use of Second Wind as a {@variantrule Bonus Action|XPHB} to produce the same effect as {@spell Dispel Magic|XPHB}.",
+        "Choose Strength or Dexterity as your supernatural ability. Your Supernatural DC equals 8 + your Proficiency Bonus + your chosen ability modifier."
+      ]
+    },
+    {
+      "name": "Perseverance",
+      "source": "Arcamis",
+      "className": "Fighter",
+      "classSource": "XPHB",
+      "subclassShortName": "Vanguard",
+      "subclassSource": "Arcamis",
+      "level": 10,
+      "header": 2,
+      "entries": [
+        "When you use your Second Wind to regain {@variantrule Hit Points|XPHB}, you draw strength from your allies. You gain 5 {@variantrule Temporary Hit Points|XPHB} for each ally within 20 feet of yourself.",
+        "You can use this feature once per {@variantrule Short Rest|XPHB}."
+      ]
+    },
+    {
+      "name": "Crescent Guard",
+      "source": "Arcamis",
+      "className": "Fighter",
+      "classSource": "XPHB",
+      "subclassShortName": "Vanguard",
+      "subclassSource": "Arcamis",
+      "level": 15,
+      "header": 2,
+      "entries": [
+        "While you are Bloodied, you can take a {@variantrule Bonus Action|XPHB} to protect yourself and your allies within 30 feet of yourself who can hear you. Until the start of your next turn, each affected creature has {@variantrule Resistance|XPHB} to all damage.",
+        "You can use this feature once per {@variantrule Short Rest|XPHB}."
+      ]
+    },
+    {
+      "name": "JUSTICE!",
+      "source": "Arcamis",
+      "className": "Fighter",
+      "classSource": "XPHB",
+      "subclassShortName": "Vanguard",
+      "subclassSource": "Arcamis",
+      "level": 18,
+      "header": 2,
+      "entries": [
+        "When you hit a target with an attack, you can draw upon your full strength to deliver true justice. As a {@variantrule Bonus Action|XPHB}, you can deal an extra {@damage 6d10} Force damage to the target, which must then make a Wisdom saving throw against your Supernatural DC.",
+        "On a failed save, the target suffers the following effects until the start of your next turn:",
+        {
+          "type": "list",
+          "items": [
+            "Its Speed is reduced to 0.",
+            "It can't take {@variantrule Action|XPHB|Actions}, {@variantrule Reaction|XPHB|Reactions}, {@variantrule Bonus Action|XPHB|Bonus Actions}, or Legendary Actions.",
+            "It automatically fails Strength and Dexterity saving throws."
+          ]
+        },
+        "You can use this feature once per {@variantrule Short Rest|XPHB}."
+      ]
+    },
+    {
+      "name": "Outlaw",
+      "source": "Arcamis",
+      "className": "Fighter",
+      "classSource": "XPHB",
+      "subclassShortName": "Outlaw",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "entries": [
+        "What defines an outlaw is not simply the weapon they wield or the way they fight. An outlaw, above all else, is a fighter with cunning charm and swagger. With brazen arrogance, outlaws craft their own custom firearms to perfectly match their unconventional personalities. Particularly wealthy outlaws may even possess customized Hextech weapons, but such individuals are rare among Bilgewater's rogues. Do not mistake their swagger for an empty façade: those who underestimate an outlaw's skill with firearms tend to end up dead.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Brazen Charm|Fighter|XPHB|Outlaw|Arcamis|3"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Firearm Specialist|Fighter|XPHB|Outlaw|Arcamis|3"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Firearm Upgrades|Fighter|XPHB|Outlaw|Arcamis|3"
+        }
+      ]
+    },
+    {
+      "name": "Brazen Charm",
+      "source": "Arcamis",
+      "className": "Fighter",
+      "classSource": "XPHB",
+      "subclassShortName": "Outlaw",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "Starting at 3rd level, your audacity is matched only by your wit. Whenever you make a Charisma ability check, you add your Intelligence modifier to the roll (minimum bonus of +1).",
+        "In addition, you gain proficiency in one of the following skills of your choice: {@skill Deception}, {@skill Performance}, or {@skill Persuasion}."
+      ]
+    },
+    {
+      "name": "Firearm Specialist",
+      "source": "Arcamis",
+      "className": "Fighter",
+      "classSource": "XPHB",
+      "subclassShortName": "Outlaw",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "Starting at 3rd level, you can construct a special firearm at no cost, designed so that only you can properly wield it. Choose one of the following firearm designs. You gain the corresponding firearm.",
+        {
+          "type": "list",
+          "items": [
+            "{@item Outlaw Pistol|Arcamis}",
+            "{@item Outlaw Rifle|Arcamis}"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Firearm Upgrades",
+      "source": "Arcamis",
+      "className": "Fighter",
+      "classSource": "XPHB",
+      "subclassShortName": "Outlaw",
+      "subclassSource": "Arcamis",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "Your Firearm Specialist weapon is enhanced by your ingenuity. You can apply 1 {@filter Minor Upgrade|optionalfeatures|Feature Type=MU} and 1 {@filter Major Upgrade|optionalfeatures|Feature Type=MAU} to your firearm.",
+        "Your firearm improves as you gain levels in this subclass. You gain one additional Minor Upgrade at 5th level and another at 10th level, and one additional Major Upgrade at 15th level.",
+        "Whenever you gain a new upgrade from this feature, you can replace one upgrade currently applied to your firearm with another upgrade of the same grade for which you qualify.",
+        "The saving throw DC for your firearm's abilities equals 8 + your Proficiency Bonus + your Intelligence modifier."
+      ]
+    },
+    {
+      "name": "Hit-and-Run",
+      "source": "Arcamis",
+      "className": "Fighter",
+      "classSource": "XPHB",
+      "subclassShortName": "Outlaw",
+      "subclassSource": "Arcamis",
+      "level": 7,
+      "header": 2,
+      "entries": [
+        "You gain proficiency in one of the following skills of your choice: {@skill Acrobatics} or {@skill Sleight of Hand}.",
+        "Once per turn, when you take the Attack action using a weapon granted by your Firearm Specialist feature, you can forgo adding your ability modifier to the damage roll to make a retreating maneuver, moving up to half your Speed without provoking Opportunity Attacks."
+      ]
+    },
+    {
+      "name": "Frightening Weaponry",
+      "source": "Arcamis",
+      "className": "Fighter",
+      "classSource": "XPHB",
+      "subclassShortName": "Outlaw",
+      "subclassSource": "Arcamis",
+      "level": 10,
+      "header": 2,
+      "entries": [
+        "Your firearms inspire fear in common foes. You gain proficiency in {@skill Intimidation}. If you already have proficiency in Intimidation, you instead gain Expertise in it. In addition, when you hit a creature with a firearm granted by your Firearm Specialist feature, you can take a {@variantrule Bonus Action|XPHB} to attempt to frighten one of the creatures you hit. The creature must succeed on a Wisdom saving throw against a DC equal to the result of your Charisma (Intimidation) check or have the Frightened condition until the start of your next turn."
+      ]
+    },
+    {
+      "name": "Right Tool for the Job",
+      "source": "Arcamis",
+      "className": "Fighter",
+      "classSource": "XPHB",
+      "subclassShortName": "Outlaw",
+      "subclassSource": "Arcamis",
+      "level": 15,
+      "header": 2,
+      "entries": [
+        "At 15th level, your mastery of firearms allows you to adapt to any situation. When you finish a {@variantrule Long Rest|XPHB}, you can replace any of your firearm upgrades with different ones. You can't have more than two Major Upgrades equipped at the same time. In addition, when you finish a {@variantrule Short Rest|XPHB}, you can replace one Minor Upgrade on your weapon with a different one. You must still meet the prerequisites for an upgrade to benefit from it."
+      ]
+    },
+    {
+      "name": "Make Them Explode",
+      "source": "Arcamis",
+      "className": "Fighter",
+      "classSource": "XPHB",
+      "subclassShortName": "Outlaw",
+      "subclassSource": "Arcamis",
+      "level": 18,
+      "header": 2,
+      "entries": [
+        "At 18th level, you learn to channel the unstable force of gunpowder into a concussive explosive. As a {@variantrule Bonus Action|XPHB}, you can throw or place an explosive. A thrown explosive has a range of 30 feet and detonates on impact. A placed explosive can be detonated remotely within 60 feet as a {@variantrule Bonus Action|XPHB} or by one of your firearm attacks. Each creature within 15 feet of the explosive must make a Dexterity saving throw against your Firearm Upgrade DC, taking {@damage 9d6} Force damage on a failed save, or half as much on a success. A placed explosive instead deals {@damage 12d6} Force damage.",
+        "Once you use this feature, you can't use it again until you finish a {@variantrule Short Rest|XPHB}."
+      ]
+    },
+    {
       "name": "Circle of the Ursids",
       "source": "Arcamis",
       "className": "Druid",
@@ -3409,6 +3660,361 @@
             "When you cast a 1st-level spell or higher, the drone can spread a refined compound to a creature of your choice within 30 feet of it. That creature gains {@variantrule Temporary Hit Points|XPHB} equal to {@damage 1d4} per level of the spell slot used."
           ]
         }
+      ]
+    }
+  ],
+  "item": [
+    {
+      "name": "Outlaw Pistol",
+      "source": "Arcamis",
+      "type": "R|XPHB",
+      "rarity": "none",
+      "weight": 3,
+      "weaponCategory": "martial",
+      "property": [
+        "A|XPHB",
+        "L|XPHB",
+        "ACM-RE|Arcamis"
+      ],
+      "mastery": [
+        "Vex|XPHB"
+      ],
+      "range": "30/90",
+      "reload": 6,
+      "dmg1": "2d6",
+      "dmgType": "P",
+      "firearm": true,
+      "weapon": true,
+      "ammoType": "firearm bullet|XPHB",
+      "entries": []
+    },
+    {
+      "name": "Outlaw Rifle",
+      "source": "Arcamis",
+      "type": "R|XPHB",
+      "rarity": "none",
+      "weight": 3,
+      "weaponCategory": "martial",
+      "property": [
+        "A|XPHB",
+        "LD|XPHB",
+        "2H|XPHB"
+      ],
+      "mastery": [
+        "Slow|XPHB"
+      ],
+      "range": "50/120",
+      "dmg1": "2d8",
+      "dmgType": "P",
+      "firearm": true,
+      "weapon": true,
+      "ammoType": "firearm bullet|XPHB",
+      "entries": [
+        "{@b Piercing.} At the start of your turn, you can take the {@action Attack|XPHB} action to forgo all the attacks you would normally make as part of that action. If you do so, make one attack with the rifle with {@variantrule Advantage|XPHB}. On a hit, the attack deals an extra {@damage 1d8} for each point of your {@variantrule Proficiency|XPHB|Proficiency Bonus}. The target must then succeed on a Constitution saving throw against your Outlaw DC or have the {@condition Stunned|XPHB} and {@condition Prone|XPHB} conditions until the start of your next turn."
+      ]
+    }
+  ],
+  "itemProperty": [
+    {
+      "name": "Reload",
+      "abbreviation": "ACM-RE",
+      "source": "Arcamis",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Reload",
+          "entries": [
+            "This weapon can be used to make a number of attacks before it must be reloaded. If you are proficient with the weapon, reloading it takes an {@variantrule Action|XPHB} or a {@variantrule Bonus Action|XPHB}; otherwise, reloading it takes an {@variantrule Action|XPHB}."
+          ]
+        }
+      ]
+    }
+  ],
+  "optionalfeature": [
+    {
+      "name": "Arcane Bolas",
+      "source": "Arcamis",
+      "featureType": [
+        "MU"
+      ],
+      "entries": [
+        "Your firearm contains two charges that can be used to fire an arcane net. As an {@variantrule Action|XPHB}, choose one creature within your firearm's normal range. The target must succeed on a Strength saving throw against your Outlaw DC or have the {@condition Restrained|XPHB} condition.",
+        "At the end of each of its turns, the creature can repeat the saving throw, ending the condition on itself on a success.",
+        "Whether the creature succeeds or fails the initial saving throw, one charge is expended. You regain all expended charges when you finish a {@variantrule Short Rest|XPHB}."
+      ]
+    },
+    {
+      "name": "Bored Barrel",
+      "source": "Arcamis",
+      "featureType": [
+        "MU"
+      ],
+      "entries": [
+        "Your firearm's ranged attacks don't have {@variantrule Disadvantage|XPHB} when made against targets beyond the weapon's normal range."
+      ]
+    },
+    {
+      "name": "Smoke Screen",
+      "source": "Arcamis",
+      "featureType": [
+        "MU"
+      ],
+      "entries": [
+        "Your firearm contains a special projectile that releases a cloud of smoke. As an {@variantrule Action|XPHB}, you can fire the projectile at a point within your firearm's range. On impact, the projectile creates a 10-foot-radius sphere of smoke that spreads around corners. The area is {@variantrule Heavily Obscured|XPHB}.",
+        "The smoke lasts for 10 minutes. A strong wind disperses the smoke for 1 round, after which the smoke reforms.. Covering the point of impact with an opaque object prevents the smoke from spreading.",
+        "Once you fire this projectile, you can't use it again until you prepare another one during a {@variantrule Short Rest|XPHB}."
+      ]
+    },
+    {
+      "name": "Bayonet",
+      "source": "Arcamis",
+      "featureType": [
+        "MU"
+      ],
+      "entries": [
+        "You attach a blade to your firearm that has the statistics of a {@item Shortsword|XPHB}. You can use the Shortsword's Light property even while wielding your firearm."
+      ]
+    },
+    {
+      "name": "Scope",
+      "source": "Arcamis",
+      "featureType": [
+        "MU"
+      ],
+      "prerequisite": [
+        {
+          "item": [
+            "Outlaw Rifle"
+          ],
+          "level": {
+            "level": 5,
+            "class": {
+              "name": "Fighter",
+              "source": "XPHB",
+              "visibleStats": true
+            }
+          }
+        }
+      ],
+      "entries": [
+        "If you haven't moved during this turn, you can take a {@variantrule Bonus Action|XPHB} to reduce your Speed to 0 until the end of the turn. You then have {@variantrule Advantage|XPHB} on the next attack roll you make with your firearm before the end of the turn."
+      ]
+    },
+    {
+      "name": "Simple Magazine",
+      "source": "Arcamis",
+      "featureType": [
+        "MU"
+      ],
+      "entries": [
+        "You have redesigned your firearm's magazines to make them lighter and easier to load. Your Firearm Specialist weapon ignores the Reload property."
+      ]
+    },
+    {
+      "name": "Pneumatic Stabilizer",
+      "source": "Arcamis",
+      "featureType": [
+        "MU"
+      ],
+      "entries": [
+        "While wielding your firearm with both hands, you don't have {@variantrule Disadvantage|XPHB} on ranged attack rolls while you have the {@condition Prone|XPHB} condition or when targeting creatures that have the {@condition Prone|XPHB} condition.",
+        "In addition, you have {@variantrule Advantage|XPHB} on Wisdom (Perception) and Dexterity (Stealth) checks while you are {@condition Prone|XPHB}."
+      ]
+    },
+    {
+      "name": "Suppressor",
+      "source": "Arcamis",
+      "featureType": [
+        "MU"
+      ],
+      "prerequisite": [
+        {
+          "item": [
+            "Outlaw Pistol"
+          ],
+          "level": {
+            "level": 5,
+            "class": {
+              "name": "Fighter",
+              "source": "XPHB",
+              "visibleStats": true
+            }
+          }
+        }
+      ],
+      "entries": [
+        "You equip your pistol with a suppressor. Your firearm makes no sound when you make an attack with it or use one of its upgrades."
+      ]
+    },
+    {
+      "name": "Hair Trigger",
+      "source": "Arcamis",
+      "featureType": [
+        "MU"
+      ],
+      "prerequisite": [
+        {
+          "item": [
+            "Outlaw Pistol"
+          ]
+        }
+      ],
+      "entries": [
+        "When a creature within your firearm's normal range makes an attack against you, you can use your {@variantrule Reaction|XPHB} and expend one piece of ammunition to attempt to disarm the attacker.",
+        "The creature must succeed on a Strength saving throw against your Outlaw DC or drop one weapon it is holding. Whether the creature succeeds or fails, the triggering attack still hits you and deals damage as normal."
+      ]
+    },
+    {
+      "name": "Sawed-Off Barrel",
+      "source": "Arcamis",
+      "featureType": [
+        "MAU"
+      ],
+      "entries": [
+        "Your shortened barrel makes your shots less reliable but more lethal. When you make an attack roll with your firearm and roll a 3 or lower on the {@dice d20}, the attack is a critical failure, regardless of the attack's modifiers.",
+        "In addition, whenever you roll damage for an attack with your firearm, roll one additional weapon damage die.",
+        "If you suffer a critical failure because of this upgrade, you must spend your next turn repairing your firearm. During that turn, you can't make attacks or use your firearm's abilities."
+      ]
+    },
+    {
+      "name": "Shooting the Red Cross",
+      "source": "Arcamis",
+      "featureType": [
+        "MAU"
+      ],
+      "prerequisite": [
+        {
+          "item": [
+            "Outlaw Pistol"
+          ]
+        }
+      ],
+      "entries": [
+        "Your firearm responds to your injuries. The first time you make an attack with your firearm after you regain {@variantrule Hit Points|XPHB} or {@variantrule Temporary Hit Points|XPHB}, the attack deals an extra {@damage 1d12} damage.",
+        "The attack also deals this extra damage if its target has the {@condition Incapacitated|XPHB} condition or has a Speed of 0."
+      ]
+    },
+    {
+      "name": "Multiple Barrel",
+      "source": "Arcamis",
+      "featureType": [
+        "MAU"
+      ],
+      "entries": [
+        "Your firearm gains a second barrel. Immediately after you make an attack with your firearm, you can make two attacks with it as a {@variantrule Bonus Action|XPHB} instead of the single attack normally granted by the Light property."
+      ]
+    },
+    {
+      "name": "Thunderous Barrel",
+      "source": "Arcamis",
+      "featureType": [
+        "MAU"
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 5,
+            "class": {
+              "name": "Fighter",
+              "source": "XPHB",
+              "visibleStats": true
+            }
+          }
+        }
+      ],
+      "entries": [
+        "Your firearm can be fitted with stolen magical or Hextech technology. As an {@variantrule Action|XPHB}, you can charge your firearm with arcane energy and fire a bolt of lightning in a 100-foot-long, 5-foot-wide line.",
+        "Each creature in the line must make a Dexterity saving throw against your Outlaw DC. On a failed save, a creature takes {@damage 8d6} Lightning damage. On a successful save, it takes half as much damage.",
+        "Once you use this upgrade, you can't use it again until you finish a {@variantrule Short Rest|XPHB}."
+      ]
+    },
+    {
+      "name": "Hextech Barrel",
+      "source": "Arcamis",
+      "featureType": [
+        "MAU"
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 10,
+            "class": {
+              "name": "Fighter",
+              "source": "XPHB",
+              "visibleStats": true
+            }
+          }
+        }
+      ],
+      "entries": [
+        "Your firearm is fitted with a modified barrel using stolen magical or Hextech technology. The damage dealt by your firearm becomes Force damage.",
+        "Ammunition fired from your firearm no longer benefits from any magical bonus it previously had."
+      ]
+    },
+    {
+      "name": "Explosive Cartridge",
+      "source": "Arcamis",
+      "featureType": [
+        "MAU"
+      ],
+      "entries": [
+        "As an {@variantrule Action|XPHB}, you can load an overcharged cartridge into your firearm and make an attack with it. You can target a surface or object instead of a creature.",
+        "On impact, the cartridge explodes violently. Each creature within 5 feet of the point of impact for each point of your {@variantrule Proficiency|XPHB|Proficiency Bonus} of the point of impact must make a Dexterity saving throw against your Outlaw DC.",
+        "On a failed save, a creature takes a number of {@damage d6s} equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} in Force damage and has the {@condition Prone|XPHB} condition. On a successful save, it takes half as much damage and suffers no other effect.",
+        "An unattended object or door takes twice as much damage from the explosion."
+      ]
+    },
+    {
+      "name": "Hextech Piercing Round",
+      "source": "Arcamis",
+      "featureType": [
+        "MAU"
+      ],
+      "prerequisite": [
+        {
+          "item": [
+            "Outlaw Rifle"
+          ],
+          "level": {
+            "level": 5,
+            "class": {
+              "name": "Fighter",
+              "source": "XPHB",
+              "visibleStats": true
+            }
+          }
+        }
+      ],
+      "entries": [
+        "When you use the Action granted by the Rifle's Piercing property, you can fire a high-density round. The attack ignores {@variantrule Cover|XPHB|Half Cover} and {@variantrule Cover|XPHB|Three-Quarters Cover}.",
+        "If the attack reduces a creature to 0 {@variantrule Hit Points|XPHB}, the projectile continues in a straight line for up to 30 feet beyond the target. If the projectile encounters another creature, make another attack roll against that creature without the additional damage or other effects granted by the Piercing property.",
+        "You can use this upgrade a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}. You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+      ]
+    },
+    {
+      "name": "Rain of Lead",
+      "source": "Arcamis",
+      "featureType": [
+        "MAU"
+      ],
+      "prerequisite": [
+        {
+          "item": [
+            "Outlaw Pistol"
+          ],
+          "level": {
+            "level": 5,
+            "class": {
+              "name": "Fighter",
+              "source": "XPHB",
+              "visibleStats": true
+            }
+          }
+        }
+      ],
+      "entries": [
+        "You expend two charges from your firearm's magazine. As an {@action Magic|XPHB|Magic Action}, you unleash a barrage of bullets in a 20-foot Cone. Make an attack roll against each creature in the area, including your allies.",
+        "You can use this upgrade a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}. You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
       ]
     }
   ]
