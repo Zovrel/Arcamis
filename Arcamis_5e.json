@@ -899,6 +899,109 @@
     },
     {
       "edition": "one",
+      "name": "Aspect of Targon",
+      "source": "Arcamis",
+      "creatureTypes": [
+        "celestial"
+      ],
+      "size": [
+        "M"
+      ],
+      "speed": 30,
+      "languageProficiencies": [
+        {
+          "common": true,
+          "targonian": true,
+          "anyStandard": 1
+        }
+      ],
+      "skillProficiencies": [
+        {
+          "choose": {
+            "from": [
+              "arcana",
+              "athletics",
+              "stealth",
+              "intimidation"
+            ],
+            "count": 1
+          }
+        },
+        {
+          "Survival": true
+        }
+      ],
+      "traitTags": [
+        "Skill Proficiency",
+        "Language Proficiency"
+      ],
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Ascended Resilience",
+          "entries": [
+            "When you take damage that would reduce you to 0 {@variantrule Hit Points|XPHB}, you can immediately regain one Hit Point. When you use this feature, you cannot use it again until you finish a {@variantrule Long Rest|XPHB}."
+          ],
+          "foundrySystem": {
+            "uses": {
+              "recovery": [
+                {
+                  "period": "sr",
+                  "type": "formula",
+                  "formula": "1"
+                },
+                {
+                  "period": "lr",
+                  "type": "recoverAll"
+                }
+              ],
+              "max": "1"
+            }
+          }
+        },
+        {
+          "name": "Embodied Stars",
+          "entries": [
+            "You have an innate connection to Mount Targon and its cosmic entities. When you are in mountainous or celestial environments, you have {@variantrule Advantage|XPHB} on {@skill Survival} checks made to navigate or avoid becoming lost."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Blessing of an Aspect",
+          "entries": [
+            "Climbing Mount Targon has convinced an Aspect to grant you a portion of its power. Choose one of the following blessings, or work with your DM to create a blessing of equivalent power.",
+            {
+              "type": "table",
+              "caption": "",
+              "colStyles": [
+                "col-2",
+                "col-10"
+              ],
+              "rows": [
+                [
+                  "{@italic Aspect of Health}",
+                  "As a {@variantrule Bonus Action|XPHB}, you can invoke your Aspect to restore {@variantrule Hit Points|XPHB} to yourself or one willing creature you can see within 60 feet of yourself. The creature regains {@dice 1d10} + your ability modifier {@variantrule Hit Points|XPHB}. You can use this trait a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, regaining all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+                ],
+                [
+                  "{@italic Aspect of the Messenger}",
+                  "You have {@variantrule Darkvision|XPHB} out to a range of 60 feet. As a {@variantrule Bonus Action|XPHB}, you can establish a telepathic link with one creature within 60 feet of yourself or one creature you have seen within the same day. You can communicate telepathically with that creature while you both share at least one language.<br />As an {@action Action|XPHB}, you can attempt to confuse the creature with nonsensical or rambling words. The creature must make a Wisdom saving throw. On a failed save, it has {@variantrule Disadvantage|XPHB} on its next ability check or attack roll until the end of its next turn. You can use this trait a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, regaining all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+                ],
+                [
+                  "{@italic Aspect of the Stars}",
+                  "As a {@variantrule Bonus Action|XPHB}, you can enter a state of glorious starlight for 1 minute. The first time you hit with an attack on each of your turns, the attack deals an extra {@damage 1d6} Radiant damage. You emit {@variantrule Dim Light|XPHB} in a 20-foot radius. Creatures within this radius can't benefit from the {@condition Invisible|XPHB} condition."
+                ],
+                [
+                  "{@italic Aspect of the Void}",
+                  "As a {@variantrule Bonus Action|XPHB}, your body darkens as if covered in supernatural shadow for 1 minute. You have {@variantrule Advantage|XPHB} on Dexterity ({@skill Stealth}) checks, and the first time you hit with an attack on each of your turns, the attack deals an extra {@damage 1d6} Necrotic damage."
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "one",
       "name": "Augmented",
       "source": "Arcamis",
       "creatureTypes": [
