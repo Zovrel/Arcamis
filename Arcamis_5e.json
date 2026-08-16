@@ -28,7 +28,12 @@
   },
   "_test": {
     "references": [
-      "Arcamis"
+      "XGE",
+      "SCC",
+      "TCE",
+      "FRHoF",
+      "BoET",
+      "HWCS"
     ]
   },
   "race": [
@@ -899,7 +904,7 @@
     },
     {
       "edition": "one",
-      "name": "Aspect of Targon",
+      "name": "Targon",
       "source": "Arcamis",
       "creatureTypes": [
         "celestial"
