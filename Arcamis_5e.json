@@ -24,7 +24,7 @@
     ],
     "edition": "one",
     "dateAdded": 20260604123900,
-    "dateLastModified": 20260808191200
+    "dateLastModified": 20260610234500
   },
   "_test": {
     "references": [
@@ -5126,6 +5126,114 @@
           "entries": [
             "When you cast a 1st-level spell or higher, the drone can spread a refined compound to a creature of your choice within 30 feet of it. That creature gains {@variantrule Temporary Hit Points|XPHB} equal to {@damage 1d4} per level of the spell slot used."
           ]
+        }
+      ]
+    },
+    {
+      "name": "Scuttle Crab",
+      "source": "Arcamis",
+      "size": [
+        "S"
+      ],
+      "type": "beast",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 22,
+        "formula": "5d6 + 3"
+      },
+      "speed": {
+        "walk": 30,
+        "climb": 40
+      },
+      "str": 11,
+      "dex": 16,
+      "con": 12,
+      "int": 3,
+      "wis": 12,
+      "cha": 6,
+      "save": {
+        "dex": "+5"
+      },
+      "skill": {
+        "athletics": "+2",
+        "stealth": "+5"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 11,
+      "cr": "1/4",
+      "trait": [
+        {
+          "name": "Land Shell",
+          "entries": [
+            "The Scuttle Crab has resistance to all bludgeoning, piercing, and slashing damage. If the Scuttle Crab is subjected to a mass-control condition (Grappled, Incapacitated, Paralyzed, Prone, Frightened, or Restrained), its shell closes: it loses this resistance, and its AC decreases to 12 until the end of the encounter."
+          ]
+        },
+        {
+          "name": "Evasive Moves",
+          "entries": [
+            "The Scuttle Crab can take the Disengage or Dash action as a bonus action on each of its turns."
+          ]
+        },
+        {
+          "name": "Shrine of the Tide",
+          "entries": [
+            "When the Scuttle Crab drops to 0 hit points or is successfully pacified/captured by the players, its spirit releases a ball of blue light that floats at the center of the river/area for 1 hour, illuminating a 20-foot radius."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Scuttling Pinch",
+          "entries": [
+            "{@atk m} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) bludgeoning damage."
+          ]
+        }
+      ],
+      "environment": [
+        "forest",
+        "swamp"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "damageTags": [
+        "B"
+      ],
+      "hasToken":true,
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "tokenHref": {
+				"type": "external",
+				"url": "https://github.com/Zovrel/Arcamis/blob/main/_img/tokens/Rift_Scuttler_Token.png?raw=true"
+			}
+    }
+  ],
+  "monsterFluff": [
+    {
+      "name": "Scuttle Crab",
+      "source": "Arcamis",
+      "entries": [
+        "The Scuttle Crab is a pacific creature and wont attack in many situations only if cornered and can't escape in any method, he really like the Honeyfruit and will try to steal them away from other creatures."
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/Zovrel/Arcamis/refs/heads/main/_img/fluff_img/Rift_Scuttler_Fluff_Image.jpg"
+          }
         }
       ]
     }
