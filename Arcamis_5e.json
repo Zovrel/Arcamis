@@ -24,7 +24,7 @@
     ],
     "edition": "one",
     "dateAdded": 20260604123900,
-    "dateLastModified": 20260610234500
+    "dateLastModified": 202607100016
   },
   "_test": {
     "references": [
@@ -813,7 +813,7 @@
     },
     {
       "edition": "one",
-      "name": "Shuriman God-Warrior",
+      "name": "Sunborn",
       "source": "Arcamis",
       "creatureTypes": [
         "monstrosity"
@@ -2143,6 +2143,10 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Sunborn",
+      "source": "Arcamis"
     }
   ],
   "subclass": [
@@ -5211,13 +5215,13 @@
       "damageTags": [
         "B"
       ],
-      "hasToken":true,
+      "hasToken": true,
       "hasFluff": true,
       "hasFluffImages": true,
       "tokenHref": {
-				"type": "external",
-				"url": "https://github.com/Zovrel/Arcamis/blob/main/_img/tokens/Rift_Scuttler_Token.png?raw=true"
-			}
+        "type": "external",
+        "url": "https://github.com/Zovrel/Arcamis/blob/main/_img/tokens/Rift_Scuttler_Token.png?raw=true"
+      }
     }
   ],
   "monsterFluff": [
