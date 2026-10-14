@@ -79,13 +79,6 @@
         },
         {
           "type": "entries",
-          "name": "Darkvision",
-          "entries": [
-            "You have {@sense Darkvision|XPHB} with a range of 60 feet."
-          ]
-        },
-        {
-          "type": "entries",
           "name": "Celestial Resistance",
           "entries": [
             "You have {@variantrule Resistance|XPHB} to Radiant damage."
