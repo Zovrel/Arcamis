@@ -6,9 +6,9 @@
         "abbreviation": "ACM",
         "full": "Arcamis: leggende di Atetherion",
         "url": "https://quickest-sorrel-9a3.notion.site/Arcamis-2f00274fdc1c801a9b39d8d69800f7a8",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "authors": [
-          "Zovrel"
+          "Arcamis Team"
         ],
         "convertedBy": [
           "Zovrel"
@@ -24,7 +24,7 @@
     ],
     "edition": "one",
     "dateAdded": 20260604123900,
-    "dateLastModified": 202607100016
+    "dateLastModified": 20261021205900
   },
   "_test": {
     "references": [
@@ -95,14 +95,14 @@
           "type": "entries",
           "name": "Sacrifice Healing",
           "entries": [
-            "As a {@variantrule Bonus Action|XPHB}, you can sacrifice your life to heal others, you take {@damage 1d8}+{@variantrule Proficiency|XPHB|Proficiency Bonus} irreducible Necrotic damage and you Heal a creature within 60ft. equal to the result."
+            "As a {@variantrule Bonus Action|XPHB}, you can sacrifice your own life force to heal others. As a {@variantrule Bonus Action|XPHB} choose a creature you can see within 60 feet and spend one or more {@variantrule Hit Point Dice|XPHB|Hit Dice}. Roll {@damage 1d4} for each Hit Die spent and take {@variantrule Sacrifice Damage|Arcamis} equal to the total rolled. The creature regains {@variantrule Hit Points|XPHB} equal to twice the total, plus your {@variantrule Proficiency|XPHB|Proficiency Bonus}. Starting at 5th level, the die used to calculate this damage becomes a {@damage 1d8}.  You can use this feature a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}."
           ]
         },
         {
           "type": "entries",
           "name": "Sacrifice Protection",
           "entries": [
-            "When a creature that you can see within 60 ft. takes damage, you can use your {@variantrule Reaction|XPHB} to redirect half of the damage before applying resistances or other reductions irreducible Necrotic damage. Once you use this trait, you can't use it again until you finish a {@variantrule Short Rest|XPHB} or {@variantrule Long Rest|XPHB}. "
+            "When a creature other than you that you can see within 60 feet is about to take damage, you can take a {@variantrule Reaction|XPHB} and spend one Hit Die to take that damage in its place. You take {@variantrule Sacrifice Damage|Arcamis} equal to the damage the creature would have taken before the application of resistances, vulnerabilities, or other reductions. The protected creature takes no damage from that source. This {@variantrule Sacrifice Damage|Arcamis} can’t reduce you below 1 Hit Point: if you can’t take all the damage without dropping below that threshold, you take only the amount needed to reach 1 Hit Point, and the protected creature takes the remaining damage. Once you use this feature, you can’t use it again until you finish a {@variantrule Short Rest|XPHB} or {@variantrule Long Rest|XPHB}."
           ],
           "foundrySystem": {
             "uses": {
@@ -5587,6 +5587,261 @@
       "entries": [
         "You expend two charges from your firearm's magazine. As an {@action Magic|XPHB|Magic Action}, you unleash a barrage of bullets in a 20-foot Cone. Make an attack roll against each creature in the area, including your allies.",
         "You can use this upgrade a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}. You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+      ]
+    }
+  ],
+  "variantrule": [
+    {
+      "name": "Sacrifice Damage",
+      "source": "Arcamis",
+      "ruleType": "",
+      "entries": [
+        "Sacrificial damage is {@damage Necrotic} damage that reduces {@variantrule Hit Points|XPHB} directly. It can’t be reduced or prevented in any way, it ignores {@variantrule Resistance|XPHB} and {@variantrule Immunity|XPHB}, and it can’t be absorbed by {@variantrule Temporary Hit Points|XPHB}. It also doesn’t trigger effects that depend on losing Temporary Hit Points."
+      ]
+    }
+  ],
+  "feat": [
+    {
+      "name": "Arcane-Touched",
+      "source": "Arcamis",
+      "category": "G",
+      "prerequisite": [
+        {
+          "level": 4,
+          "ability": [
+            {
+              "int": 13
+            },
+            {
+              "wis": 13
+            },
+            {
+              "cha": 13
+            }
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "int",
+              "wis",
+              "cha"
+            ]
+          }
+        }
+      ],
+      "additionalSpells": [
+        {
+          "ability": "inherit",
+          "prepared": {
+            "_": [
+              "comprehend languages|xphb",
+              "detect magic|xphb"
+            ]
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Arcane Sense",
+          "entries": [
+            "You have the spells {@spell Comprehend Languages|XPHB} and {@spell Detect Magic|XPHB} always prepared."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Unstable Resonance",
+          "entries": [
+            "When you cast a spell of 1st level or higher, you can unleash a spark of magic. A creature of your choice within 5 feet of you takes Force damage equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Arcane Shield",
+          "entries": [
+            "When you would fail a saving throw against a spell or magical effect, you can roll {@dice 1d4} and add the number rolled to the save's total, potentially turning the failure into a success. You can use this benefit a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "True Ice-Touched",
+      "source": "Arcamis",
+      "category": "G",
+      "prerequisite": [
+        {
+          "level": 4,
+          "ability": [
+            {
+              "str": 13
+            },
+            {
+              "con": 13
+            }
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "str",
+              "con"
+            ]
+          }
+        }
+      ],
+      "resist": [
+        "cold"
+      ],
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Ice Veins",
+          "entries": [
+            "You have {@variantrule Resistance|XPHB} to Cold damage."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Frost Grasp",
+          "entries": [
+            "Once on each of your turns, when you deal damage to a creature with an attack or a spell, you can reduce its {@variantrule Speed|XPHB} by 10 feet until the start of your next turn."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Ice Protection",
+          "entries": [
+            "When you take damage, you can take a {@variantrule Reaction|XPHB} to roll {@damage 1d6}. Add your Constitution modifier to the number rolled and reduce the damage by that total. You can use this feature a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Black Mist-Touched",
+      "source": "Arcamis",
+      "category": "G",
+      "prerequisite": [
+        {
+          "level": 4,
+          "ability": [
+            {
+              "con": 13
+            },
+            {
+              "wis": 13
+            },
+            {
+              "cha": 13
+            }
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "con",
+              "wis",
+              "cha"
+            ]
+          }
+        }
+      ],
+      "resist": [
+        "necrotic"
+      ],
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Harrowing Remains",
+          "entries": [
+            "You have {@variantrule Resistance|XPHB} to Necrotic damage."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Decaying Mist",
+          "entries": [
+            "Once on each of your turns, when you deal damage to a creature, and it can't regain {@variantrule Hit Points|XPHB} until the end of your next turn."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Echoes of the Mist",
+          "entries": [
+            "When a creature within 30 feet of you drops to 0 {@variantrule Hit Points|XPHB}, you can use your {@variantrule Reaction|XPHB} to absorb its essence, gaining {@variantrule Temporary Hit Points|XPHB} equal to {@damage 1d6} + your {@variantrule Proficiency|XPHB|Proficiency Bonus}. You can use this feature a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Void-Touched",
+      "source": "Arcamis",
+      "category": "G",
+      "prerequisite": [
+        {
+          "level": 4,
+          "ability": [
+            {
+              "int": 13
+            },
+            {
+              "wis": 13
+            },
+            {
+              "cha": 13
+            }
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "int",
+              "wis",
+              "cha"
+            ]
+          }
+        }
+      ],
+      "additionalSpells": [
+        {
+          "ability": "inherit",
+          "prepared": {
+            "_": [
+              "mind sliver|xphb"
+            ]
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Otherworldly Sense",
+          "entries": [
+            "You gain {@sense Darkvision|XPHB} with a range of 60 feet. If you already have {@sense Darkvision|XPHB} when you gain this feature, its range increases by 60 feet."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Unstable Resonance",
+          "entries": [
+            "You have the {@spell Mind Sliver|XPHB} cantrip always prepared. The spells' spellcasting ability is the ability increased by this feat."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Riftwalk",
+          "entries": [
+            "When you would fail a saving throw or miss an attack roll, you can roll {@dice 1d4} and add the number rolled to the save's total, potentially turning the failure into a success. You can use this benefit a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+          ]
+        }
       ]
     }
   ]
