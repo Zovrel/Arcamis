@@ -6,7 +6,7 @@
         "abbreviation": "ACM",
         "full": "Arcamis: leggende di Atetherion",
         "url": "https://quickest-sorrel-9a3.notion.site/Arcamis-2f00274fdc1c801a9b39d8d69800f7a8",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "authors": [
           "Arcamis Team"
         ],
@@ -24,7 +24,7 @@
     ],
     "edition": "one",
     "dateAdded": 20260604123900,
-    "dateLastModified": 20261021205900
+    "dateLastModified": 20261030013100
   },
   "_test": {
     "references": [
@@ -5840,6 +5840,148 @@
           "name": "Riftwalk",
           "entries": [
             "When you would fail a saving throw or miss an attack roll, you can roll {@dice 1d4} and add the number rolled to the save's total, potentially turning the failure into a success. You can use this benefit a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gift of the Chemtech Drake",
+      "source": "Arcamis",
+      "category": "O",
+      "entries": [
+        "Zaun’s alchemical substances have toughened your body, making you resilient against toxins and tenacious even when close to death.",
+        {
+          "type": "entries",
+          "name": "Chemtech Resilience",
+          "entries": [
+            "You have {@variantrule Resistance|XPHB} to Poison damage. You also have {@variantrule Advantage|XPHB} on saving throws you make to avoid or end the {@condition Poisoned|XPHB} condition."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Adrenaline Surge",
+          "entries": [
+            "When you become {@condition Bloodied|XPHB}, you can use your {@variantrule Reaction|XPHB} to trigger a chemical injection. For 1 minute or until you are no longer Bloodied, your melee attacks deal an extra {@damage 1d4} Acid damage. Once you use this Reaction, you can’t use it again until you finish a {@variantrule Long Rest|XPHB}."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gift of the Ocean Drake",
+      "source": "Arcamis",
+      "category": "O",
+      "additionalSpells": [
+        {
+          "ability": "inherit",
+          "prepared": {
+            "_": [
+              "cure wounds|xphb"
+            ]
+          }
+        }
+      ],
+      "entries": [
+        "The life energy of water flows within you, granting you steady regeneration and resilience.",
+        {
+          "type": "entries",
+          "name": "Oceanic Flow",
+          "entries": [
+            "You learn the {@spell Cure Wounds|XPHB} spell. You can cast it without expending a spell slot, and you regain the ability to do so when you finish a {@variantrule Long Rest|XPHB}. You can also cast it using any spell slots you have. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spell (choose when you select this feat)."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Mana Surge",
+          "entries": [
+            "As a {@variantrule Bonus Action|XPHB}, you can channel the currents of the Ocean Soul to regain one expended spell slot. The slot you regain can have a level no higher than your {@variantrule Proficiency|XPHB|Proficiency Bonus} (for example, if your Proficiency Bonus is +3, you can regain a spell slot of up to 3rd level). Once you use this benefit, you can’t use it again until you finish a {@variantrule Long Rest|XPHB}."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gift of the Infernal Drake",
+      "source": "Arcamis",
+      "category": "O",
+      "entries": [
+        "You have unleashed the destructive power of the Infernal Dragon, channeling flame and pure fury.",
+        {
+          "type": "entries",
+          "name": "Infernal Wrath",
+          "entries": [
+            "Once on each of your turns, when you hit a creature with a weapon attack or a spell, you can deal an extra {@damage 1d4} Fire damage to the target."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Blazing Cleave",
+          "entries": [
+            "When you reduce a creature to 0 {@variantrule Hit Points|XPHB} or score a {@variantrule Critical Hit|XPHB}, you can use your {@variantrule Reaction|XPHB} to unleash a burst of flames. Each creature of your choice within 10 feet of you must make a Dexterity saving throw (DC = 8 + your {@variantrule Proficiency|XPHB|Proficiency Bonus} + your Strength, Dexterity, or Charisma modifier, chosen when you create your character). On a failed save, a creature takes {@damage 2d4} + your {@variantrule Proficiency|XPHB|Proficiency Bonus} Fire damage. You can use this feature a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gift of the Mountain Drake",
+      "source": "Arcamis",
+      "category": "O",
+      "entries": [
+        "The power of the earth makes you an unmovable fortress and conjures a protective shield.",
+        {
+          "type": "entries",
+          "name": "Solid Stance",
+          "entries": [
+            "You have {@variantrule Advantage|XPHB} on saving throws made to avoid being pushed or knocked {@condition Prone|XPHB}."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Earthen Bulwark",
+          "entries": [
+            "When you are hit by an attack, you can use your {@variantrule Reaction|XPHB} to harden your skin. You gain {@variantrule Temporary Hit Points|XPHB} equal to {@damage 1d6} + your {@variantrule Proficiency|XPHB|Proficiency Bonus} before taking the attack’s damage. You can use this Reaction a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gift of the Cloud Drake",
+      "source": "Arcamis",
+      "category": "O",
+      "entries": [
+        "You have taken in the speed and unpredictability of the wind, moving like a storm.",
+        {
+          "type": "entries",
+          "name": "Tailwind",
+          "entries": [
+            "Your Speed increases by 5 feet. In addition, when you take the {@action Dash|XPHB} action, you ignore {@variantrule Difficult Terrain|XPHB} during that movement."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Gale Step",
+          "entries": [
+            "Immediately after you make an attack or cast a spell, you can use your {@variantrule Bonus Action|XPHB} to move up to 10 feet without provoking {@action Opportunity Attack|XPHB|Opportunity Attacks}. You can use this Bonus Action a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gift of the Hextech Drake",
+      "source": "Arcamis",
+      "category": "O",
+      "entries": [
+        "Hextech magic lets you chain lightning and warp the space around you on the battlefield.",
+        {
+          "type": "entries",
+          "name": "Hex-Energy",
+          "entries": [
+            "When you deal Lightning damage to a creature with an attack or a spell, that creature can’t take {@variantrule Reaction|XPHB|Reactions} until the start of its next turn."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Overcharge Arc",
+          "entries": [
+            "When you hit a creature with an attack, you can use your {@variantrule Bonus Action|XPHB} to cause an arc of energy to leap toward a second creature within 15 feet of the first. The second creature takes {@damage 2d4} + your {@variantrule Proficiency|XPHB|Proficiency Bonus} Lightning damage. You can use this Bonus Action a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
           ]
         }
       ]
